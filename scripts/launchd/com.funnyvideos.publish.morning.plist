@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.funnyvideos.publish.morning</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/env</string>
+        <string>python3</string>
+        <string>/Users/bfaris96/Claude Code Markdown/funny_video_generator/src/publish_scheduled.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/bfaris96/Claude Code Markdown/funny_video_generator</string>
+
+    <!-- 11:00 AM CST — Lunch break engagement peak -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>11</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/bfaris96/Claude Code Markdown/funny_video_generator/logs/launchd_publish.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/bfaris96/Claude Code Markdown/funny_video_generator/logs/launchd_publish_error.log</string>
+</dict>
+</plist>

@@ -1,0 +1,26 @@
+{
+  "video_number": 2,
+  "headline": "The Taliban\u2019s new penal code: Two weeks in jail for breaking a woman\u2019s arm and five months for mistreating a camel",
+  "source": "Reddit - r/nottheonion",
+  "url": "https://english.elpais.com/international/2026-02-25/the-talibans-new-penal-code-two-weeks-days-in-jail-for-breaking-a-womans-arm-and-five-months-for-mistreating-a-camel.html",
+  "script": [
+    {
+      "scene_number": 1,
+      "veo3_visual_prompt": "Inside a sparse, dusty government office. A stern, middle-aged man with a neatly trimmed beard (COMMITTEE MEMBER 1) sits behind a heavy wooden desk, examining documents. Opposite him, a younger, nervous man (ABDUL, The Straight Man) in traditional robes diligently writes notes, occasionally glancing up. Standing before the desk, a grizzled, unkempt DEFENDANT with downcast eyes. A young WOMAN with a crudely bandaged arm in a sling stands silently beside him, wincing slightly. CAMERA: Medium shot, static, focusing on the three figures with the woman partially obscured but her injury visible. Stark natural light filters through a high window. 9:16 vertical portrait aspect ratio",
+      "dialogue": "COMMITTEE MEMBER 1: (gravely) And you admit, with intent, to inflicting this upon her arm?\nDEFENDANT: (muttering) She\u2026 she provoked me, honorable sir.",
+      "audio_cues": "Distant chatter, quill scratching on parchment, a faint whimper from the woman"
+    },
+    {
+      "scene_number": 2,
+      "veo3_visual_prompt": "Same dusty office, now with a second COMMITTEE MEMBER (CM2) equally stern, slightly older, sitting beside CM1, examining a blurry, close-up photograph of a camel looking distinctly grumpy, almost scowling. ABDUL (Straight Man) stares wide-eyed at the photograph, his pen hovering over his notepad. A different DEFENDANT, an elderly NOMAD, looks terrified, wringing his hands. CAMERA: Close-up on CM1 and CM2, then a quick cut to Abdul's face, then a dolly-in on the camel photograph. Mood is serious, almost mock-somber. 9:16 vertical portrait aspect ratio",
+      "dialogue": "COMMITTEE MEMBER 2: (pointing a finger at the photo, voice filled with sorrow) You admit to causing this\u2026 profound emotional distress to the noble beast?\nNOMAD: (trembling) I\u2026 I merely coughed loudly, sirs! It startled him!",
+      "audio_cues": "Faint camel grumble (from the photo), a dramatic sigh from CM2, Abdul's pen clattering onto the desk"
+    },
+    {
+      "scene_number": 3,
+      "veo3_visual_prompt": "Inside the same austere office. COMMITTEE MEMBERS 1 and 2 are hunched over the desk, using large magnifying glasses to meticulously examine a single, pristine camel hair placed on a small velvet cushion. Their faces are a picture of utter devastation and solemnity. In the background, barely acknowledged and out of focus, a human VICTIM lies on a dilapidated stretcher, wrapped head-to-toe in bloodied bandages, one eye peeking out, looking utterly bewildered and in immense pain. ABDUL (Straight Man) is slumped, his head buried in his hands, only his disbelieving eyes visible through his fingers. CAMERA: Medium shot focused on the Committee's intense examination of the camel hair, with the human victim a stark, ignored contrast in the background. Slow push-in on Abdul's face. Dim, dusty light accentuates the scene's grim absurdity. 9:16 vertical portrait aspect ratio",
+      "dialogue": "COMMITTEE MEMBER 1: (whispering, distraught) A single hair. Plucked. The spiritual violation is immeasurable.\nCOMMITTEE MEMBER 2: (sobbing softly) The camel's very *dignity*\u2026 (gestures dismissively at the human victim) Oh, him? Six broken bones and a collapsed lung, yes? Standard 'vigorous discourse.'",
+      "audio_cues": "Dramatic, mournful music swells, the Committee members' choked sobs, a faint, pained groan from the human victim, then the sharp CRACK of a gavel"
+    }
+  ]
+}

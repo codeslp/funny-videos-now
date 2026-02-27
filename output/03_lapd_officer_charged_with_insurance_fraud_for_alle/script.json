@@ -1,0 +1,26 @@
+{
+  "video_number": 3,
+  "headline": "LAPD officer charged with insurance fraud for allegedly skydiving while on disability leave",
+  "source": "ABC7 News",
+  "url": "https://abc7.com/post/lapd-officer-charged-insurance-fraud-allegedly-skydiving-disability-leave/18653298/",
+  "script": [
+    {
+      "scene_number": 1,
+      "veo3_visual_prompt": "Investigator Davis, a grizzled, middle-aged detective in a rumpled suit, squints at a thick medical file. His desk is cluttered with case folders and half-eaten snacks. Chief Reynolds, a calm, slightly overweight woman in a neat blouse, sips coffee beside him, looking unfazed. CAMERA: Medium shot on Davis, slowly pushing in to highlight his exhaustion. STYLE: Muted office lighting, weary mood. 9:16 vertical portrait aspect ratio",
+      "dialogue": "Chief Reynolds: (calmly) Officer Rodriguez claims a bad back.\nInvestigator Davis: (muttering, defeated) Another one.",
+      "audio_cues": "Distant office chatter, a soft sigh, coffee cup clink"
+    },
+    {
+      "scene_number": 2,
+      "veo3_visual_prompt": "Investigator Davis now stares intently at a printed photo held by Chief Reynolds. The photo shows a bulky, athletic police officer (Officer 'Rocket' Rodriguez) effortlessly deadlifting an oversized tractor tire with a huge grin. Davis's eye twitches subtly. Chief Reynolds points to the photo with a pen. CAMERA: Close-up on Davis's face, then quickly cutting to an extreme close-up of the photo. STYLE: Harsh office fluorescent lighting, stark contrast. 9:16 vertical portrait aspect ratio",
+      "dialogue": "Chief Reynolds: (flatly) This was during his 'recovery.'\nInvestigator Davis: (sighs, to himself) Just\u2026 a strongman competition.",
+      "audio_cues": "Soft click of a pen, a low grunt of exasperation"
+    },
+    {
+      "scene_number": 3,
+      "veo3_visual_prompt": "Officer 'Rocket' Rodriguez, a powerfully built man with a freshly tanned face, sits uncomfortably in a standard office chair, still wearing a branded skydiving club t-shirt under his open jacket. On a large monitor behind him, a video shows him grinning mid-air, then smoothly landing with a parachute, and immediately collapsing into a waiting wheelchair with a dramatic wince. Investigator Davis stares blankly at the screen, utterly defeated. CAMERA: Medium shot, slowly pushing in on Davis's deadpan face. STYLE: Harsh overhead office lights, surreal video glow. 9:16 vertical portrait aspect ratio",
+      "dialogue": "Officer Rodriguez: (indignant) My back was only hurt landing.\nChief Reynolds: (deadpan) We saw the jump, Rocket.\nInvestigator Davis: (silent, exhales slowly, staring)",
+      "audio_cues": "Sound of a whoosh from the video, a soft thump, then a long, defeated exhale from Davis. Office silence."
+    }
+  ]
+}

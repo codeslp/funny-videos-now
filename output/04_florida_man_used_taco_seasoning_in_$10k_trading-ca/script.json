@@ -1,0 +1,26 @@
+{
+  "video_number": 4,
+  "headline": "Florida man used taco seasoning in $10K trading-card theft scheme, officials say",
+  "source": "WKMG News",
+  "url": "https://news.google.com/rss/articles/taco-seasoning",
+  "script": [
+    {
+      "scene_number": 1,
+      "veo3_visual_prompt": "DETECTIVE MILLER, a grizzled, tired detective in a rumpled suit, stares in disbelief at an evidence table. DETECTIVE GARCIA, younger and overly enthusiastic, holds up a half-empty packet of 'Taco Fiesta Seasoning' with pride. The table is covered in plastic baggies containing other mundane items like a used napkin and a cheap pen. CAMERA: Medium shot, focusing on their expressions and the seasoning packet, 9:16 vertical portrait aspect ratio.",
+      "dialogue": "Detective Garcia: (earnest) Found this. Critical clue, Miller.",
+      "audio_cues": "Distant police radio chatter, sound of plastic crinkling"
+    },
+    {
+      "scene_number": 2,
+      "veo3_visual_prompt": "FORENSICS TECH, wearing a lab coat and sterile gloves, meticulously brushes a fine orange powder onto a cheap, non-holographic trading card. DETECTIVE MILLER watches, shoulders slumped, a single bead of sweat tracing his temple. DETECTIVE GARCIA leans in, fascinated, almost smelling the card. The lab bench is pristine white. CAMERA: Close-up on the card and the tech's hands, then quickly pans to Miller's deadpan face, 9:16 vertical portrait aspect ratio.",
+      "dialogue": "Forensics Tech: (clinical) The powder mimicked the valuable card's unique texture.",
+      "audio_cues": "Soft brush strokes, faint sizzle sound effect, Miller's quiet sigh"
+    },
+    {
+      "scene_number": 3,
+      "veo3_visual_prompt": "A brightly lit, makeshift factory floor. Trading cards move along a rickety conveyor belt through a large, absurdly rustic 'TACO SEASONING SPRINKLER 5000' machine, which showers them with vast quantities of orange powder. A wild-eyed, disheveled FLORIDA MAN, wearing a chef's hat stained with seasoning, proudly gestures to the operation. DETECTIVE MILLER stands utterly defeated, staring into the middle distance. DETECTIVE GARCIA diligently takes notes, looking impressed. A hand-painted sign reads: 'AUTHENTIC AROMA = MAXIMUM PROFITS!' CAMERA: Wide shot, showcasing the ludicrous scale, then slow push-in on Miller's face, 9:16 vertical portrait aspect ratio.",
+      "dialogue": "Florida Man: (beaming) 'The Crunch Method'! Untraceable, until now!",
+      "audio_cues": "Whirring machinery, cards clacking, heavy 'shhh' sound of seasoning, Miller's defeated groan"
+    }
+  ]
+}

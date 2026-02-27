@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.funnyvideos.generate</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/env</string>
+        <string>python3</string>
+        <string>/Users/bfaris96/Claude Code Markdown/funny_video_generator/src/generate_overnight.py</string>
+        <string>--count</string>
+        <string>2</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/bfaris96/Claude Code Markdown/funny_video_generator</string>
+
+    <!-- Run at 2:00 AM daily -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>2</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <!-- Log output -->
+    <key>StandardOutPath</key>
+    <string>/Users/bfaris96/Claude Code Markdown/funny_video_generator/logs/launchd_generate.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/bfaris96/Claude Code Markdown/funny_video_generator/logs/launchd_generate_error.log</string>
+
+    <!-- Run missed jobs when Mac wakes up -->
+    <key>StartInterval</key>
+    <integer>86400</integer>
+</dict>
+</plist>

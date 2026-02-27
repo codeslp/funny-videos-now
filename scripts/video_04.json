@@ -1,0 +1,26 @@
+{
+  "video_number": 4,
+  "headline": "Jonathan Majors Mounts Movie Comeback With an Untitled Action Film From The Daily Wire",
+  "source": "Reddit - r/nottheonion",
+  "url": "https://www.joblo.com/jonathan-majors-the-daily-wire-action-film/",
+  "script": [
+    {
+      "scene_number": 1,
+      "veo3_visual_prompt": "JONATHAN MAJORS (late 30s, sharp suit, impeccably groomed, trying to look professional) sits at a sleek conference table, a forced smile playing on his lips. Across from him, BEN (50s, enthusiastic, wearing a polo shirt with a small, embroidered American flag) gestures broadly, eyes sparkling with zeal. A pristine whiteboard behind them shows a placeholder title 'Untitled Action Project'. CAMERA: Static medium shot, centered on Majors and Ben across the table. STYLE: Bright, corporate office lighting, slightly sterile. 9:16 vertical portrait aspect ratio.",
+      "dialogue": "BEN: (Boisterous, overly confident) So, Jonathan! We're thrilled to have you. This untitled action thriller is going to be HUGE. Think 'Bourne Identity' meets\u2026 responsible fiscal policy.",
+      "audio_cues": "Upbeat, generic corporate jingle fades in and out. Light clinking of coffee cups."
+    },
+    {
+      "scene_number": 2,
+      "veo3_visual_prompt": "CLOSE-UP on JONATHAN MAJORS' face. His brow is slightly furrowed, a flicker of confusion in his eyes as he maintains a polite, professional facade. He's holding a script with the words 'Untitled Action' on the cover, his knuckles subtly whitening as he grips it tighter. CHLOE (30s, intense, with glasses perched on her nose) leans into the frame from the side, a pen gripped aggressively. CAMERA: Close-up on Jonathan's reacting face, then slow dolly-out to a medium shot revealing Chloe. STYLE: Neutral office lighting, a hint of unease. 9:16 vertical portrait aspect ratio.",
+      "dialogue": "CHLOE: (Rapid-fire, over-caffeinated) In the big chase scene, you\u2019re not just dodging bullets, Jonathan! You're deftly evading onerous tax regulations and bureaucratic red tape!\nJONATHAN MAJORS: (Flat, professional) Right. And my character\u2026 he's a highly skilled operative, yes?\nBEN: (Interrupting, beaming) He\u2019s a freedom-loving individualist, fighting for consumer choice in a globalized economy!",
+      "audio_cues": "Frantic scribbling sounds. A faint, distant sound of a generic news anchor chatter, barely audible."
+    },
+    {
+      "scene_number": 3,
+      "veo3_visual_prompt": "JONATHAN MAJORS is now visibly slumped in his chair, his suit jacket slightly askew. His eyes are wide, staring blankly ahead, a silent scream in his expression. BEN stands triumphantly beside a giant, poorly photoshopped movie poster on an easel. The poster shows Jonathan Majors' face superimposed onto a figure wearing a 'Don't Tread On Me' t-shirt, wielding a stack of textbooks titled 'Economics for Dummies.' The movie title blares: 'THE FREE MARKET: A LONE WARRIOR'S JOURNEY.' CHLOE claps vigorously in the background. CAMERA: Medium shot, static, centered on Majors' defeated posture and the absurd poster. STYLE: Overly bright, almost satirical lighting. 9:16 vertical portrait aspect ratio.",
+      "dialogue": "BEN: (Sweeping arm gesture) And the ultimate climax! You, Jonathan, as 'Supply Side Steve,' bravely debating a panel of woke university professors on the merits of fractional reserve banking!\nJONATHAN MAJORS: (Whispering, barely audible, staring into the middle distance) ...The car chase where I drive a tank made of gold bullion... is that still in?\nCHLOE: (Scoffs) Gold bullion? Jonathan, the *real* combat is intellectual! You destroy them with *facts* and *logic*!",
+      "audio_cues": "Triumphant, slightly off-key orchestral swell. Sound of a single, slow, sad trombone."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "video_number": 5,
+  "headline": "Kalshi reveals insider trading case against editor for MrBeast",
+  "source": "Reddit - r/nottheonion",
+  "url": "https://www.npr.org/2026/02/25/nx-s1-5726050/kalshi-insider-trading-enforcement-actions",
+  "script": [
+    {
+      "scene_number": 1,
+      "veo3_visual_prompt": "CLOSE-UP on DETECTIVE ANNA (late 30s, tired, sharp eyes, slightly rumpled blazer) as she slowly turns the pages of a thick, official-looking binder. Her brow is furrowed in confusion. AGENT MILLER'S (early 40s, sharp suit, intense gaze) hand occasionally enters the frame, pointing at documents. The room is a stark, utilitarian interrogation room. Static shot, cool, dim fluorescent lighting. 9:16 vertical portrait aspect ratio.",
+      "dialogue": "AGENT MILLER: (clipped, officious) ...the aggregate sum of illicit gains from the predictive market manipulation on the 'MrBeast's Next Philanthropic Endeavor' futures contract alone totals over $3.7 million. A clear pattern of insider trading.",
+      "audio_cues": "Subtle hum of fluorescent lights. Pages rustling softly."
+    },
+    {
+      "scene_number": 2,
+      "veo3_visual_prompt": "MEDIUM SHOT of KYLE (early 20s, bright blue hair, wearing a MrBeast hoodie), leaning back casually in his chair, occasionally fiddling with a custom MrBeast branded fidget spinner. His expression is one of innocent confusion. DETECTIVE ANNA (pinching the bridge of her nose, eyes closed) sits beside him, looking utterly exhausted. AGENT MILLER, visible across the table, gestures emphatically with a laser pointer at a whiteboard covered in complex flowcharts, linking YouTube analytics to 'derivative asset classes.' Handheld, bright, slightly overwhelming lighting. 9:16 vertical portrait aspect ratio.",
+      "dialogue": "KYLE: (earnest, a little whiny) So, just because I knew who was going to win the 'Last to Leave the Giant Lego House' challenge before it aired, that's\u2026 'market sensitive information'?",
+      "audio_cues": "Clicking of the fidget spinner. Laser pointer 'click' sounds. Anna's soft, exasperated sigh."
+    },
+    {
+      "scene_number": 3,
+      "veo3_visual_prompt": "CLOSE-UP, slightly low-angle shot on AGENT MILLER'S face, intensely serious, lit dramatically from below, as if delivering a powerful indictment. His mouth is tight, eyes narrowed. The background is a blur of official-looking documents and evidence bags. CAMERA slowly dollies in on his face as he speaks. Dramatic, dark lighting with harsh spotlights. 9:16 vertical portrait aspect ratio.",
+      "dialogue": "AGENT MILLER: (grave, accusatory) Mr. Smith, your access to the raw footage\u2014the unreleased, unedited outcome of MrBeast's 'Giving Away 100 Tesla Cybertrucks' challenge\u2014provided an unfair, illegal advantage on the Kalshi market. This constitutes a federal offense.",
+      "audio_cues": "Deep, resonant 'thunk' as a file is slammed onto a table (off-screen)."
+    },
+    {
+      "scene_number": 4,
+      "veo3_visual_prompt": "MEDIUM SHOT, slowly pushing in. DETECTIVE ANNA is slumped forward, head in her hands on the interrogation table, utterly defeated. KYLE sits across from her, now nervously clutching a giant, plush 'S' shaped like the YouTube subscriber button, confiscated as evidence. AGENT MILLER stands over him, meticulously bagging a single, unopened, limited-edition MrBeast chocolate bar. The room's cool, sterile lighting emphasizes Anna's despair and Kyle's confusion. Static locked-off shot, but with a slow push-in. 9:16 vertical portrait aspect ratio.",
+      "dialogue": "KYLE: (bewildered, pointing at the chocolate bar) Wait, you're telling me\u2026 I'm facing twenty years in federal prison\u2026 for knowing who gets a Lamborghini, and for trading on the 'Feastables' expansion success?",
+      "audio_cues": "The quiet crinkle of Agent Miller carefully placing the chocolate bar into an evidence bag. Anna's faint, broken whimper."
+    }
+  ]
+}

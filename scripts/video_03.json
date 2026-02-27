@@ -1,0 +1,26 @@
+{
+  "video_number": 3,
+  "headline": "Russia to relax labour laws allowing minors to do \u2018dangerous\u2019 jobs amid manpower shortage",
+  "source": "Reddit - r/nottheonion",
+  "url": "https://novayagazeta.eu/articles/2026/02/26/russia-to-relax-labour-laws-allowing-minors-to-do-dangerous-jobs-amid-manpower-shortage-en-news",
+  "script": [
+    {
+      "scene_number": 1,
+      "veo3_visual_prompt": "A cramped, dimly lit, dusty mine shaft interior. DMITRI (10, small for his age, wearing an oversized, ill-fitting hard hat and safety goggles), is awkwardly chiseling at a rock face with a small, child-sized pickaxe, struggling to hold it. Sweat streaks his grime-covered face. MARIA (30s, sharp business suit, wide eyes), stands awkwardly nearby, looking visibly concerned. SVETLANA (50s, stern face, crisp uniform, holding a clipboard), observes Dmitri with a critical but unperturbed expression. CAMERA: Medium shot, static, capturing the tight space and Maria's growing unease. STYLE: Gritty, industrial lighting with practical work lamps. 9:16 vertical portrait aspect ratio.",
+      "dialogue": "Svetlana: (matter-of-fact) \"Dmitri, higher up. Small hands, precise work.\" Maria: (quietly, to herself) \"Precise...\"",
+      "audio_cues": "Distant clanking, dripping water, faint scraping of pickaxe, Dmitri's strained grunts."
+    },
+    {
+      "scene_number": 2,
+      "veo3_visual_prompt": "A perilous, incomplete metal scaffolding high above a sprawling construction site. Wind whips past. ANNA (8, slight build, wearing an ill-fitting safety harness that's too big and a tiny, bright yellow helmet) is perched precariously on a swaying plank, attempting to tighten a massive industrial bolt with a wrench twice her size. Below, BORIS (40s, burly, grizzled foreman, sipping tea from a thermos, utterly calm) gestures upwards, completely unfazed. Maria watches, aghast, hand covering her mouth, eyes wide with quiet horror. CAMERA: Low-angle tracking shot, following Anna's precarious movements on the scaffolding, then pushing in slowly on Maria's horrified face. STYLE: Harsh, windy daylight, extreme sense of vertigo and height. 9:16 vertical portrait aspect ratio.",
+      "dialogue": "Boris: (calling up, calm, unconcerned) \"Anna! Quarter turn! We need that pipe secure by lunch!\" Anna: (straining, tiny voice) \"It's stuck, Uncle Boris!\" Maria: (whispering, horrified, to herself) \"Uncle... Boris?\"",
+      "audio_cues": "Gusting wind, creaking metal, distant city construction noises, faint metallic clang."
+    },
+    {
+      "scene_number": 3,
+      "veo3_visual_prompt": "A sterile, brightly lit nuclear waste processing facility interior, full of blinking lights, humming machinery, and containment warnings. In the center, a gigantic, bubbling vat of glowing green liquid. OLGA (6, tiny, completely dwarfed by an oversized, bulky HAZMAT suit with a clear bubble helmet) stands on a small, yellow stepladder, earnestly stirring the glowing sludge with a comically long, wooden spoon. The spoon handle is held with both tiny, gloved hands. Svetlana and Boris stand side-by-side, proudly watching Olga. Maria is slumped against a clean white wall, eyes wide and unfocused, completely broken, a deadpan stare fixed on nothing. A \"Safety First\" poster is ironically visible on the wall behind them. CAMERA: Dolly-in from a medium shot to a close-up on Olga's bewildered face inside the helmet, then a slow push-in on Maria's utterly defeated, deadpan expression. STYLE: Overly clean, almost clinical, contrasting starkly with the absurdly dangerous task. 9:16 vertical portrait aspect ratio.",
+      "dialogue": "Svetlana: (nodding approvingly, prideful) \"See? Smallest aperture, minimum exposure. Genius!\" Boris: (grunting proudly, arms crossed) \"Perfect for the isotope stabilization. Very light on her feet.\" Maria: (flat, defeated whisper) \"Her... feet...\" Olga: (muffled, through helmet, innocently) \"Mommy, can I have a snack now?\"",
+      "audio_cues": "Constant low hum of machinery, gentle bubbling of the vat, faint whirring, Olga's muffled voice."
+    }
+  ]
+}
