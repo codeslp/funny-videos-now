@@ -1,0 +1,7 @@
+# Funny Video Generator
+
+.env
+.env.local
+__pycache__/
+*.pyc
+output/*/videos/*.mp4
