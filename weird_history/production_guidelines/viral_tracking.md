@@ -153,7 +153,7 @@ They are ranked by **Virality Potential** (Tier 1 = Highest, Tier 3 = Lowest) ba
 | ⏳ Not Built | **The Exhausting "Bridal Tour" (Medieval Nobility)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#21-the-exhausting-bridal-tour-medieval-nobility) | - |
 | ⏳ Not Built | **The "Money and Babies" Bed Blessing (Greece)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#22-the-money-and-babies-bed-blessing-greece) | - |
 | ⏳ Not Built | **Cake Crumb Fertility Blessing (Ancient Rome)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#23-cake-crumb-fertility-blessing-ancient-rome) | - |
-| ⏳ Not Built | **Sleeping with Moldy Cake (Victorian England)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#24-sleeping-with-moldy-cake-victorian-england) | - |
+| ✅ Completed | **Sleeping with Moldy Cake (Victorian England)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#24-sleeping-with-moldy-cake-victorian-england) | `output/weird_history/sleeping_with_moldy_cake_hyperrealism/final_render.mp4` |
 | ⏳ Not Built | **Anti-Impotence Exorcisms (16th Century France)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#25-anti-impotence-exorcisms-16th-century-france) | - |
 | ⏳ Not Built | **Spartan "Capture in the Dark" (Ancient Sparta)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs_2.md#28-spartan-capture-in-the-dark-ancient-sparta) | - |
 | ⏳ Not Built | **The Miracle Fertility Chair (Naples, Italy)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs_2.md#29-the-miracle-fertility-chair-naples-italy) | - |

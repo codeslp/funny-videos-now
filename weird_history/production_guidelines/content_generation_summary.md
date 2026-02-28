@@ -13,7 +13,8 @@ Instead of opening with an anchor ("Welcome back," "Top story," etc.), the video
 2. **Visual Prompts:** Use the detailed "Visual Elements" notes from our research to generate highly dramatic, somewhat funny, or shocking imagery of the custom happening in real-time.
 3. **Engaging Caption:** Display the concise "Caption Summary" aggressively on screen to retain viewer attention. Keep the text large and easily readable for TikTok/Shorts/Reels.
 4. **Citation/Context:** Provide a small, tasteful pop-up citation linking to the source material to maintain educational integrity.
-5. **No Clutter:** Skip all intro/outro filler. Move directly from one bizarre fact to the next, ending on a strong punchline.
+5. **Call-To-Action (CTA):** Every single script MUST end with a spoken Call-to-Action telling the user to verify the facts themselves (e.g., "If you don't believe me, click the link in the description to read the actual research behind this.").
+6. **No Clutter:** Skip all intro/outro filler. Move directly from one bizarre fact to the next, ending on the strong CTA.
 
 ## Future Development Steps
 1. **Pause Previous "News" Content:** The "weird news" style is paused. We will keep its codebase structure intact should we ever want to return to it.

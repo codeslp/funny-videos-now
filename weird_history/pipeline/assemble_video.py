@@ -2,22 +2,30 @@ import os
 import subprocess
 import json
 from datetime import datetime
-from .config import OUTPUT_DIR
+try:
+    from config import OUTPUT_DIR
+except ImportError:
+    from .config import OUTPUT_DIR
 
 def assemble_final_video(
-    timeline_config: dict, 
-    audio_path: str, 
-    word_timestamps: list, 
-    output_filename: str = "final_render.mp4"
+    timeline_config: dict,
+    audio_path: str,
+    word_timestamps: list,
+    output_filename: str = "final_render.mp4",
+    output_dir: str = None
 ) -> str:
     """
-    Takes a timeline config (list of scenes with image/video filepaths and durations) 
+    Takes a timeline config (list of scenes with image/video filepaths and durations)
     and assembles them using FFmpeg.
     """
-    output_dir_name = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    output_dir = os.path.join(OUTPUT_DIR, output_dir_name)
+    if output_dir is None:
+        output_dir_name = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        output_dir = os.path.join(OUTPUT_DIR, output_dir_name)
+    else:
+        output_dir_name = os.path.basename(output_dir)
+        
     os.makedirs(output_dir, exist_ok=True)
-    
+
     output_path = os.path.join(output_dir, output_filename)
 
     print(f"Beginning FFmpeg Hybrid Assembly in {output_dir_name}...")
@@ -37,16 +45,21 @@ def assemble_final_video(
         filepath = scene['filepath']
         duration = float(scene['duration'])
         
-        inputs.extend(["-i", filepath])
+        # Determine if it's an image or video
+        ext = os.path.splitext(filepath)[1].lower()
+        
+        if ext in ['.png', '.jpg', '.jpeg']:
+            # Loop the static image for the given duration at 30 fps
+            inputs.extend(["-loop", "1", "-framerate", "30", "-t", str(duration), "-i", filepath])
+        else:
+            inputs.extend(["-i", filepath])
         
         # Determine if it's an image or video
         ext = os.path.splitext(filepath)[1].lower()
         if ext in ['.png', '.jpg', '.jpeg']:
-            # Apply Ken Burns effect
-            fps = 30
-            frames = int(duration * fps)
-            # Zoom in slightly (from 1 to 1.15x over the duration), pan to center
-            filter_complex += f"[{i}:v]scale=1080x1920,zoompan=z='min(zoom+0.001,1.15)':d={frames}:x='iw/2-(iw/zoom)/2':y='ih/2-(ih/zoom)/2':s=1080x1920[v{i}];"
+            # No zoompan / jitter effect. Keep images perfectly static, scaled and cropped to 9:16.
+            # loop=1 is required for input mapping, but since we are mapping duration we use scale and setsar.
+            filter_complex += f"[{i}:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1/1[v{i}];"
         else:
             # It's a video, scale and format it uniformly
             filter_complex += f"[{i}:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1/1[v{i}];"

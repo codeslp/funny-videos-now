@@ -20,6 +20,4 @@ VIDEO_RESOLUTION = (1080, 1920) # Portrait for Shorts/Reels/TikTok
 FPS = 30
 
 # Default Voices (Cartesia UUIDs)
-# Note: You can find actual voice UUIDs in the Cartesia playground / docs.
-# This is a sample UUID for "Baritone" style voices.
-DEFAULT_VOICE_ID = "a0e99841-438c-4a64-b6a9-ae8f1d56cc33" 
+DEFAULT_VOICE_ID = "1f575487-6f3d-40e0-862a-814f55b5fb15"  # Ariane - Captivating Tone

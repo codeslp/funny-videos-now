@@ -148,7 +148,7 @@
 **Description:** By the 19th century, cake crumb fertility morphed into a bizarre sleep custom. Single women and newlywed brides believed that taking a massive, sticky piece of fruit-filled wedding cake and shoving it deep underneath their pillows before going to sleep would guarantee profound fertility and prophetic dreams of future lovers.
 *   **Visual Elements:** A Victorian woman jamming a giant piece of frosting-covered fruitcake under a delicate lace pillow, then going to sleep with the frosting smearing everywhere.
 *   **Caption Summary:** Victorian women would literally sleep with a sticky, frosting-covered piece of cake under their pillows to dream about their future husbands!
-*   **Citation & Link:** The Feminist Bride, "Wedding Cake Traditions" - [Feminist Bride](https://thefeministbride.com/)
+*   **Citation & Link:** Wikipedia, "Wedding Cake Superstitions" - [Wikipedia](https://en.wikipedia.org/wiki/Wedding_cake#Superstitions)
 
 ## 25. Anti-Impotence Exorcisms (16th Century France)
 **Description:** In 16th Century France, the fear of the groom suffering from performance anxiety ("impotence") on the wedding night was so severe that it was literally blamed on demonic possession. To counter this, priests were hired to perform full exorcisms on the marital bed, throwing holy water and burning herbs to cast out "performance-ruining demons."

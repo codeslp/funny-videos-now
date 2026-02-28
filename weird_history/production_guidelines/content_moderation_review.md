@@ -13,6 +13,7 @@ Based on the rules outlined in `content_sourcing_strategy.md`, some of our resea
 **Modulation Strategy:**
 - **Use Euphemisms in Voiceovers:** Replace explicit anatomical or sexual terms with comedic, family-friendly euphemisms (e.g., "making a baby," "romance," "bedroom time," "fertility luck"). Do not use the banned word `sexual` in the script.
 - **Visual Censorship:** When prompting Veo3 for video, ensure the visual prompts explicitly state "fully clothed," "tasteful," "comedic reaction shot," and "G-rated." For example, instead of showing a couple in bed, show the *guests* outside the bedroom door listening hilariously (e.g., for the bedding ceremonies).
+- **Clothing Ban List:** ANY reference to "sheer", "see through", or "skimpy clothing" is absolutely banned in prompts.
 - **Focus on the Absurd Setup, Not the Act:** For things like the Cerne Abbas Giant, focus on the couple carrying a sleeping bag up a giant funny chalk drawing, avoiding explicit anatomical focus.
 
 ## 3. Violence, Death & Animal Sacrifice
@@ -22,7 +23,8 @@ Based on the rules outlined in `content_sourcing_strategy.md`, some of our resea
 - *Physical Violence* (Shooting the bride with arrows in China, the Povitukha drop-kicking pregnant women, beating the South Korean groom's feet with a fish).
 **Modulation Strategy:**
 - **Censor "Death" and "Kill":** Do not use these exact words. Say "they didn't survive," "met their end," or "were sacrificed to the gods."
-- **Cartoonish Re-framing for Violence:** For practices involving physical hitting (e.g., throwing peas, beating feet, shooting blunt arrows), frame the visual prompts to look slapstick and cartoonish, not painful or bloody. Explicitly prompt "no blood" and "comedic tone."
+- **Imaginative Workarounds for Visual Violence:** We must NEVER show blood. If the custom involves violence, find an imaginative workaround (e.g., showing falling rose petals or red fabric instead of blood), show something related to the violence, or avoid the violence altogether.
+- **Cartoonish Re-framing for Violence:** For practices involving physical hitting (e.g., throwing peas, beating feet, shooting blunt arrows), frame the visual prompts to look slapstick and cartoonish, not painful.
 - **Implied Animal Rituals:** If a script mentions an animal part (like a rabbit foot or goat skin), do not show the animal being harmed. Show the *aftermath* (a person holding a leather strip or a funny-looking dried fish) or the *preparation* (a guy chasing a perfectly healthy goat).
 - **Drop Human Sacrifice Entirely:** Aztec skin-wearing or human sacrifice violates the "Tragedy, violence, death" rule and the victimless rule. Skip these facts entirely for the videos.
 
