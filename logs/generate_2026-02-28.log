@@ -1,0 +1,23 @@
+[2026-02-28 09:24:15] ============================================================
+[2026-02-28 09:24:15] 🌙 NIGHTLY VIDEO GENERATOR STARTING
+[2026-02-28 09:24:15]    Target: 1 videos
+[2026-02-28 09:24:15] ============================================================
+[2026-02-28 09:24:15] 
+📡 Step 1: Sourcing and scoring news...
+[2026-02-28 09:24:53]    34 new stories available (filtered 0 already used)
+[2026-02-28 09:24:53] 
+🎯 Step 2: Selected 1 stories:
+[2026-02-28 09:24:53]    1. [Score: 39] Sleepy owl found resting among items on a New York antique store shelf
+[2026-02-28 09:24:53] 
+🤖 Step 3: Generating scripts...
+[2026-02-28 09:24:53] 
+   Video 08: Sleepy owl found resting among items on a New York antique s...
+[2026-02-28 09:25:03]    ✅ Script saved to 08_sleepy_owl_found_resting_among_items_on_a_new_york
+[2026-02-28 09:25:03] 
+⏭️  Skipping Veo rendering (--skip-render)
+[2026-02-28 09:25:03] 
+============================================================
+[2026-02-28 09:25:03] 🌙 NIGHTLY GENERATOR COMPLETE
+[2026-02-28 09:25:03]    Generated: 1 videos
+[2026-02-28 09:25:03] ============================================================
+

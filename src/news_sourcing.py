@@ -27,6 +27,13 @@ BANNED_WORDS = [
     "murder", "kill", "death", "dead", "died", "suicide", "rape", "assault",
     "shooting", "shooter", "massacre", "stabbing", "execution", "homicide",
     "manslaughter", "bloodshed", "bomb", "bombing", "explosion",
+    # Injuries & harm
+    "injury", "injured", "hurt", "wound", "hospital", "crash", "accident",
+    "broken arm", "broken leg", "concussion", "paralyz", "disability",
+    # Law enforcement & police
+    "police", "officer", "cop", "lapd", "nypd", "sheriff", "deputy",
+    "arrested", "arrest", "charged", "indicted", "mugshot", "jail",
+    "prison", "inmate", "detective", "patrol", "swat",
     # Sexual content
     "sexual", "porn", "nude", "naked",
     # Child safety (Veo hard-blocks these)
@@ -51,6 +58,11 @@ BANNED_TOPICS = [
     "child labor", "child labour", "minors working", "underage work",
     "school shooting", "mass shooting", "serial killer",
     "religious leader", "church abuse",
+    # Law enforcement stories
+    "police officer", "cop charged", "officer charged", "officer arrested",
+    "police brutality", "police misconduct",
+    # Injury stories
+    "people injured", "hospitalized", "in critical condition",
 ]
 
 def is_safe_content(text):

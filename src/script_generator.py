@@ -164,32 +164,36 @@ def generate_comedic_script(news_item):
 NEWS HEADLINE: {news_item['title']}
 SOURCE: {news_item.get('source', 'Unknown')}
 
-FIRST, choose the better comedy style for THIS specific headline:
+Write a 2-SCENE comedy script. EXACTLY 2 scenes, no more.
+
+=== SCENE 1: THE NEWS DESK (MANDATORY FORMAT) ===
+A polished, friendly news anchor (think late-night comedy host) sits at a modern news desk.
+They DO NOT say "welcome back" or any introductory preamble. They jump IMMEDIATELY into the top story.
+- Setting: Clean, well-lit news studio. Professional but warm. Desk, monitors in background.
+- Camera: Medium shot of anchor at desk, static or slow push-in. 9:16 vertical portrait.
+- Dialog: The anchor reads a SHORT, punchy version of the headline (max 15 words) with NO preamble. Start the sentence directly with the subject of the news. End with a tease like "Let's take a look." or "We got the footage."
+- Tone: Professional but amused — they can barely keep a straight face.
+
+=== SCENE 2: THE COMEDY PAYOFF ===
+Now choose the better comedy style for the payoff:
 
 OPTION A — MOCKUMENTARY (The Office / Parks & Rec):
-- Handheld camera, slightly shaky, documentary feel
-- Characters glance at the camera with deadpan "can you believe this?" looks
-- Fluorescent office/institutional lighting
-- Awkward pauses and silences ARE the comedy
-- Best for: workplace situations, bureaucracy, meetings, interviews, someone explaining something insane with a straight face
+- Handheld camera, documentary feel, characters glance at camera with deadpan looks
+- Best for: workplace absurdity, bureaucracy, someone explaining something insane with a straight face
 
 OPTION B — CINEMATIC (dramatic film style):
-- Polished camera work: dolly-ins, slow push-ins, tracking shots
-- Dramatic lighting: chiaroscuro, golden hour, or harsh fluorescent for contrast
-- Played completely straight despite absurdity — like a courtroom thriller about a parking ticket
-- Best for: dramatic reveals, physical comedy, action-oriented absurdity, "caught red-handed" moments
+- Polished camera work: dolly-ins, slow push-ins, dramatic lighting
+- Best for: dramatic reveals, physical comedy, action-oriented absurdity
 
-Pick whichever style makes THIS headline funnier, then write the script in that style.
+Pick whichever makes THIS headline funnier for Scene 2.
 
-Write a 2-SCENE comedy script. EXACTLY 2 scenes, no more. Remember:
-- Scene 1 = THE SETUP (establish the absurd situation visually)
-- Scene 2 = THE PUNCHLINE (the visual payoff, escalation, or reveal)
+RULES:
 - Find the GAME: What is the one absurd thing about this headline?
-- Put the audience IN THE ROOM where it happened.
-- One Straight Man character who reacts with quiet disbelief.
-- DIALOG MUST BE ULTRA-SHORT: Max 5-10 words per character per scene. Punchlines only.
+- Show us the absurd situation IN THE ROOM where it happened.
+- DIALOG MUST BE ULTRA-SHORT: Max 5-10 words per character. Punchlines only.
 - Every veo3_visual_prompt must be hyper-specific and framed for 9:16 VERTICAL portrait.
 - Let VISUALS carry the comedy — the video should be funny on mute.
+- The news anchor in Scene 1 and the characters in Scene 2 should be DIFFERENT people.
 """
     
     if not api_key:

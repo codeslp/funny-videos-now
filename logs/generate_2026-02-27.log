@@ -1,0 +1,29 @@
+[2026-02-27 02:00:04] ============================================================
+[2026-02-27 02:00:04] 🌙 NIGHTLY VIDEO GENERATOR STARTING
+[2026-02-27 02:00:04]    Target: 2 videos
+[2026-02-27 02:00:04] ============================================================
+[2026-02-27 02:00:04] 
+📡 Step 1: Sourcing and scoring news...
+[2026-02-27 02:00:55]    31 new stories available (filtered 3 already used)
+[2026-02-27 02:00:55] 
+🎯 Step 2: Selected 2 stories:
+[2026-02-27 02:00:55]    1. [Score: 40] Met Police officer 'could not walk straight' after visiting bar on dut
+[2026-02-27 02:00:55]    2. [Score: 40] Burger King is testing AI headsets that will know if employees say ‘we
+[2026-02-27 02:00:55] 
+🤖 Step 3: Generating scripts...
+[2026-02-27 02:00:55] 
+   Video 06: Met Police officer 'could not walk straight' after visiting ...
+[2026-02-27 02:01:06]    ✅ Script saved to 06_met_police_officer_could_not_walk_straight_after
+[2026-02-27 02:01:06] 
+   Video 07: Burger King is testing AI headsets that will know if employe...
+[2026-02-27 02:01:18]    ✅ Script saved to 07_burger_king_is_testing_ai_headsets_that_will_know
+[2026-02-27 02:01:18] 
+🎬 Step 4: Rendering 2 videos via Veo 3.1...
+[2026-02-27 02:02:38]    ✅ 06_met_police_officer_could_not_walk_straight_after: 2 scenes rendered
+[2026-02-27 02:03:58]    ✅ 07_burger_king_is_testing_ai_headsets_that_will_know: 2 scenes rendered
+[2026-02-27 02:03:58] 
+============================================================
+[2026-02-27 02:03:58] 🌙 NIGHTLY GENERATOR COMPLETE
+[2026-02-27 02:03:58]    Generated: 2 videos
+[2026-02-27 02:03:58] ============================================================
+

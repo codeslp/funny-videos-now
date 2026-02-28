@@ -493,13 +493,24 @@ def publish_video_folder(folder_path):
     )
 
     videos_dir = os.path.join(folder_path, "videos")
-    final_path = os.path.join(videos_dir, "final.mp4")
+    
+    # Use Remotion assembled video if available
+    remotion_path = os.path.join(videos_dir, "final_assembled.mp4")
+    if os.path.exists(remotion_path):
+        final_path = remotion_path
+    else:
+        final_path = os.path.join(videos_dir, "final.mp4")
+        # Assemble with ffmpeg if not already done
+        if not os.path.exists(final_path):
+            final_path = assemble_video(videos_dir)
+            if not final_path:
+                return
 
-    # Assemble if not already done
-    if not os.path.exists(final_path):
-        final_path = assemble_video(videos_dir)
-        if not final_path:
-            return
+    # Manual Approval Gate
+    approved_file = os.path.join(folder_path, ".approved")
+    if not os.path.exists(approved_file):
+        print(f"    ⚠️  Skipping publish: Manual review required. Create an empty '.approved' file in this folder to authorize publishing.")
+        return
 
     print(f"    📤 Publishing to all platforms...")
     from datetime import datetime
