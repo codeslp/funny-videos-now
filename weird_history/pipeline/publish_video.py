@@ -19,7 +19,7 @@ def main():
     description = (
         "Victorian women used to sleep with moldy frosting-covered wedding cake under their pillows to dream about their future husbands!\n\n"
         "If you don't believe me, read the actual research behind this bizarre historical tradition.\n\n"
-        "📖 Read the full historical research here: https://en.wikipedia.org/wiki/Wedding_cake#Superstitions\n\n"
+        "📖 Read the full historical research here: https://en.wikipedia.org/wiki/Wedding_cake#Superstitions \n\n"
         "#weirdhistory #historyfacts #victorianera #educationalcomedy #history"
     )
 
