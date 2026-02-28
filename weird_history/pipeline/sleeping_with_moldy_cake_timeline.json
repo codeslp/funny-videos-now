@@ -1,0 +1,50 @@
+{
+    "title": "Sleeping with Moldy Cake",
+    "video_style": "Hyper-Realistic Photography",
+    "tts_voice_id": "1f575487-6f3d-40e0-862a-814f55b5fb15",
+    "script": "Victorian women had the most unhinged fertility hack of all time. If you were a single woman or a newlywed bride in 19th-century England, you would take a massive, sticky piece of frosting-covered wedding cake... and shove it directly underneath your pillow before bed. The idea? Sleep on top of the disgusting, crumbling, frosting-smeared mess all night, and you'd be blessed with prophetic dreams of your future husband. By morning, your pillow was destroyed, your hair was full of dried frosting, and you supposedly had a vision of the love of your life. Romance! If you don't believe me, click the link in the description to read the actual research behind this.",
+    "scenes": [
+        {
+            "id": 1,
+            "type": "image",
+            "duration": 5.35,
+            "prompt": "A 30-year-old Victorian English woman with pale skin, bright green eyes, full lips, and dark brown hair pulled up in a neat bun, wearing an elegant white long-sleeve lace nightgown. She is standing in an opulent Victorian bedroom looking stressed and worried, hands clasped together. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting."
+        },
+        {
+            "id": 2,
+            "type": "image",
+            "duration": 5.35,
+            "prompt": "A 30-year-old Victorian English woman with pale skin, bright green eyes, full lips, and dark brown hair pulled up in a neat bun, wearing an elegant white long-sleeve lace nightgown. She is in a Victorian bedroom, holding a massive, sticky piece of frosting-covered layered wedding cake with both hands, staring down at it with intense determination. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting."
+        },
+        {
+            "id": 3,
+            "type": "image",
+            "duration": 5.35,
+            "prompt": "A 30-year-old Victorian English woman with pale skin, bright green eyes, full lips, and dark brown hair pulled up in a neat bun, wearing an elegant white long-sleeve lace nightgown. She is walking towards an ornate wooden bed in the background, carefully carrying the massive wedding cake dripping with frosting. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting."
+        },
+        {
+            "id": 4,
+            "type": "video",
+            "duration": 8.0,
+            "prompt": "A 30-year-old Victorian English woman with pale skin, bright green eyes, full lips, and dark brown hair pulled up in a neat bun, wearing an elegant white long-sleeve lace nightgown. She is aggressively jamming a massive piece of sticky frosting-covered wedding cake underneath a delicate white lace pillow on an ornate bed. She has a look of total focus and commitment on her face. Hyper-realistic portrait video, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, photorealistic. No painting."
+        },
+        {
+            "id": 5,
+            "type": "image",
+            "duration": 5.35,
+            "prompt": "Close up shot of the face of a 30-year-old Victorian English woman with pale skin, bright green eyes, full lips, and dark brown hair. She is sleeping peacefully on a white lace pillow. Dried white frosting and chocolate cake crumbs are heavily smeared all over her cheek, lips, and hair. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting."
+        },
+        {
+            "id": 6,
+            "type": "image",
+            "duration": 5.35,
+            "prompt": "A 30-year-old Victorian English woman with pale skin, bright green eyes, full lips. She is waking up in the morning, looking completely confused. Her dark brown hair is completely messed up and matted with white frosting. The delicate white lace bedsheets and pillows are completely ruined with huge smears of chocolate cake and frosting. She is wearing a white lace nightgown. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting."
+        },
+        {
+            "id": 7,
+            "type": "image",
+            "duration": 5.35,
+            "prompt": "A comedic wide shot of a 30-year-old Victorian English woman with pale skin and dark brown hair. She is sitting straight up in bed in a Victorian bedroom. Her hair, face, hands, and white lace nightgown are completely covered and ruined by sticky white frosting and smashed wedding cake. She is looking deadpan directly at the camera in disbelief at the massive mess. The bed is destroyed with frosting. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting."
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "title": "The Tudor Needle Test",
+    "video_style": "The Absurd Renaissance",
+    "tts_voice_id": "a0e99841-438c-4a64-b6a9-ae8f1d56cc33",
+    "script": "Think modern pregnancy tests are stressful? In Tudor England, finding out you were pregnant involved peeing into a wooden bowl... and then dropping a metal sewing needle in it. If the needle rusted or turned red a few days later, congratulations, you were officially having a baby! It was wildly unhygienic, but surprisingly, the acidity of the urine actually made it kind of accurate.",
+    "scenes": [
+        {
+            "id": 1,
+            "type": "image",
+            "duration": 4.5,
+            "prompt": "Wide shot of a terrified Tudor English woman looking nervously into a small wooden bowl. High renaissance oil painting brought to life, hyper-realistic, vivid and highly saturated colorful oil paints. Dramatic chiaroscuro lighting, masterpiece painting style. Comedic exaggerated facial expressions. Hyper-detailed textures on the clothing. Vibrant neon undertones to lighting, cinematic.",
+            "filepath": "test_assets/scene_1_still.jpg"
+        },
+        {
+            "id": 2,
+            "type": "video",
+            "duration": 5.0,
+            "prompt": "Close up shot of a metal sewing needle being dropped into a wooden bowl of yellow liquid, instantly rusting and turning bright red. High renaissance oil painting brought to life, hyper-realistic, vivid and highly saturated colorful oil paints. Dramatic chiaroscuro lighting, masterpiece painting style. Vibrant neon undertones to lighting, cinematic.",
+            "filepath": "test_assets/scene_2_video.mp4"
+        },
+        {
+            "id": 3,
+            "type": "image",
+            "duration": 4.0,
+            "prompt": "Medium shot of the Tudor woman throwing her hands up in the air in massive celebration while her husband looks deeply confused. High renaissance oil painting brought to life, hyper-realistic, vivid and highly saturated colorful oil paints. Dramatic chiaroscuro lighting, masterpiece painting style. Comedic exaggerated facial expressions. Hyper-detailed textures on the clothing. Vibrant neon undertones to lighting, cinematic.",
+            "filepath": "test_assets/scene_3_still.jpg"
+        }
+    ]
+}

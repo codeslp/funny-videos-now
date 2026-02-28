@@ -18,46 +18,23 @@ To maximize audience retention, the characters generated in the stills and video
 
 ---
 
-## Winning Visual Aesthetics for "Weird History"
-Based on TikTok trends, AI virality metrics, and our need for comedy, here are the top 3 visual styles we will use. We should experiment to see which one performs best, or rotate them to keep the feed fresh.
+## Winning Visual Aesthetic for "Weird History": Hyper-Realism
+We must **stick with realism** for all generated assets. Do not use oil painting styles or claymation.
 
-### Style 1: "The Absurd Renaissance" (Hyper-Realistic Classical Painting brought to life)
-This style takes the very serious, highly detailed aesthetic of a Baroque or Renaissance painting and applies it to an incredibly stupid or funny situation. The juxtaposition is what makes it viral.
-*   **Vibe:** Looks like a masterpiece hanging in the Louvre, but the subject is a guy getting hit with a fish.
-*   **Prompt Keywords:** `high renaissance oil painting style, hyper-realistic, vivid colorful oil paints, dramatic chiaroscuro lighting, masterpiece, incredibly detailed faces, historical clothing.`
-*   **Best For:** Serious-sounding practices like "The Public Bedding Ceremony" or "Roman Cults." 
-
-#### 🌍 Regional Variation: Traditional & Romanticized Painting
-If a custom originates from a specific non-Western European region, substitute the "Renaissance" keywords with that region's traditional or romanticized painting style to make the absurdity fit the culture:
-*   **Middle East / North Africa:** Use `19th-century Orientalist painting style, vibrant desert colors, romanticized lighting, hyper-detailed textiles.`
-*   **East Asia (China/Japan/Korea):** Use `Traditional Ukiyo-e woodblock print style with hyper-saturated colors` or `Vibrant traditional silk painting brought to vivid life, detailed brushwork.`
-*   **South Asia (India):** Use `Traditional Mughal miniature painting style, vibrant jewel tones, intricate gold leaf detailing.`
-*   **The Americas / Indigenous:** Use `Vivid historical Codex-style illustrations brought to life` or `19th-century romanticized frontier painting, dramatic sweeping lighting.`
-
-
-### Style 2: "Saturated Claymation / Stop-Motion" (The Adult Swim Style)
-Claymation inherently looks quirky and slightly unsettling, which perfectly matches weird history. It softens any violence/grossness because it looks like a toy, bypassing content moderation easily.
-*   **Vibe:** Robot Chicken meets the History Channel.
-*   **Prompt Keywords:** `vibrant claymation style, stop-motion animation aesthetic, plastiline clay textures, bright primary colors, studio miniature lighting, highly detailed clay figures, comedic framing.`
-*   **Best For:** Medical horrors (leeches, tapeworms) or things involving animals (frogs, snakes, goat skins).
-
-### Style 3: "Immersive First-Person POV" 
-A massive trend on TikTok involves putting the viewer directly into the shoes of a historical person. Since many of our facts are relatable (dating, marriage), putting the camera in the eyes of the suitor is incredibly engaging.
-*   **Vibe:** You are literally standing in an ancient village experiencing this firsthand.
-*   **Prompt Keywords:** `GoPro POV style, first-person perspective, hyper-realistic photography, vibrant daytime lighting, ultra-wide angle lens, looking down at hands, immersive.`
-*   **Best For:** Love/Romance (e.g., being handed an armpit apple, or looking at a giant cheese wheel).
-
-
+*   **Vibe:** Authentic, documentary-style photography and video that makes the absurd historical facts look like they really happened. 
+*   **Character Consistency:** Do not rely on the video model to "remember" a character if there is a main character. You MUST precisely define the character's physical description, clothing, and features in *every single prompt* for the video to ensure they look identical across shots.
+*   **Prompt Keywords:** `hyper-realistic portrait photography`, `8k resolution`, `cinematic lighting`, `documentary style realism`, `shot on 35mm lens`, `photorealistic`, `No painting.`
+*   **Dealing with Violence / Gore:** We must never show blood. If the history involves violence, we must find an imaginative way around the violence or avoid showing it altogether. Use strong visual metaphors—for example, showing falling rose petals or waving red fabric instead of blood.
 
 ---
 
 ## Prompt Formulation Structure
-Every video prompt we send to the video generation API should follow this structure to guarantee the aesthetic holds:
+Every video prompt we send to the video generation API should follow this structure to guarantee the visual style holds:
 
-**[SUBJECT/ACTION FROM RESEARCH]** + **[VISUAL STYLE MODIFIER]** + **[COLOR/LIGHTING MODIFIER]** + **[SAFETY/MODERATION MODIFIER]**
+**[EXPLICIT CHARACTER DESCRIPTION]** + **[ACTION FROM RESEARCH]** + **[REALISM STYLE MODIFIER]** + **[SAFETY/MODERATION MODIFIER]**
 
-**Example for "Armpit Apple" (Using Style 1):**
-> *A handsome young medieval man nervously eating an apple given to him by a young woman. High renaissance oil painting style, vivid colorful oil paints, dramatic chiaroscuro lighting. Vibrant colors, highly saturated. Comedic facial expressions, PG-rated, fully clothed.*
+**Example for "Armpit Apple":**
+> *A 25-year-old medieval peasant man with sharp cheekbones, messy brown hair, wearing a rough-spun brown tunic. He is nervously eating an apple given to him by a young woman. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.*
 
 ---
 
@@ -84,12 +61,6 @@ To maintain organization, every time a new video is generated, the pipeline auto
 
 ### How the Styles Pair with Hybrid Assembly
 
-1. **The Absurd Renaissance:**
-   * *Stills:* Hyper-detailed Renaissance paintings with slow, dramatic digital pans or zooms.
-   * *Video:* The painting suddenly "comes to life" for the punchline. Provides a seamless and highly engaging transition.
-2. **Saturated Claymation:**
-   * *Stills:* Static clay scenes with programmatic "stop-motion jitter" added (shifting the image slightly simulating frame-by-frame movement). Digital panning should be avoided to preserve the physical miniature illusion.
-   * *Video:* Full claymation action.
-3. **Immersive First-Person POV:**
-   * *Stills:* Focus strictly on establishing the environment or objects using subtle parallax. Keep "hands" out of frame during stills.
-   * *Video:* Action shots involving the character's hands (reaching, grabbing, reacting).
+1. **Hyper-Realism:**
+   * *Stills:* Hyper-realistic portrait photograph with slow, dramatic digital pans or zooms. **NEVER use jitter, shake, or wobble effects.** 
+   * *Video:* The scene matching the subject comes to life natively.

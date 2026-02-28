@@ -60,7 +60,19 @@ def generate_tts(text: str, output_filepath: str, voice_id: str = DEFAULT_VOICE_
     return os.path.abspath(output_filepath)
 
 if __name__ == "__main__":
-    # Simple test execution if run directly
-    test_text = "This is a test of the Cartesia text to speech API. It should be incredibly fast and expressive."
-    testing_output = os.path.join(os.path.dirname(__file__), 'test_audio.wav')
-    generate_tts(test_text, testing_output)
+    import sys
+    if len(sys.argv) < 3:
+        print("Usage: python generate_audio.py <timeline_json_path> <output_dir>")
+        sys.exit(1)
+        
+    timeline_path = sys.argv[1]
+    output_dir = sys.argv[2]
+    
+    with open(timeline_path, "r") as f:
+        timeline = json.load(f)
+        
+    script_text = timeline.get("script", "")
+    voice_id = timeline.get("tts_voice_id", DEFAULT_VOICE_ID)
+    
+    output_filepath = os.path.join(output_dir, "voiceover.wav")
+    generate_tts(script_text, output_filepath, voice_id)
