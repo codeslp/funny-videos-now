@@ -1,0 +1,52 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: TikTok,Arial,90,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,6,4,2,20,20,450,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.03,0:00:01.21,TikTok,,0,0,0,,Forget swiping on Tinder.
+Dialogue: 0,0:00:01.99,0:00:03.07,TikTok,,0,0,0,,In some Native American
+Dialogue: 0,0:00:03.13,0:00:04.09,TikTok,,0,0,0,,tribes, if a guy
+Dialogue: 0,0:00:04.13,0:00:04.87,TikTok,,0,0,0,,wanted to take you
+Dialogue: 0,0:00:04.97,0:00:06.29,TikTok,,0,0,0,,on a date, he
+Dialogue: 0,0:00:06.34,0:00:07.56,TikTok,,0,0,0,,literally threw a giant
+Dialogue: 0,0:00:07.62,0:00:08.66,TikTok,,0,0,0,,blanket over your head
+Dialogue: 0,0:00:08.70,0:00:09.16,TikTok,,0,0,0,,in the middle of
+Dialogue: 0,0:00:09.18,0:00:09.66,TikTok,,0,0,0,,the street.
+Dialogue: 0,0:00:10.36,0:00:11.30,TikTok,,0,0,0,,It was called blanket
+Dialogue: 0,0:00:11.34,0:00:11.74,TikTok,,0,0,0,,courting.
+Dialogue: 0,0:00:12.57,0:00:13.13,TikTok,,0,0,0,,If a man got
+Dialogue: 0,0:00:13.19,0:00:14.29,TikTok,,0,0,0,,permission from the elders,
+Dialogue: 0,0:00:14.49,0:00:15.27,TikTok,,0,0,0,,he would approach the
+Dialogue: 0,0:00:15.31,0:00:16.09,TikTok,,0,0,0,,woman he liked while
+Dialogue: 0,0:00:16.11,0:00:16.59,TikTok,,0,0,0,,she was out in
+Dialogue: 0,0:00:16.63,0:00:17.29,TikTok,,0,0,0,,the village.
+Dialogue: 0,0:00:18.01,0:00:19.42,TikTok,,0,0,0,,Then, in a massive
+Dialogue: 0,0:00:19.52,0:00:20.66,TikTok,,0,0,0,,public gesture, he would
+Dialogue: 0,0:00:20.70,0:00:21.98,TikTok,,0,0,0,,wrap his large woven
+Dialogue: 0,0:00:22.02,0:00:23.43,TikTok,,0,0,0,,blanket completely around both
+Dialogue: 0,0:00:23.47,0:00:23.71,TikTok,,0,0,0,,of them.
+Dialogue: 0,0:00:24.59,0:00:25.87,TikTok,,0,0,0,,This created a tiny
+Dialogue: 0,0:00:25.97,0:00:27.67,TikTok,,0,0,0,,pitch black, private tent
+Dialogue: 0,0:00:27.80,0:00:28.44,TikTok,,0,0,0,,right in the middle
+Dialogue: 0,0:00:28.48,0:00:29.40,TikTok,,0,0,0,,of the crowded village
+Dialogue: 0,0:00:29.44,0:00:30.16,TikTok,,0,0,0,,so they could whisper
+Dialogue: 0,0:00:30.20,0:00:30.70,TikTok,,0,0,0,,to each other.
+Dialogue: 0,0:00:31.48,0:00:32.46,TikTok,,0,0,0,,Honestly, in a world
+Dialogue: 0,0:00:32.50,0:00:33.73,TikTok,,0,0,0,,without privacy, it's actually
+Dialogue: 0,0:00:33.77,0:00:34.75,TikTok,,0,0,0,,incredibly sweet.
+Dialogue: 0,0:00:35.55,0:00:37.13,TikTok,,0,0,0,,Best of all, everyone
+Dialogue: 0,0:00:37.17,0:00:37.84,TikTok,,0,0,0,,in the village would
+Dialogue: 0,0:00:37.88,0:00:39.40,TikTok,,0,0,0,,completely ignore the giant
+Dialogue: 0,0:00:39.44,0:00:40.62,TikTok,,0,0,0,,walking fabric lump out
+Dialogue: 0,0:00:40.64,0:00:41.14,TikTok,,0,0,0,,of respect.
+Dialogue: 0,0:00:41.96,0:00:42.71,TikTok,,0,0,0,,If you don't believe
+Dialogue: 0,0:00:42.77,0:00:43.95,TikTok,,0,0,0,,me, click the link
+Dialogue: 0,0:00:43.99,0:00:44.81,TikTok,,0,0,0,,in the description to
+Dialogue: 0,0:00:44.89,0:00:46.17,TikTok,,0,0,0,,read the actual research
+Dialogue: 0,0:00:46.21,0:00:46.87,TikTok,,0,0,0,,behind this.
