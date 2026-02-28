@@ -1,0 +1,742 @@
+[
+    {
+        "word": "Forget",
+        "start": 0.031,
+        "end": 0.291
+    },
+    {
+        "word": "swiping",
+        "start": 0.331,
+        "end": 0.692
+    },
+    {
+        "word": "on",
+        "start": 0.752,
+        "end": 0.832
+    },
+    {
+        "word": "Tinder.",
+        "start": 0.892,
+        "end": 1.213
+    },
+    {
+        "word": "In",
+        "start": 1.994,
+        "end": 2.054
+    },
+    {
+        "word": "some",
+        "start": 2.154,
+        "end": 2.355
+    },
+    {
+        "word": "Native",
+        "start": 2.415,
+        "end": 2.655
+    },
+    {
+        "word": "American",
+        "start": 2.695,
+        "end": 3.076
+    },
+    {
+        "word": "tribes,",
+        "start": 3.136,
+        "end": 3.576
+    },
+    {
+        "word": "if",
+        "start": 3.737,
+        "end": 3.797
+    },
+    {
+        "word": "a",
+        "start": 3.857,
+        "end": 3.877
+    },
+    {
+        "word": "guy",
+        "start": 3.937,
+        "end": 4.097
+    },
+    {
+        "word": "wanted",
+        "start": 4.137,
+        "end": 4.398
+    },
+    {
+        "word": "to",
+        "start": 4.438,
+        "end": 4.498
+    },
+    {
+        "word": "take",
+        "start": 4.558,
+        "end": 4.738
+    },
+    {
+        "word": "you",
+        "start": 4.778,
+        "end": 4.878
+    },
+    {
+        "word": "on",
+        "start": 4.978,
+        "end": 5.059
+    },
+    {
+        "word": "a",
+        "start": 5.099,
+        "end": 5.119
+    },
+    {
+        "word": "date,",
+        "start": 5.219,
+        "end": 5.519
+    },
+    {
+        "word": "he",
+        "start": 6.2,
+        "end": 6.3
+    },
+    {
+        "word": "literally",
+        "start": 6.341,
+        "end": 6.801
+    },
+    {
+        "word": "threw",
+        "start": 6.821,
+        "end": 7.042
+    },
+    {
+        "word": "a",
+        "start": 7.102,
+        "end": 7.142
+    },
+    {
+        "word": "giant",
+        "start": 7.222,
+        "end": 7.562
+    },
+    {
+        "word": "blanket",
+        "start": 7.622,
+        "end": 7.983
+    },
+    {
+        "word": "over",
+        "start": 8.083,
+        "end": 8.243
+    },
+    {
+        "word": "your",
+        "start": 8.303,
+        "end": 8.444
+    },
+    {
+        "word": "head",
+        "start": 8.504,
+        "end": 8.664
+    },
+    {
+        "word": "in",
+        "start": 8.704,
+        "end": 8.744
+    },
+    {
+        "word": "the",
+        "start": 8.784,
+        "end": 8.844
+    },
+    {
+        "word": "middle",
+        "start": 8.884,
+        "end": 9.085
+    },
+    {
+        "word": "of",
+        "start": 9.125,
+        "end": 9.165
+    },
+    {
+        "word": "the",
+        "start": 9.185,
+        "end": 9.285
+    },
+    {
+        "word": "street.",
+        "start": 9.325,
+        "end": 9.666
+    },
+    {
+        "word": "It",
+        "start": 10.367,
+        "end": 10.407
+    },
+    {
+        "word": "was",
+        "start": 10.447,
+        "end": 10.527
+    },
+    {
+        "word": "called",
+        "start": 10.587,
+        "end": 10.807
+    },
+    {
+        "word": "blanket",
+        "start": 10.847,
+        "end": 11.308
+    },
+    {
+        "word": "courting.",
+        "start": 11.348,
+        "end": 11.749
+    },
+    {
+        "word": "If",
+        "start": 12.57,
+        "end": 12.63
+    },
+    {
+        "word": "a",
+        "start": 12.69,
+        "end": 12.71
+    },
+    {
+        "word": "man",
+        "start": 12.77,
+        "end": 12.93
+    },
+    {
+        "word": "got",
+        "start": 12.991,
+        "end": 13.131
+    },
+    {
+        "word": "permission",
+        "start": 13.191,
+        "end": 13.591
+    },
+    {
+        "word": "from",
+        "start": 13.632,
+        "end": 13.732
+    },
+    {
+        "word": "the",
+        "start": 13.772,
+        "end": 13.852
+    },
+    {
+        "word": "elders,",
+        "start": 13.972,
+        "end": 14.293
+    },
+    {
+        "word": "he",
+        "start": 14.493,
+        "end": 14.553
+    },
+    {
+        "word": "would",
+        "start": 14.573,
+        "end": 14.713
+    },
+    {
+        "word": "approach",
+        "start": 14.733,
+        "end": 15.154
+    },
+    {
+        "word": "the",
+        "start": 15.214,
+        "end": 15.274
+    },
+    {
+        "word": "woman",
+        "start": 15.314,
+        "end": 15.534
+    },
+    {
+        "word": "he",
+        "start": 15.574,
+        "end": 15.655
+    },
+    {
+        "word": "liked",
+        "start": 15.715,
+        "end": 15.915
+    },
+    {
+        "word": "while",
+        "start": 15.955,
+        "end": 16.095
+    },
+    {
+        "word": "she",
+        "start": 16.115,
+        "end": 16.215
+    },
+    {
+        "word": "was",
+        "start": 16.255,
+        "end": 16.356
+    },
+    {
+        "word": "out",
+        "start": 16.416,
+        "end": 16.516
+    },
+    {
+        "word": "in",
+        "start": 16.556,
+        "end": 16.596
+    },
+    {
+        "word": "the",
+        "start": 16.636,
+        "end": 16.696
+    },
+    {
+        "word": "village.",
+        "start": 16.756,
+        "end": 17.297
+    },
+    {
+        "word": "Then,",
+        "start": 18.02,
+        "end": 18.381
+    },
+    {
+        "word": "in",
+        "start": 18.401,
+        "end": 18.441
+    },
+    {
+        "word": "a",
+        "start": 18.942,
+        "end": 18.962
+    },
+    {
+        "word": "massive",
+        "start": 19.042,
+        "end": 19.423
+    },
+    {
+        "word": "public",
+        "start": 19.523,
+        "end": 19.824
+    },
+    {
+        "word": "gesture,",
+        "start": 19.904,
+        "end": 20.325
+    },
+    {
+        "word": "he",
+        "start": 20.425,
+        "end": 20.505
+    },
+    {
+        "word": "would",
+        "start": 20.525,
+        "end": 20.665
+    },
+    {
+        "word": "wrap",
+        "start": 20.705,
+        "end": 20.886
+    },
+    {
+        "word": "his",
+        "start": 20.906,
+        "end": 21.046
+    },
+    {
+        "word": "large",
+        "start": 21.146,
+        "end": 21.527
+    },
+    {
+        "word": "woven",
+        "start": 21.688,
+        "end": 21.988
+    },
+    {
+        "word": "blanket",
+        "start": 22.028,
+        "end": 22.349
+    },
+    {
+        "word": "completely",
+        "start": 22.409,
+        "end": 22.89
+    },
+    {
+        "word": "around",
+        "start": 22.95,
+        "end": 23.171
+    },
+    {
+        "word": "both",
+        "start": 23.251,
+        "end": 23.431
+    },
+    {
+        "word": "of",
+        "start": 23.471,
+        "end": 23.511
+    },
+    {
+        "word": "them.",
+        "start": 23.571,
+        "end": 23.712
+    },
+    {
+        "word": "This",
+        "start": 24.593,
+        "end": 24.774
+    },
+    {
+        "word": "created",
+        "start": 24.854,
+        "end": 25.235
+    },
+    {
+        "word": "a",
+        "start": 25.275,
+        "end": 25.335
+    },
+    {
+        "word": "tiny",
+        "start": 25.435,
+        "end": 25.876
+    },
+    {
+        "word": "pitch",
+        "start": 25.976,
+        "end": 26.217
+    },
+    {
+        "word": "black,",
+        "start": 26.277,
+        "end": 26.598
+    },
+    {
+        "word": "private",
+        "start": 26.998,
+        "end": 27.359
+    },
+    {
+        "word": "tent",
+        "start": 27.419,
+        "end": 27.68
+    },
+    {
+        "word": "right",
+        "start": 27.8,
+        "end": 27.98
+    },
+    {
+        "word": "in",
+        "start": 28.02,
+        "end": 28.061
+    },
+    {
+        "word": "the",
+        "start": 28.101,
+        "end": 28.181
+    },
+    {
+        "word": "middle",
+        "start": 28.221,
+        "end": 28.441
+    },
+    {
+        "word": "of",
+        "start": 28.481,
+        "end": 28.521
+    },
+    {
+        "word": "the",
+        "start": 28.562,
+        "end": 28.642
+    },
+    {
+        "word": "crowded",
+        "start": 28.682,
+        "end": 29.002
+    },
+    {
+        "word": "village",
+        "start": 29.063,
+        "end": 29.403
+    },
+    {
+        "word": "so",
+        "start": 29.443,
+        "end": 29.544
+    },
+    {
+        "word": "they",
+        "start": 29.584,
+        "end": 29.684
+    },
+    {
+        "word": "could",
+        "start": 29.704,
+        "end": 29.824
+    },
+    {
+        "word": "whisper",
+        "start": 29.864,
+        "end": 30.165
+    },
+    {
+        "word": "to",
+        "start": 30.205,
+        "end": 30.285
+    },
+    {
+        "word": "each",
+        "start": 30.345,
+        "end": 30.465
+    },
+    {
+        "word": "other.",
+        "start": 30.526,
+        "end": 30.706
+    },
+    {
+        "word": "Honestly,",
+        "start": 31.488,
+        "end": 31.989
+    },
+    {
+        "word": "in",
+        "start": 32.029,
+        "end": 32.089
+    },
+    {
+        "word": "a",
+        "start": 32.129,
+        "end": 32.149
+    },
+    {
+        "word": "world",
+        "start": 32.209,
+        "end": 32.47
+    },
+    {
+        "word": "without",
+        "start": 32.51,
+        "end": 32.75
+    },
+    {
+        "word": "privacy,",
+        "start": 32.79,
+        "end": 33.251
+    },
+    {
+        "word": "it's",
+        "start": 33.271,
+        "end": 33.371
+    },
+    {
+        "word": "actually",
+        "start": 33.452,
+        "end": 33.732
+    },
+    {
+        "word": "incredibly",
+        "start": 33.772,
+        "end": 34.393
+    },
+    {
+        "word": "sweet.",
+        "start": 34.454,
+        "end": 34.754
+    },
+    {
+        "word": "Best",
+        "start": 35.556,
+        "end": 35.796
+    },
+    {
+        "word": "of",
+        "start": 35.836,
+        "end": 35.877
+    },
+    {
+        "word": "all,",
+        "start": 35.977,
+        "end": 36.097
+    },
+    {
+        "word": "everyone",
+        "start": 36.798,
+        "end": 37.139
+    },
+    {
+        "word": "in",
+        "start": 37.179,
+        "end": 37.219
+    },
+    {
+        "word": "the",
+        "start": 37.259,
+        "end": 37.34
+    },
+    {
+        "word": "village",
+        "start": 37.38,
+        "end": 37.68
+    },
+    {
+        "word": "would",
+        "start": 37.72,
+        "end": 37.841
+    },
+    {
+        "word": "completely",
+        "start": 37.881,
+        "end": 38.462
+    },
+    {
+        "word": "ignore",
+        "start": 38.522,
+        "end": 38.883
+    },
+    {
+        "word": "the",
+        "start": 38.923,
+        "end": 39.043
+    },
+    {
+        "word": "giant",
+        "start": 39.103,
+        "end": 39.404
+    },
+    {
+        "word": "walking",
+        "start": 39.444,
+        "end": 39.764
+    },
+    {
+        "word": "fabric",
+        "start": 39.825,
+        "end": 40.165
+    },
+    {
+        "word": "lump",
+        "start": 40.245,
+        "end": 40.446
+    },
+    {
+        "word": "out",
+        "start": 40.546,
+        "end": 40.626
+    },
+    {
+        "word": "of",
+        "start": 40.646,
+        "end": 40.686
+    },
+    {
+        "word": "respect.",
+        "start": 40.726,
+        "end": 41.147
+    },
+    {
+        "word": "If",
+        "start": 41.969,
+        "end": 42.029
+    },
+    {
+        "word": "you",
+        "start": 42.069,
+        "end": 42.149
+    },
+    {
+        "word": "don't",
+        "start": 42.209,
+        "end": 42.35
+    },
+    {
+        "word": "believe",
+        "start": 42.39,
+        "end": 42.711
+    },
+    {
+        "word": "me,",
+        "start": 42.771,
+        "end": 42.891
+    },
+    {
+        "word": "click",
+        "start": 43.412,
+        "end": 43.612
+    },
+    {
+        "word": "the",
+        "start": 43.652,
+        "end": 43.733
+    },
+    {
+        "word": "link",
+        "start": 43.793,
+        "end": 43.953
+    },
+    {
+        "word": "in",
+        "start": 43.993,
+        "end": 44.033
+    },
+    {
+        "word": "the",
+        "start": 44.073,
+        "end": 44.133
+    },
+    {
+        "word": "description",
+        "start": 44.174,
+        "end": 44.654
+    },
+    {
+        "word": "to",
+        "start": 44.735,
+        "end": 44.815
+    },
+    {
+        "word": "read",
+        "start": 44.895,
+        "end": 45.055
+    },
+    {
+        "word": "the",
+        "start": 45.075,
+        "end": 45.176
+    },
+    {
+        "word": "actual",
+        "start": 45.356,
+        "end": 45.697
+    },
+    {
+        "word": "research",
+        "start": 45.777,
+        "end": 46.178
+    },
+    {
+        "word": "behind",
+        "start": 46.218,
+        "end": 46.478
+    },
+    {
+        "word": "this.",
+        "start": 46.518,
+        "end": 46.879
+    }
+]

@@ -1,6 +1,9 @@
 import os
 import subprocess
 import json
+import math
+from datetime import datetime
+import json
 from datetime import datetime
 try:
     from config import OUTPUT_DIR
@@ -74,15 +77,29 @@ def assemble_final_video(
     inputs.extend(["-i", audio_path])
     audio_index = len(timeline_config['scenes'])
 
-    # (Simplified captioning for now: in production, we parse `word_timestamps` to generate 
-    # either a complex drawtext filter string or an external .ass subtitle file and load it).
-    # Assuming subtitles are generated to subtitles.ass alongside this script.
-    
-    # Finish filter complex
-    filter_complex += f"[vbase]format=yuv420p[vout]"
+    # Generate Drawtext Captions
+    if word_timestamps and len(word_timestamps) > 0:
+        drawtext_filters = []
+        for w in word_timestamps:
+            word = w.get("word", "").strip()
+            if not word:
+                continue
+            start_t = w.get("start", 0)
+            end_t = w.get("end", start_t + 0.3)
+            # Use curly quote to bypass strict FFmpeg escaping bugs
+            safe_word = word.replace("'", "\u2019").replace(":", "\\:").replace("%", "\\%")
+            df = f"drawtext=fontfile='/System/Library/Fonts/Supplemental/Arial Bold.ttf':text='{safe_word}':x=(w-text_w)/2:y=(h-text_h)/2+300:fontsize=120:fontcolor=white:borderw=6:bordercolor=black:enable='between(t,{start_t},{end_t})'"
+            drawtext_filters.append(df)
+            
+        filter_complex += f"[vbase]{','.join(drawtext_filters)}[vcaptions];[vcaptions]format=yuv420p[vout]"
+    else:
+        filter_complex += f"[vbase]format=yuv420p[vout]"
 
+    import imageio_ffmpeg
+    ffmpeg_exe = imageio_ffmpeg.get_ffmpeg_exe()
+    
     cmd = [
-        "ffmpeg", "-y",
+        ffmpeg_exe, "-y",
     ] + inputs + [
         "-filter_complex", filter_complex,
         "-map", "[vout]",
@@ -99,7 +116,7 @@ def assemble_final_video(
     print(f"Executing FFmpeg Command:\n{' '.join(cmd)}")
     
     try:
-        subprocess.run(cmd, check=True)
+        subprocess.run(cmd, check=True, cwd=output_dir)
         print(f"Assembly Complete! Output saved to: {output_path}")
         return output_path
     except subprocess.CalledProcessError as e:

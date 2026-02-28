@@ -1,0 +1,55 @@
+{
+    "video_title": "The Secret Blanket Courtship",
+    "script": "Forget swiping on Tinder. In some Native American tribes, if a guy wanted to take you on a date, he literally threw a giant blanket over your head in the middle of the street! It was called blanket courting. If a man got permission from the elders, he would approach the woman he liked while she was out in the village. Then, in a massive public gesture, he would wrap his large, woven blanket completely around both of them! This created a tiny, pitch-black, private tent right in the middle of the crowded village so they could whisper to each other. Honestly, in a world without privacy, it's actually incredibly sweet. Best of all? Everyone in the village would completely ignore the giant walking fabric lump out of respect! If you don't believe me, click the link in the description to read the actual research behind this.",
+    "scenes": [
+        {
+            "id": 1,
+            "type": "image",
+            "duration": 6.83,
+            "prompt": "A handsome 20-year-old Native American man with long dark braided hair, sharp jawline, wearing a detailed buckskin shirt with intricate beadwork. He is standing in a dusty traditional village holding a massive, vividly colorful woven blanket. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "filename": "scene_1_still.jpg"
+        },
+        {
+            "id": 2,
+            "type": "image",
+            "duration": 6.83,
+            "prompt": "A stunningly beautiful 20-year-old Native American woman with long dark hair, wearing an elegant fringed dress with vibrant red and turquoise beads. She is walking through a bright, sunny traditional village. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "filename": "scene_2_still.jpg"
+        },
+        {
+            "id": 3,
+            "type": "image",
+            "duration": 6.83,
+            "prompt": "A handsome 20-year-old Native American man with long dark braided hair suddenly stepping in front of a beautiful Native American woman in a dusty village, raising a massive, vibrant red and blue woven blanket high into the air. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "filename": "scene_3_still.jpg"
+        },
+        {
+            "id": 4,
+            "type": "video",
+            "duration": 5.0,
+            "prompt": "A handsome 20-year-old Native American man with long dark braided hair swoops a massive, vibrant red and blue woven blanket completely over his head and the head of a beautiful Native American woman, fully engulfing them both in the heavy fabric in the middle of a village. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "filename": "scene_4_video.mp4"
+        },
+        {
+            "id": 5,
+            "type": "image",
+            "duration": 6.83,
+            "prompt": "Inside a pitch-black tent made of a woven blanket. A handsome Native American man and a beautiful Native American woman are illuminated by a tiny sliver of sunlight, whispering and smiling closely to each other in the dark. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "filename": "scene_5_still.jpg"
+        },
+        {
+            "id": 6,
+            "type": "image",
+            "duration": 6.83,
+            "prompt": "A wide shot of a traditional Native American village in the striking afternoon sun. In the center of the dirt road stands a giant, comical, walking lump made of a vibrant red and blue woven blanket. Other villagers are walking past it, completely ignoring the giant lump. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "filename": "scene_6_still.jpg"
+        },
+        {
+            "id": 7,
+            "type": "image",
+            "duration": 6.83,
+            "prompt": "A handsome 20-year-old Native American man and a beautiful Native American woman emerging from under a massive, vividly colorful woven blanket, both laughing in the bright sunlight of a traditional village. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "filename": "scene_7_still.jpg"
+        }
+    ]
+}
