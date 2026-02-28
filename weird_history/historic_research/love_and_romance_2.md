@@ -1,5 +1,11 @@
 # Love & Romance Practices (Part 2: 26-50)
 
+> **🚨 CONTENT MODERATION WARNING 🚨**
+> Before generating videos from this document, apply these modulation rules to avoid platform bans based on our `content_sourcing_strategy.md`:
+> *   **Minors & Age:** If a historical practice involved teenagers or children, **age-up all characters** in scripts and visual prompts to "adults." Never use terms indicating minors in a romantic context.
+> *   **Violence/Harm:** Frame any physical rituals (like jumping fires or mock kidnappings) as purely comedic, slapstick, and harmless. Explicitly prompt "no injuries/blood."
+> *   **Animal Cruelty:** If an animal is involved (e.g., sacrificing a bird or examining entrails), do NOT show the animal being harmed. Show the funny preparation or the bizarre aftermath.
+
 ## 26. Vinegar Valentines (Victorian England)
 **Description:** While the Victorians loved romance, they also loved sending "Vinegar Valentines" to people they didn't like or rejected suitors. These were commercial greeting cards featuring grotesque caricatures and insulting, satirical poems, delivered anonymously—and the recipient often had to pay the postage!
 *   **Visual Elements:** A smirking Victorian woman dropping a mean, ugly cartoon card into a mailbox. A rejected suitor opening it and looking devastated (and out a few pennies).

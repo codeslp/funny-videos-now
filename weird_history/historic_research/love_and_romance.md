@@ -1,5 +1,11 @@
 # Love & Romance Practices (Part 1: 1-25)
 
+> **🚨 CONTENT MODERATION WARNING 🚨**
+> Before generating videos from this document, apply these modulation rules to avoid platform bans based on our `content_sourcing_strategy.md`:
+> *   **Minors & Age:** If a historical practice involved teenagers or children (common in ancient betrothals), **age-up all characters** in scripts and visual prompts to "adults," "men," or "women." Never use terms indicating minors in a romantic context.
+> *   **Violence/Harm:** Avoid animating intense physical harm. If a custom involves hitting (e.g., throwing apples, whipping), prompt the AI with "slapstick," "comedic reaction," and "no blood/injury" to keep it G-rated and victimless.
+> *   **Banned Words:** Ensure scripts drop all words from the banned list (e.g., `kill`, `dead`). Replace them with family-friendly euphemisms (e.g., "they met their end").
+
 ## 1. The Sweaty Armpit Apple (Rural Austria / Medieval England)
 **Description:** In 19th-century rural Austria and Medieval England, young women tucked apple slices into their armpits while dancing. After the evening of sweating, a woman would offer the sour, sweat-soaked apple to the man she desired. If he ate it, it meant he accepted her "personal fragrance" and returned her affection.
 *   **Visual Elements:** A rustic barn dance. A woman pulling an apple slice from her underarm and presenting it to a hopeful young man. The man taking a brave bite of the apple. 
