@@ -52,7 +52,7 @@ Not every news story makes a good comedy video. We're looking for a very specifi
 ### Banned Word List (Applied Pre-Script)
 Every headline is filtered through `is_safe_content()` before it reaches the script generator. Headlines containing any of the following terms are **automatically dropped:**
 
-> murder, kill, death, dead, died, suicide, rape, assault, sexual, child abuse, terrorist, terrorism, bomb, shooting, shooter, massacre, racist, slur, nazi, hitler, holocaust, pedophile, drugs, cocaine, heroin, meth, fentanyl
+> murder, kill, death, dead, died, suicide, rape, assault, sexual, child abuse, terrorist, terrorism, bomb, shooting, shooter, massacre, racist, slur, nazi, hitler, holocaust, pedophile, drugs, cocaine, heroin, meth, fentanyl, dung, excrement, poop, feces
 
 ### Platform Policy Awareness
 Most short-form video platforms (YouTube Shorts, TikTok, Instagram Reels) will suppress or ban content that:

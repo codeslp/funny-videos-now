@@ -1,0 +1,49 @@
+{
+    "scenes": [
+        {
+            "id": "scene_1",
+            "type": "image",
+            "filepath": "output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/scene_1_still.png"
+        },
+        {
+            "id": "scene_2",
+            "type": "image",
+            "filepath": "output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/scene_2_still.png"
+        },
+        {
+            "id": "scene_3",
+            "type": "image",
+            "filepath": "output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/scene_3_still.png"
+        },
+        {
+            "id": "scene_4",
+            "type": "image",
+            "filepath": "output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/scene_4_still.png"
+        },
+        {
+            "id": "scene_5",
+            "type": "video",
+            "filepath": "output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/scene_5_video.mp4"
+        },
+        {
+            "id": "scene_6",
+            "type": "image",
+            "filepath": "output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/scene_6_still.png"
+        },
+        {
+            "id": "scene_7",
+            "type": "image",
+            "filepath": "output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/scene_7_still.png"
+        },
+        {
+            "id": "scene_8",
+            "type": "image",
+            "filepath": "output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/scene_8_still.png"
+        },
+        {
+            "id": "scene_9",
+            "type": "image",
+            "filepath": "output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/scene_9_still.png"
+        }
+    ]
+}

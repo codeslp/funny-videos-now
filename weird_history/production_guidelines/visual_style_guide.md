@@ -1,11 +1,16 @@
 # Weird History: Visual Production Style Guide
 
-This folder contains the core guidelines, prompt templates, and artistic direction for generating the final video assets via Veo3 / FlowTV.
+This folder contains the core guidelines, prompt templates, and artistic direction for generating the final video assets using Google Flow it is necessary to take control of a Chrome browser to generate the assets.
 
 ## Core Rule: Highly Saturated & Colorful
 The default for historical content is usually dusty, brown, or sepia-toned. **We must explicitly prompt the opposite.**
 *   **Why?** TikTok/Reels algorithms and users heavily favor high-contrast, vibrant, highly saturated visuals. It immediately signals that this isn't a boring documentary.
-*   **Prompt Keywords to always include:** `vibrant colors`, `hyper-saturated`, `cinematic lighting`, `neon highlights`, `colorful`.
+*   **Prompt Keywords to always include:** `vibrant colors`, `hyper-saturated`, `cinematic lighting`, `colorful`.
+
+## Visual Rule: Pristine Historical Settings
+When generating scenes set in ancient or historical eras (like Ancient Rome or Medieval Europe), AI generators default to making everything look like weathered, dusty, broken archaeological ruins. **You must force the AI to render the setting as a vibrant, living world that was brand-new to the people living in it.**
+*   **What to avoid:** `ancient`, `ruins`, `weathered`, `dusty`, `faded`.
+*   **Prompt Keywords to use instead:** `pristine condition`, `brand new construction`, `gleaming marble`, `vibrant unweathered paint`, `clean and luxurious living space`.
 
 ---
 
@@ -15,12 +20,12 @@ To maximize audience retention, the characters generated in the stills and video
 *   **Prompting Extremes:**
     *   *The "Hot" Route:* `incredibly handsome`, `jaw-droppingly gorgeous`, `supermodel features`, `chiseled jawline`, `stunningly beautiful`.
     *   *The "Character Actor" Route:* `bizarre funny facial features`, `comically ugly character actor`, `willem dafoe vibes`, `exaggerated historical inbreeding features`, `weird bulging eyes`. 
-*   **Female Character Casting Rule:** All female characters included in image prompts MUST be explicitly described as "shapely with full lips". This is a strict visual style rule for consistency.
+*   **Female Character Casting Rule:** All female characters included in image prompts MUST be explicitly described as gorgeous and shapely. This is a strict visual style rule for consistency.
 
 ---
 
 ## Winning Visual Aesthetic for "Weird History": Hyper-Realism
-We must **stick with realism** for all generated assets. Do not use oil painting styles or claymation.
+We must **stick with realism** for all generated assets.
 
 *   **Vibe:** Authentic, documentary-style photography and video that makes the absurd historical facts look like they really happened. 
 *   **Character Consistency:** Do not rely on the video model to "remember" a character if there is a main character. You MUST precisely define the character's physical description, clothing, and features in *every single prompt* for the video to ensure they look identical across shots.

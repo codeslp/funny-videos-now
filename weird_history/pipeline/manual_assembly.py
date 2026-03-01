@@ -15,15 +15,15 @@ from generate_transcription import generate_word_timestamps
 from assemble_video import assemble_final_video
 
 def run():
-    build_dir = "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/tudor_needle_test_2026-02-28"
-    timeline_path = "/Users/bfaris96/Claude Code Markdown/funny_video_generator/weird_history/pipeline/tudor_needle_timeline.json"
+    build_dir = "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/wealthy_cow_dung_trick"
+    timeline_path = "/Users/bfaris96/Claude Code Markdown/funny_video_generator/weird_history/wealthy_cow_dung_timeline.json"
     
     with open(timeline_path, "r") as f:
         timeline = json.load(f)
 
     # Set filepaths dynamically based on type for all scenes
     for i, scene in enumerate(timeline["scenes"]):
-        ext = "mp4" if scene["type"] == "video" else "jpg"
+        ext = "mp4" if scene["type"] == "video" else "png"
         suffix = "video" if scene["type"] == "video" else "still"
         scene["filepath"] = os.path.join(build_dir, f"scene_{i+1}_{suffix}.{ext}")
 

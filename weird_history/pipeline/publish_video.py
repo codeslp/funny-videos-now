@@ -49,20 +49,21 @@ def update_viral_tracking_doc(topic_name: str, final_video_path: str):
         print(f"Failed to update viral tracking doc: {e}")
 
 def main():
-    build_dir = "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/blanket_courtship_2026-02-28_16-41-27"
+    build_dir = "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/wealthy_cow_dung_trick"
     final_video_path = os.path.join(build_dir, "final_render.mp4")
-    tracking_topic = "The Secret Blanket Courtship (Native American Tribes)"
+    tracking_topic = "The Wealthy Cow Dung Trick (East African Tribes)"
     
     if not os.path.exists(final_video_path):
         print(f"Error: Could not find final video at {final_video_path}")
         return
 
-    title = "😂 The Secret Blanket Courtship! | Weird History"
+    title = "😂 The Wealthy Cow Dung Trick! | Weird History"
     description = (
-        "Forget swiping on Tinder! In some Native American tribes, a guy would literally throw a giant blanket over you in the middle of the street for a private date!\n\n"
-        "If you don't believe me, read the actual research behind this bizarre historical tradition.\n\n"
-        "📖 Read the full historical research here: https://unitednativesalliance.com/what-do-native-american-weddings-traditions-rituals/\n\n"
-        "#weirdhistory #historyfacts #nativeamericanhistory #educationalcomedy #history"
+        "Midwives in some historical East African tribes had the craziest trick for a difficult labor... cow poop! "
+        "Because cattle were the ultimate symbol of extreme wealth, if a baby was refusing to come out, they would take fresh, incredibly smelly cow dung and pack it all around the birthing bed.\n\n"
+        "They honestly believed the unborn baby could smell the wealth from inside the womb, and would rush out to be born rich! Talk about being born into money.\n\n"
+        "📖 Read the full historical research here: https://cafemom.com/\n\n"
+        "#weirdhistory #historyfacts #africanhistory #educationalcomedy #history"
     )
 
     print(f"Publishing {final_video_path}...")

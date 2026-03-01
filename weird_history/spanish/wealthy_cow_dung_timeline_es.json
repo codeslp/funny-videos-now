@@ -1,0 +1,72 @@
+{
+    "title": "El Truco del Estiércol de Vaca Rico",
+    "topic": "The Wealthy Cow Dung Trick (East African Tribes)",
+    "language": "es",
+    "tts_voice_id": "1f575487-6f3d-40e0-862a-814f55b5fb15",
+    "script": "En algunas tribus históricas de África Oriental, las parteras tenían el truco más loco para un parto difícil... ¡caca de vaca! Dado que el ganado era el símbolo supremo de riqueza extrema, si un bebé se negaba a salir, tomaban estiércol de vaca fresco, increíblemente maloliente, y lo empaquetaban alrededor de la cama de parto. Honestamente creían que el bebé en el útero podría oler la riqueza y saldría corriendo para nacer rico. ¡Eso sí que es nacer con dinero! Para leer la investigación histórica real detrás de esto, revisa el enlace en la descripción.",
+    "scenes": [
+        {
+            "id": "scene_1",
+            "type": "image",
+            "prompt": "Hyper-realistic portrait photography of a beautiful, heavily pregnant East African tribeswoman in vibrant, colorful traditional beadwork and wrapped fabrics. She looks incredibly exhausted and stressed, lying on a woven mat in a dimly lit rustic hut. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.5,
+            "filepath": "output/weird_history/wealthy_cow_dung_trick/scene_1_still.png"
+        },
+        {
+            "id": "scene_2",
+            "type": "image",
+            "prompt": "Hyper-realistic photography of a majestic, highly adorned cow standing proudly in front of a tribal village in the bright sun. The cow is decorated with colorful painted symbols and intricate beadwork collars, symbolizing extreme wealth and prosperity. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.5,
+            "filepath": "output/weird_history/wealthy_cow_dung_trick/scene_2_still.png"
+        },
+        {
+            "id": "scene_3",
+            "type": "image",
+            "prompt": "Hyper-realistic portrait photography of a severe, wise older East African midwife carrying a giant, perfectly round, impossibly smelly pile of fresh cow dung on a large green leaf. She looks intensely focused and serious. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.5,
+            "filepath": "output/weird_history/wealthy_cow_dung_trick/scene_3_still.png"
+        },
+        {
+            "id": "scene_4",
+            "type": "image",
+            "prompt": "Hyper-realistic portrait photography of a heavily pregnant woman looking completely disgusted and confused, plugging her nose, as the older midwife places the massive pile of cow dung right next to her bed. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.5,
+            "filepath": "output/weird_history/wealthy_cow_dung_trick/scene_4_still.png"
+        },
+        {
+            "id": "scene_5",
+            "type": "video",
+            "prompt": "A midwife carrying a giant, smelly pile of fresh cow poop and placing it near the mother's legs. The baby in the womb imagines holding bags of money and rushes out.",
+            "duration": 5.0,
+            "filepath": "output/weird_history/wealthy_cow_dung_trick/scene_5_video.mp4"
+        },
+        {
+            "id": "scene_6",
+            "type": "image",
+            "prompt": "Hyper-realistic dream sequence photography of a tiny, adorable newborn baby floating in a golden glowing womb, happily clutching a small burlap sack with a dollar sign on it and dreaming of wealth. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, photorealistic. No painting.",
+            "duration": 4.5,
+            "filepath": "output/weird_history/wealthy_cow_dung_trick/scene_6_still.png"
+        },
+        {
+            "id": "scene_7",
+            "type": "image",
+            "prompt": "Hyper-realistic portrait photography of the East African midwife holding a beautiful, screaming newborn baby up in victory. The mother in the background is incredibly happy and relieved. The massive pile of cow dung is still sitting right next to the bed. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.5,
+            "filepath": "output/weird_history/wealthy_cow_dung_trick/scene_7_still.png"
+        },
+        {
+            "id": "scene_8",
+            "type": "image",
+            "prompt": "Hyper-realistic extreme close-up photography of the newborn baby's face, looking incredibly smug and wealthy, wearing a tiny piece of gold jewelry. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.5,
+            "filepath": "output/weird_history/wealthy_cow_dung_trick/scene_8_still.png"
+        },
+        {
+            "id": "scene_9",
+            "type": "image",
+            "prompt": "Hyper-realistic wide shot photography of the tribal village celebrating in the bright sun, with the majestic painted cow standing proudly in the center as the ultimate symbol of the newborn's incoming wealth. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0,
+            "filepath": "output/weird_history/wealthy_cow_dung_trick/scene_9_still.jpg"
+        }
+    ]
+}
