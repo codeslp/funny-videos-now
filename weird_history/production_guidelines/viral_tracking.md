@@ -7,7 +7,7 @@ They are ranked by **Virality Potential** (Tier 1 = Highest, Tier 3 = Lowest) ba
 
 | Status | Topic | Category | Virality Factor | Link | Video File |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| ⏳ Not Built | **The Wealthy Cow Dung Trick (East African Tribes)** | childbearing customs | High Visual Absurdity / Pattern Interrupt. | [Link](childbearing_customs.md#8-the-wealthy-cow-dung-trick-east-african-tribes) | - |
+| ✅ Completed | **The Blackening of the Bride (Scotland)** | love and food | High Visual Absurdity / Pattern Interrupt. | [Link](childbearing_customs.md#8-the-blackening-of-the-bride-scotland) | `output/weird_history/wealthy_cow_dung_trick/final_render.mp4` |
 | ⏳ Not Built | **The Golden "Ololuge" War Cry (Ancient Greece)** | childbearing customs | High Visual Absurdity / Pattern Interrupt. | [Link](childbearing_customs.md#9-the-golden-ololuge-war-cry-ancient-greece) | - |
 | ⏳ Not Built | **The "Groaning Cheese" Wheel (Great Britain)** | childbearing customs | High Visual Absurdity / Pattern Interrupt. | [Link](childbearing_customs.md#13-the-groaning-cheese-wheel-great-britain) | - |
 | ⏳ Not Built | **"El Colacho" Baby Jumping (Spain)** | childbearing customs | High Visual Absurdity / Pattern Interrupt. | [Link](childbearing_customs.md#21-el-colacho-baby-jumping-spain) | - |

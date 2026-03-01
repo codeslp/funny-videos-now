@@ -1,0 +1,57 @@
+{
+    "title": "El Truco del Esti\u00e9rcol de Vaca Rico",
+    "language": "es",
+    "original_metadata_source": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/build_metadata.json",
+    "timeline_source": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/weird_history/spanish/wealthy_cow_dung_timeline_es.json",
+    "build_timestamp": "2026-03-01_12-25-56",
+    "audio": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/es_el_truco_del_esti\u00e9rcol_de_vaca_rico_2026-03-01_12-25-56/voiceover.wav",
+    "scenes": [
+        {
+            "id": "scene_1",
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/scene_1_still.png"
+        },
+        {
+            "id": "scene_2",
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/scene_2_still.png"
+        },
+        {
+            "id": "scene_3",
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/scene_3_still.png"
+        },
+        {
+            "id": "scene_4",
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/scene_4_still.png"
+        },
+        {
+            "id": "scene_5",
+            "type": "video",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/scene_5_video.mp4"
+        },
+        {
+            "id": "scene_6",
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/scene_6_still.png"
+        },
+        {
+            "id": "scene_7",
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/scene_7_still.png"
+        },
+        {
+            "id": "scene_8",
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/scene_8_still.png"
+        },
+        {
+            "id": "scene_9",
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/wealthy_cow_dung_trick_2026-03-01_12-19-49/scene_9_still.png"
+        }
+    ],
+    "word_timestamps_count": 96,
+    "final_render": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/es_el_truco_del_esti\u00e9rcol_de_vaca_rico_2026-03-01_12-25-56/final_render_translated.mp4"
+}

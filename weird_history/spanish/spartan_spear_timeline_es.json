@@ -1,0 +1,63 @@
+{
+    "title": "Partiendo el Pelo con una Lanza Espartana",
+    "topic": "The Spartan Spear Hair Parting (Ancient Rome)",
+    "language": "es",
+    "tts_voice_id": "1f575487-6f3d-40e0-862a-814f55b5fb15",
+    "script": "Si creías que los peinados de novia modernos eran estresantes, no sobrevivirías en la Antigua Roma. Antes de que una novia romana pudiera consumar su matrimonio, su cabello debía ser partido no con un peine... sino con un arma afilada como una navaja. Bajo la supervisión de las mujeres mayores, el cabello de la novia se dividía literalmente por la mitad con una \"hasta caelibaris\", ¡una lanza de hierro que había sido utilizada oficialmente para matar a un gladiador o a un soldado enemigo! Esto demostraba que la novia había sido conquistada y supuestamente la bendecía con una fertilidad agresiva. ¡Imagina intentar quedarte quieta para eso! Para ver la historia completa de las bodas romanas, revisa el enlace en la descripción.",
+    "scenes": [
+        {
+            "id": "scene_1",
+            "type": "image",
+            "prompt": "Hyper-realistic portrait photography of a jaw-droppingly gorgeous and shapely Ancient Roman bride in a white tunic and saffron veil. She sits in a pristine, brand new construction majestic stone dressing room. Gleaming marble and vibrant unweathered paint, clean and luxurious living space. Vibrant colors, hyper-saturated, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.5
+        },
+        {
+            "id": "scene_2",
+            "type": "image",
+            "prompt": "Hyper-realistic close-up photography of a comically ugly, weird bulging eyes older Roman female hairdresser holding a massive, battle-scarred iron spear over a table of delicate ivory hair combs. Vibrant colors, hyper-saturated, cinematic lighting, documentary style realism, highly detailed, photorealistic. No painting.",
+            "duration": 4.5
+        },
+        {
+            "id": "scene_3",
+            "type": "image",
+            "prompt": "Hyper-realistic portrait photography of an incredibly handsome, chiseled jawline Roman gladiator standing victorious in the Colosseum sun, pristine condition architecture, gleaming marble,, holding up the exact same iron spear with floating red rose petals symbolizing victory. Vibrant colors, hyper-saturated, cinematic lighting, documentary style realism, highly detailed, photorealistic. No painting.",
+            "duration": 4.5
+        },
+        {
+            "id": "scene_4",
+            "type": "image",
+            "prompt": "Hyper-realistic extreme close-up photography of the gorgeous and shapely Roman bride's eyes looking terrified, with the sharp point of an iron spear right near her hairline. Vibrant colors, hyper-saturated, cinematic lighting, documentary style realism, highly detailed, photorealistic. No painting.",
+            "duration": 4.5
+        },
+        {
+            "id": "scene_5",
+            "type": "video",
+            "prompt": "A comically ugly older Roman woman standing behind a jaw-droppingly gorgeous bride, very carefully and slowly using the intensely sharp blade of a rusty iron spear to perfectly part the bride's hair directly down the middle. Pristine condition environment, clean and luxurious living space. Vibrant colors, hyper-saturated, cinematic lighting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_6",
+            "type": "image",
+            "prompt": "Hyper-realistic portrait photography of the jaw-droppingly gorgeous Roman bride with her hair perfectly parted and braided, looking deeply traumatized but relieved to be alive. Vibrant colors, hyper-saturated, cinematic lighting, documentary style realism, highly detailed, photorealistic. No painting.",
+            "duration": 4.5
+        },
+        {
+            "id": "scene_7",
+            "type": "image",
+            "prompt": "Hyper-realistic portrait of an incredibly handsome, chiseled jawline Roman groom in a toga giving an aggressive, happy thumbs-up. Vibrant colors, hyper-saturated, cinematic lighting, documentary style realism, highly detailed, photorealistic. No painting.",
+            "duration": 4.5
+        },
+        {
+            "id": "scene_8",
+            "type": "image",
+            "prompt": "Hyper-realistic group photography of a crowd of cheering, wine-drinking wedding guests in a sunny, lavish marble courtyard with brand new construction, gleaming marble, and vibrant unweathered paint. Vibrant colors, hyper-saturated, cinematic lighting, documentary style realism, highly detailed, photorealistic. No painting.",
+            "duration": 4.5
+        },
+        {
+            "id": "scene_9",
+            "type": "image",
+            "prompt": "Hyper-realistic wide shot photography of the gorgeous and shapely Roman bride proudly showing off her perfectly spear-parted hair in the sunny, pristine condition courtyard. Clean and luxurious living space. Vibrant colors, hyper-saturated, cinematic lighting, documentary style realism, highly detailed, photorealistic. No painting.",
+            "duration": 5.0
+        }
+    ]
+}

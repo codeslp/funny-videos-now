@@ -3,7 +3,7 @@
 > **🚨 CONTENT MODERATION WARNING 🚨**
 > Before generating videos from this document, apply these modulation rules to avoid platform bans based on our `content_sourcing_strategy.md`:
 > *   **Medical/Visual Horror:** Many historical medical practices (e.g., hanging upside down, using leeches, shoving rags) can be visually disturbing. Ensure prompts strictly avoid "gore," "blood," or "medical trauma." Frame the doctors/midwives as goofballs.
-> *   **Violence/Sacrifice:** Avoid banned words (`kill`, `death`, `dead`). Implied violence or strange ingredients (e.g., cow dung, animal organs, snake feeding) should be framed for maximum comedic reaction, entirely avoiding the actual harm.
+> *   **Violence/Sacrifice:** Avoid banned words (`kill`, `death`, `dead`). Implied violence or strange ingredients (e.g., animal organs, snake feeding) should be framed for maximum comedic reaction, entirely avoiding the actual harm.
 > *   **Intimacy & Censorship:** While related to pregnancy, keep all visuals strictly G-rated and clothed. Focus on the bizarre superstitious rituals surrounding the event rather than the biological process.
 
 ## 26. The Trow Baby-Stealers (Scottish / Shetland Folklore)

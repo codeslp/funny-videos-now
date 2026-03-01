@@ -1,0 +1,482 @@
+[
+    {
+        "word": "En",
+        "start": 0.031,
+        "end": 0.371
+    },
+    {
+        "word": "algunas",
+        "start": 0.411,
+        "end": 0.712
+    },
+    {
+        "word": "tribus",
+        "start": 0.812,
+        "end": 1.112
+    },
+    {
+        "word": "hist\u00f3ricas",
+        "start": 1.172,
+        "end": 1.633
+    },
+    {
+        "word": "de",
+        "start": 1.693,
+        "end": 1.753
+    },
+    {
+        "word": "\u00c1frica",
+        "start": 1.853,
+        "end": 2.113
+    },
+    {
+        "word": "Oriental,",
+        "start": 2.153,
+        "end": 2.594
+    },
+    {
+        "word": "las",
+        "start": 2.634,
+        "end": 3.094
+    },
+    {
+        "word": "parteras",
+        "start": 3.154,
+        "end": 3.535
+    },
+    {
+        "word": "ten\u00edan",
+        "start": 3.615,
+        "end": 3.915
+    },
+    {
+        "word": "el",
+        "start": 3.975,
+        "end": 4.015
+    },
+    {
+        "word": "truco",
+        "start": 4.095,
+        "end": 4.315
+    },
+    {
+        "word": "m\u00e1s",
+        "start": 4.396,
+        "end": 4.496
+    },
+    {
+        "word": "loco",
+        "start": 4.556,
+        "end": 4.756
+    },
+    {
+        "word": "para",
+        "start": 4.836,
+        "end": 4.956
+    },
+    {
+        "word": "un",
+        "start": 5.016,
+        "end": 5.076
+    },
+    {
+        "word": "parto",
+        "start": 5.136,
+        "end": 5.337
+    },
+    {
+        "word": "dif\u00edcil",
+        "start": 5.417,
+        "end": 5.777
+    },
+    {
+        "word": "Caca",
+        "start": 5.817,
+        "end": 6.157
+    },
+    {
+        "word": "de",
+        "start": 6.217,
+        "end": 6.278
+    },
+    {
+        "word": "Baca.",
+        "start": 6.338,
+        "end": 6.598
+    },
+    {
+        "word": "Dado",
+        "start": 7.619,
+        "end": 7.799
+    },
+    {
+        "word": "que",
+        "start": 7.859,
+        "end": 7.919
+    },
+    {
+        "word": "el",
+        "start": 7.959,
+        "end": 8.059
+    },
+    {
+        "word": "ganado",
+        "start": 8.099,
+        "end": 8.4
+    },
+    {
+        "word": "era",
+        "start": 8.44,
+        "end": 8.6
+    },
+    {
+        "word": "el",
+        "start": 8.66,
+        "end": 8.7
+    },
+    {
+        "word": "s\u00edmbolo",
+        "start": 8.78,
+        "end": 9.08
+    },
+    {
+        "word": "supremo",
+        "start": 9.121,
+        "end": 9.521
+    },
+    {
+        "word": "de",
+        "start": 9.561,
+        "end": 9.621
+    },
+    {
+        "word": "riqueza",
+        "start": 9.661,
+        "end": 10.021
+    },
+    {
+        "word": "extrema,",
+        "start": 10.062,
+        "end": 10.542
+    },
+    {
+        "word": "si",
+        "start": 10.962,
+        "end": 11.043
+    },
+    {
+        "word": "un",
+        "start": 11.103,
+        "end": 11.183
+    },
+    {
+        "word": "beb\u00e9",
+        "start": 11.223,
+        "end": 11.423
+    },
+    {
+        "word": "se",
+        "start": 11.463,
+        "end": 11.523
+    },
+    {
+        "word": "negaba",
+        "start": 11.603,
+        "end": 11.863
+    },
+    {
+        "word": "a",
+        "start": 11.883,
+        "end": 11.903
+    },
+    {
+        "word": "salir,",
+        "start": 11.923,
+        "end": 12.264
+    },
+    {
+        "word": "tomaban",
+        "start": 12.584,
+        "end": 12.925
+    },
+    {
+        "word": "estierco",
+        "start": 12.985,
+        "end": 13.345
+    },
+    {
+        "word": "el",
+        "start": 13.385,
+        "end": 13.425
+    },
+    {
+        "word": "de",
+        "start": 13.465,
+        "end": 13.525
+    },
+    {
+        "word": "Baca",
+        "start": 13.565,
+        "end": 13.745
+    },
+    {
+        "word": "fresco,",
+        "start": 13.845,
+        "end": 14.166
+    },
+    {
+        "word": "incre\u00edblemente",
+        "start": 14.506,
+        "end": 15.227
+    },
+    {
+        "word": "maloliente,",
+        "start": 15.327,
+        "end": 15.828
+    },
+    {
+        "word": "y",
+        "start": 15.848,
+        "end": 15.868
+    },
+    {
+        "word": "lo",
+        "start": 16.208,
+        "end": 16.288
+    },
+    {
+        "word": "empaquetaban",
+        "start": 16.328,
+        "end": 16.889
+    },
+    {
+        "word": "alrededor",
+        "start": 16.909,
+        "end": 17.429
+    },
+    {
+        "word": "de",
+        "start": 17.489,
+        "end": 17.549
+    },
+    {
+        "word": "la",
+        "start": 17.589,
+        "end": 17.649
+    },
+    {
+        "word": "cama",
+        "start": 17.71,
+        "end": 17.89
+    },
+    {
+        "word": "de",
+        "start": 17.93,
+        "end": 17.99
+    },
+    {
+        "word": "parto.",
+        "start": 18.07,
+        "end": 19.311
+    },
+    {
+        "word": "Honestamente",
+        "start": 19.331,
+        "end": 19.932
+    },
+    {
+        "word": "cre\u00edan",
+        "start": 20.032,
+        "end": 20.372
+    },
+    {
+        "word": "que",
+        "start": 20.432,
+        "end": 20.492
+    },
+    {
+        "word": "el",
+        "start": 20.532,
+        "end": 20.593
+    },
+    {
+        "word": "beb\u00e9",
+        "start": 20.653,
+        "end": 20.873
+    },
+    {
+        "word": "en",
+        "start": 20.893,
+        "end": 20.973
+    },
+    {
+        "word": "el",
+        "start": 21.013,
+        "end": 21.073
+    },
+    {
+        "word": "\u00fatero",
+        "start": 21.133,
+        "end": 21.373
+    },
+    {
+        "word": "podr\u00eda",
+        "start": 21.473,
+        "end": 21.754
+    },
+    {
+        "word": "oler",
+        "start": 21.854,
+        "end": 22.054
+    },
+    {
+        "word": "la",
+        "start": 22.154,
+        "end": 22.194
+    },
+    {
+        "word": "riqueza",
+        "start": 22.274,
+        "end": 22.575
+    },
+    {
+        "word": "y",
+        "start": 22.615,
+        "end": 22.695
+    },
+    {
+        "word": "saldr\u00eda",
+        "start": 22.755,
+        "end": 23.095
+    },
+    {
+        "word": "corriendo",
+        "start": 23.195,
+        "end": 23.596
+    },
+    {
+        "word": "para",
+        "start": 23.676,
+        "end": 23.796
+    },
+    {
+        "word": "nacer",
+        "start": 23.876,
+        "end": 24.136
+    },
+    {
+        "word": "rico.",
+        "start": 24.236,
+        "end": 24.857
+    },
+    {
+        "word": "Eso",
+        "start": 25.411,
+        "end": 25.712
+    },
+    {
+        "word": "s\u00ed",
+        "start": 25.813,
+        "end": 25.893
+    },
+    {
+        "word": "que",
+        "start": 25.993,
+        "end": 26.073
+    },
+    {
+        "word": "es",
+        "start": 26.134,
+        "end": 26.234
+    },
+    {
+        "word": "nacer",
+        "start": 26.294,
+        "end": 26.575
+    },
+    {
+        "word": "con",
+        "start": 26.656,
+        "end": 26.756
+    },
+    {
+        "word": "dinero.",
+        "start": 26.816,
+        "end": 27.137
+    },
+    {
+        "word": "Para",
+        "start": 28.181,
+        "end": 28.342
+    },
+    {
+        "word": "leer",
+        "start": 28.402,
+        "end": 28.643
+    },
+    {
+        "word": "la",
+        "start": 28.723,
+        "end": 28.764
+    },
+    {
+        "word": "investigaci\u00f3n",
+        "start": 28.824,
+        "end": 29.366
+    },
+    {
+        "word": "hist\u00f3rica",
+        "start": 29.406,
+        "end": 29.888
+    },
+    {
+        "word": "real",
+        "start": 30.008,
+        "end": 30.209
+    },
+    {
+        "word": "detr\u00e1s",
+        "start": 30.269,
+        "end": 30.57
+    },
+    {
+        "word": "de",
+        "start": 30.611,
+        "end": 30.691
+    },
+    {
+        "word": "esto,",
+        "start": 30.751,
+        "end": 30.992
+    },
+    {
+        "word": "revisa",
+        "start": 31.414,
+        "end": 31.715
+    },
+    {
+        "word": "el",
+        "start": 31.775,
+        "end": 31.835
+    },
+    {
+        "word": "enlace",
+        "start": 31.895,
+        "end": 32.196
+    },
+    {
+        "word": "en",
+        "start": 32.237,
+        "end": 32.297
+    },
+    {
+        "word": "la",
+        "start": 32.337,
+        "end": 32.377
+    },
+    {
+        "word": "descripci\u00f3n.",
+        "start": 32.437,
+        "end": 33.16
+    }
+]

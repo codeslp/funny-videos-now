@@ -3,7 +3,7 @@
 > **🚨 CONTENT MODERATION WARNING 🚨**
 > Before generating videos from this document, apply these modulation rules to avoid platform bans based on our `content_sourcing_strategy.md`:
 > *   **Medical/Visual Horror:** Many historical medical practices (e.g., hanging upside down, using leeches, shoving rags) can be visually disturbing. Ensure prompts strictly avoid "gore," "blood," or "medical trauma." Frame the doctors/midwives as goofballs.
-> *   **Violence/Sacrifice:** Avoid banned words (`kill`, `death`, `dead`). Implied violence or strange ingredients (e.g., cow dung, animal organs, snake feeding) should be framed for maximum comedic reaction, entirely avoiding the actual harm.
+> *   **Violence/Sacrifice:** Avoid banned words (`kill`, `death`, `dead`). Implied violence or strange ingredients (e.g., animal organs, snake feeding) should be framed for maximum comedic reaction, entirely avoiding the actual harm.
 > *   **Intimacy & Censorship:** While related to pregnancy, keep all visuals strictly G-rated and clothed. Focus on the bizarre superstitious rituals surrounding the event rather than the biological process.
 
 ## 1. Delaying the Name (Ancient China)
@@ -48,8 +48,8 @@
 *   **Caption Summary:** 17th-century Russian midwives were terrifying! To speed up labor, they made pregnant women jump off dining room tables or hung them upside down by their ankles.
 *   **Citation & Link:** Listverse, "Bizarre Bith Rituals" - [Listverse](https://listverse.com/)
 
-## 8. The Wealthy Cow Dung Trick (East African Tribes)
-**Description:** In some historical semi-nomadic East African tribes, cattle were the ultimate symbol of extreme wealth and prosperity. If a baby was refusing to come out during a difficult labor, midwives would take fresh, incredibly pungent cow dung and pack it around the birthing area. They believed the unborn baby could smell the "wealth" and would rush out to be born rich!
+## 8. The Blackening of the Bride (Scotland)
+**Description:** In a historic Scottish pre-wedding food custom, the bride (and sometimes the groom) was subjected to "the blackening." Friends and family would ambush her and cover her from head to toe in a horrific mixture of spoiled milk, treacle, flour, feathers, rotting food, and fish. It was believed that if a couple could survive this deeply humiliating, intensely smelly food-based ordeal together, they could survive any marital problems!
 *   **Visual Elements:** A midwife carrying a giant, smelly pile of fresh cow poop and placing it near the mother's legs. The baby in the womb imagines holding bags of money and rushes out.
 *   **Caption Summary:** Midwives packed smelly cow poop around the birthing bed because they thought the unborn baby would smell "wealth" and rush out to be born rich!
 *   **Citation & Link:** CafeMom, "Weirdest Anthropology Births" - [CafeMom](https://cafemom.com/)
