@@ -3,18 +3,26 @@ import numpy as np
 from PIL import Image
 import imageio.v3 as iio
 import imageio_ffmpeg
-from .generate_depth import generate_depth_map
+try:
+    from generate_depth import generate_depth_map
+except ImportError:
+    from .generate_depth import generate_depth_map
 
 def apply_parallax_to_image(image_path: str, duration_sec: float, output_dir: str, fps: int = 30) -> str:
     """
     Takes a static image, generates a depth map, and renders a 2.5D parallax video.
     Returns the path to the newly rendered temporary video.
     """
+    image_dir = os.path.dirname(os.path.abspath(image_path))
     base_name = os.path.basename(image_path)
     name_no_ext = os.path.splitext(base_name)[0]
     
-    depth_path = os.path.join(output_dir, f"{name_no_ext}_depth.png")
-    output_video_path = os.path.join(output_dir, f"{name_no_ext}_parallax.mp4")
+    depth_path = os.path.join(image_dir, f"{name_no_ext}_depth.png")
+    output_video_path = os.path.join(image_dir, f"{name_no_ext}_parallax.mp4")
+    
+    if os.path.exists(output_video_path):
+        print(f"  -> Skipping parallax creation, reusing existing file: {os.path.basename(output_video_path)}")
+        return output_video_path
     
     # Generate depth map if it doesn't exist
     if not os.path.exists(depth_path):

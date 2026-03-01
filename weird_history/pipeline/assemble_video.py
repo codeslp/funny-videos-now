@@ -9,14 +9,13 @@ try:
 except ImportError:
     from .config import OUTPUT_DIR
 
-from parallax import apply_parallax_to_image
-
 def assemble_final_video(
     timeline_config: dict,
     audio_path: str,
     word_timestamps: list,
     output_filename: str = "final_render.mp4",
-    output_dir: str = None
+    output_dir: str = None,
+    allow_duplicates: bool = False
 ) -> str:
     """
     Takes a timeline config (list of scenes with image/video filepaths and durations)
@@ -47,10 +46,10 @@ def assemble_final_video(
 
     # Map inputs
     for i, scene in enumerate(timeline_config['scenes']):
-        filepath = scene['filepath']
+        filepath = os.path.abspath(scene['filepath'])
         
         # Verify file is unique cryptographically
-        if os.path.exists(filepath):
+        if not allow_duplicates and os.path.exists(filepath):
             with open(filepath, 'rb') as f:
                 file_hash = hashlib.md5(f.read()).hexdigest()
             if file_hash in seen_hashes:
@@ -62,19 +61,19 @@ def assemble_final_video(
         # Determine if it's an image or video
         ext = os.path.splitext(filepath)[1].lower()
         
-        if ext in ['.png', '.jpg', '.jpeg']:
-            # We must use true 2.5D layered parallax displacement!
-            print(f"Applying AI 2.5D depth parallax to {os.path.basename(filepath)}...")
-            parallax_video_path = apply_parallax_to_image(filepath, duration, output_dir, fps=30)
-            inputs.extend(["-i", parallax_video_path])
-            
-            # Since the parallax engine outputs a video matching the image's original dimensions, 
-            # we run it through the exact same crop/scale filter pipeline below.
-        else:
-            inputs.extend(["-i", filepath])
+        inputs.extend(["-i", filepath])
         
-        # Format the visual streams uniformly regardless of their source
-        filter_complex += f"[{i}:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1/1[v{i}];"
+        if ext in ['.png', '.jpg', '.jpeg']:
+            frames = int(duration * 30)
+            # Apply smooth inward zoompan for all still images (prescaled 4x to prevent spatial jitter/wobble)
+            print(f"Applying smooth slow zoompan to {os.path.basename(filepath)}...")
+            filter_complex += (
+                f"[{i}:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1/1,"
+                f"scale=4320:7680,zoompan=z='min(zoom+0.0015,1.5)':d={frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1080x1920:fps=30[v{i}];"
+            )
+        else:
+            # Format the visual streams uniformly regardless of their source
+            filter_complex += f"[{i}:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1/1[v{i}];"
 
         video_streams.append(f"[v{i}]")
 
@@ -83,7 +82,7 @@ def assemble_final_video(
     filter_complex += f"{concat_inputs}concat=n={len(timeline_config['scenes'])}:v=1:a=0[vbase];"
 
     # Add audio input
-    inputs.extend(["-i", audio_path])
+    inputs.extend(["-i", os.path.abspath(audio_path)])
     audio_index = len(timeline_config['scenes'])
 
     # Generate Drawtext Captions
@@ -125,9 +124,9 @@ def assemble_final_video(
     print(f"Executing FFmpeg Command:\n{' '.join(cmd)}")
     
     try:
-        subprocess.run(cmd, check=True, cwd=output_dir)
+        subprocess.run(cmd, check=True, cwd=output_dir, capture_output=True, text=True)
         print(f"Assembly Complete! Output saved to: {output_path}")
         return output_path
     except subprocess.CalledProcessError as e:
-        print("FFmpeg Assembly Failed.")
+        print(f"FFmpeg Assembly Failed:\n{e.stderr}")
         raise e

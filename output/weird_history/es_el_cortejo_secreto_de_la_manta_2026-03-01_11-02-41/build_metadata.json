@@ -1,0 +1,47 @@
+{
+    "title": "El Cortejo Secreto de la Manta",
+    "language": "es",
+    "original_metadata_source": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/blanket_courtship_2026-02-28_16-41-27/build_metadata.json",
+    "timeline_source": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/weird_history/spanish/blanket_courtship_timeline_es.json",
+    "build_timestamp": "2026-03-01_11-02-41",
+    "audio": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/es_el_cortejo_secreto_de_la_manta_2026-03-01_11-02-41/voiceover.wav",
+    "scenes": [
+        {
+            "id": 1,
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/blanket_courtship_2026-02-28_16-41-27/scene_1_still.jpg"
+        },
+        {
+            "id": 2,
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/blanket_courtship_2026-02-28_16-41-27/scene_2_still.jpg"
+        },
+        {
+            "id": 3,
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/blanket_courtship_2026-02-28_16-41-27/scene_3_still.jpg"
+        },
+        {
+            "id": 4,
+            "type": "video",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/blanket_courtship_2026-02-28_16-41-27/scene_4_video.mp4"
+        },
+        {
+            "id": 5,
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/blanket_courtship_2026-02-28_16-41-27/scene_5_still.jpg"
+        },
+        {
+            "id": 6,
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/blanket_courtship_2026-02-28_16-41-27/scene_6_still.jpg"
+        },
+        {
+            "id": 7,
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/blanket_courtship_2026-02-28_16-41-27/scene_7_still.jpg"
+        }
+    ],
+    "word_timestamps_count": 146,
+    "final_render": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/es_el_cortejo_secreto_de_la_manta_2026-03-01_11-02-41/final_render_translated.mp4"
+}

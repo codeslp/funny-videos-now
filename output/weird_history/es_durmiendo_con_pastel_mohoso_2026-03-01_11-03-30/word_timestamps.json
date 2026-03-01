@@ -1,0 +1,632 @@
+[
+    {
+        "word": "Los",
+        "start": 0.031,
+        "end": 0.151
+    },
+    {
+        "word": "mujeres",
+        "start": 0.191,
+        "end": 0.352
+    },
+    {
+        "word": "victorianos",
+        "start": 0.372,
+        "end": 0.732
+    },
+    {
+        "word": "ten\u00edan",
+        "start": 0.772,
+        "end": 0.993
+    },
+    {
+        "word": "el",
+        "start": 1.033,
+        "end": 1.093
+    },
+    {
+        "word": "truco",
+        "start": 1.133,
+        "end": 1.354
+    },
+    {
+        "word": "de",
+        "start": 1.394,
+        "end": 1.454
+    },
+    {
+        "word": "fertilidad",
+        "start": 1.514,
+        "end": 1.935
+    },
+    {
+        "word": "m\u00e1s",
+        "start": 2.155,
+        "end": 2.235
+    },
+    {
+        "word": "desquiciado",
+        "start": 2.295,
+        "end": 2.816
+    },
+    {
+        "word": "de",
+        "start": 3.838,
+        "end": 3.919
+    },
+    {
+        "word": "todos",
+        "start": 3.979,
+        "end": 4.099
+    },
+    {
+        "word": "los",
+        "start": 4.139,
+        "end": 4.199
+    },
+    {
+        "word": "tiempos.",
+        "start": 4.239,
+        "end": 4.5
+    },
+    {
+        "word": "Si",
+        "start": 5.101,
+        "end": 5.161
+    },
+    {
+        "word": "eras",
+        "start": 5.181,
+        "end": 5.341
+    },
+    {
+        "word": "una",
+        "start": 5.381,
+        "end": 5.462
+    },
+    {
+        "word": "mujer",
+        "start": 5.542,
+        "end": 5.702
+    },
+    {
+        "word": "soltera",
+        "start": 5.742,
+        "end": 6.063
+    },
+    {
+        "word": "o",
+        "start": 6.083,
+        "end": 6.103
+    },
+    {
+        "word": "una",
+        "start": 6.303,
+        "end": 6.383
+    },
+    {
+        "word": "novia",
+        "start": 6.403,
+        "end": 6.564
+    },
+    {
+        "word": "recientazada",
+        "start": 6.644,
+        "end": 7.085
+    },
+    {
+        "word": "en",
+        "start": 7.205,
+        "end": 7.265
+    },
+    {
+        "word": "la",
+        "start": 7.285,
+        "end": 7.325
+    },
+    {
+        "word": "terra",
+        "start": 7.365,
+        "end": 7.485
+    },
+    {
+        "word": "del",
+        "start": 7.505,
+        "end": 7.586
+    },
+    {
+        "word": "siglo",
+        "start": 7.626,
+        "end": 7.766
+    },
+    {
+        "word": "XIX,",
+        "start": 7.926,
+        "end": 8.688
+    },
+    {
+        "word": "tomabas",
+        "start": 8.708,
+        "end": 8.988
+    },
+    {
+        "word": "un",
+        "start": 9.028,
+        "end": 9.068
+    },
+    {
+        "word": "trozo",
+        "start": 9.109,
+        "end": 9.309
+    },
+    {
+        "word": "masivo",
+        "start": 9.389,
+        "end": 9.73
+    },
+    {
+        "word": "y",
+        "start": 9.75,
+        "end": 9.77
+    },
+    {
+        "word": "pegajoso",
+        "start": 10.03,
+        "end": 10.371
+    },
+    {
+        "word": "de",
+        "start": 10.411,
+        "end": 10.451
+    },
+    {
+        "word": "pastel",
+        "start": 10.511,
+        "end": 10.712
+    },
+    {
+        "word": "de",
+        "start": 10.732,
+        "end": 10.772
+    },
+    {
+        "word": "voz",
+        "start": 10.832,
+        "end": 10.972
+    },
+    {
+        "word": "cubierto,",
+        "start": 11.012,
+        "end": 11.774
+    },
+    {
+        "word": "te",
+        "start": 11.794,
+        "end": 11.834
+    },
+    {
+        "word": "glaciado",
+        "start": 11.854,
+        "end": 12.215
+    },
+    {
+        "word": "y",
+        "start": 12.235,
+        "end": 12.255
+    },
+    {
+        "word": "lo",
+        "start": 12.876,
+        "end": 12.936
+    },
+    {
+        "word": "met\u00edas",
+        "start": 12.956,
+        "end": 13.176
+    },
+    {
+        "word": "directamente",
+        "start": 13.216,
+        "end": 13.597
+    },
+    {
+        "word": "debajo",
+        "start": 13.637,
+        "end": 13.838
+    },
+    {
+        "word": "de",
+        "start": 13.878,
+        "end": 13.918
+    },
+    {
+        "word": "tu",
+        "start": 13.958,
+        "end": 13.998
+    },
+    {
+        "word": "almohada",
+        "start": 14.018,
+        "end": 14.238
+    },
+    {
+        "word": "antes",
+        "start": 14.279,
+        "end": 14.399
+    },
+    {
+        "word": "de",
+        "start": 14.419,
+        "end": 14.459
+    },
+    {
+        "word": "costarte.",
+        "start": 14.519,
+        "end": 14.9
+    },
+    {
+        "word": "La",
+        "start": 15.28,
+        "end": 15.341
+    },
+    {
+        "word": "idea?",
+        "start": 15.381,
+        "end": 16.082
+    },
+    {
+        "word": "Dormir",
+        "start": 16.214,
+        "end": 16.575
+    },
+    {
+        "word": "encima",
+        "start": 16.595,
+        "end": 16.796
+    },
+    {
+        "word": "de",
+        "start": 16.836,
+        "end": 16.896
+    },
+    {
+        "word": "esas",
+        "start": 16.916,
+        "end": 17.057
+    },
+    {
+        "word": "querosos",
+        "start": 17.077,
+        "end": 17.318
+    },
+    {
+        "word": "y",
+        "start": 17.338,
+        "end": 17.358
+    },
+    {
+        "word": "desmoronados",
+        "start": 17.378,
+        "end": 17.82
+    },
+    {
+        "word": "de",
+        "start": 17.98,
+        "end": 18.121
+    },
+    {
+        "word": "sastre",
+        "start": 18.141,
+        "end": 18.442
+    },
+    {
+        "word": "de",
+        "start": 18.502,
+        "end": 18.562
+    },
+    {
+        "word": "glaciado",
+        "start": 18.582,
+        "end": 18.883
+    },
+    {
+        "word": "toda",
+        "start": 18.924,
+        "end": 19.044
+    },
+    {
+        "word": "la",
+        "start": 19.084,
+        "end": 19.124
+    },
+    {
+        "word": "noche",
+        "start": 19.185,
+        "end": 19.385
+    },
+    {
+        "word": "y",
+        "start": 19.405,
+        "end": 19.425
+    },
+    {
+        "word": "ser\u00edas",
+        "start": 20.028,
+        "end": 20.248
+    },
+    {
+        "word": "bendecida",
+        "start": 20.268,
+        "end": 20.59
+    },
+    {
+        "word": "con",
+        "start": 20.65,
+        "end": 20.75
+    },
+    {
+        "word": "sue\u00f1os",
+        "start": 20.79,
+        "end": 20.991
+    },
+    {
+        "word": "prof\u00e9ticos",
+        "start": 21.071,
+        "end": 21.453
+    },
+    {
+        "word": "de",
+        "start": 21.513,
+        "end": 21.553
+    },
+    {
+        "word": "tu",
+        "start": 21.613,
+        "end": 21.693
+    },
+    {
+        "word": "futuro",
+        "start": 21.714,
+        "end": 21.914
+    },
+    {
+        "word": "esposo.",
+        "start": 21.954,
+        "end": 22.637
+    },
+    {
+        "word": "A",
+        "start": 22.657,
+        "end": 22.697
+    },
+    {
+        "word": "la",
+        "start": 22.717,
+        "end": 22.757
+    },
+    {
+        "word": "ma\u00f1ana",
+        "start": 22.797,
+        "end": 22.978
+    },
+    {
+        "word": "siguiente,",
+        "start": 22.998,
+        "end": 23.379
+    },
+    {
+        "word": "todo",
+        "start": 23.56,
+        "end": 23.64
+    },
+    {
+        "word": "el",
+        "start": 23.66,
+        "end": 23.701
+    },
+    {
+        "word": "modo",
+        "start": 23.721,
+        "end": 23.821
+    },
+    {
+        "word": "estaba",
+        "start": 23.861,
+        "end": 24.062
+    },
+    {
+        "word": "destruida,",
+        "start": 24.102,
+        "end": 24.443
+    },
+    {
+        "word": "tu",
+        "start": 24.544,
+        "end": 24.604
+    },
+    {
+        "word": "cabello",
+        "start": 24.624,
+        "end": 24.885
+    },
+    {
+        "word": "lleno",
+        "start": 24.905,
+        "end": 25.045
+    },
+    {
+        "word": "de",
+        "start": 25.065,
+        "end": 25.106
+    },
+    {
+        "word": "glaciado",
+        "start": 25.146,
+        "end": 25.427
+    },
+    {
+        "word": "seco",
+        "start": 25.467,
+        "end": 25.648
+    },
+    {
+        "word": "y",
+        "start": 25.949,
+        "end": 25.969
+    },
+    {
+        "word": "supuestamente",
+        "start": 26.029,
+        "end": 26.491
+    },
+    {
+        "word": "hab\u00eda",
+        "start": 26.551,
+        "end": 26.711
+    },
+    {
+        "word": "tenido",
+        "start": 26.772,
+        "end": 26.932
+    },
+    {
+        "word": "una",
+        "start": 26.952,
+        "end": 27.032
+    },
+    {
+        "word": "visi\u00f3n",
+        "start": 27.073,
+        "end": 27.233
+    },
+    {
+        "word": "de",
+        "start": 27.253,
+        "end": 27.293
+    },
+    {
+        "word": "amor",
+        "start": 27.354,
+        "end": 27.514
+    },
+    {
+        "word": "de",
+        "start": 27.534,
+        "end": 27.615
+    },
+    {
+        "word": "tu",
+        "start": 27.635,
+        "end": 27.695
+    },
+    {
+        "word": "vida.",
+        "start": 27.715,
+        "end": 28.779
+    },
+    {
+        "word": "Romance,",
+        "start": 28.799,
+        "end": 28.959
+    },
+    {
+        "word": "si",
+        "start": 28.979,
+        "end": 29.04
+    },
+    {
+        "word": "no",
+        "start": 29.08,
+        "end": 29.12
+    },
+    {
+        "word": "me",
+        "start": 29.16,
+        "end": 29.22
+    },
+    {
+        "word": "crees,",
+        "start": 29.28,
+        "end": 29.481
+    },
+    {
+        "word": "haz",
+        "start": 29.642,
+        "end": 29.722
+    },
+    {
+        "word": "clic",
+        "start": 29.742,
+        "end": 29.903
+    },
+    {
+        "word": "en",
+        "start": 29.923,
+        "end": 30.003
+    },
+    {
+        "word": "el",
+        "start": 30.023,
+        "end": 30.063
+    },
+    {
+        "word": "enlace",
+        "start": 30.083,
+        "end": 30.284
+    },
+    {
+        "word": "de",
+        "start": 30.304,
+        "end": 30.364
+    },
+    {
+        "word": "la",
+        "start": 30.404,
+        "end": 30.445
+    },
+    {
+        "word": "descripci\u00f3n",
+        "start": 30.485,
+        "end": 30.786
+    },
+    {
+        "word": "para",
+        "start": 30.846,
+        "end": 30.926
+    },
+    {
+        "word": "leer",
+        "start": 31.007,
+        "end": 31.127
+    },
+    {
+        "word": "la",
+        "start": 31.147,
+        "end": 31.207
+    },
+    {
+        "word": "investigaci\u00f3n",
+        "start": 31.227,
+        "end": 31.609
+    },
+    {
+        "word": "real",
+        "start": 31.689,
+        "end": 31.789
+    },
+    {
+        "word": "detr\u00e1s",
+        "start": 31.97,
+        "end": 32.211
+    },
+    {
+        "word": "de",
+        "start": 32.231,
+        "end": 32.291
+    },
+    {
+        "word": "esto.",
+        "start": 32.452,
+        "end": 32.552
+    }
+]

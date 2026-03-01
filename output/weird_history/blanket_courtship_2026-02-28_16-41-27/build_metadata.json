@@ -1,0 +1,45 @@
+{
+    "title": "The Secret Blanket Courtship",
+    "timeline_source": "mock_source",
+    "build_timestamp": "2026-02-28_16-41-27",
+    "audio": "mock_audio",
+    "scenes": [
+        {
+            "id": 1,
+            "type": "image",
+            "filepath": "output/weird_history/blanket_courtship_2026-02-28_16-41-27/scene_1_still.jpg"
+        },
+        {
+            "id": 2,
+            "type": "image",
+            "filepath": "output/weird_history/blanket_courtship_2026-02-28_16-41-27/scene_2_still.jpg"
+        },
+        {
+            "id": 3,
+            "type": "image",
+            "filepath": "output/weird_history/blanket_courtship_2026-02-28_16-41-27/scene_3_still.jpg"
+        },
+        {
+            "id": 4,
+            "type": "video",
+            "filepath": "output/weird_history/blanket_courtship_2026-02-28_16-41-27/scene_4_video.mp4"
+        },
+        {
+            "id": 5,
+            "type": "image",
+            "filepath": "output/weird_history/blanket_courtship_2026-02-28_16-41-27/scene_5_still.jpg"
+        },
+        {
+            "id": 6,
+            "type": "image",
+            "filepath": "output/weird_history/blanket_courtship_2026-02-28_16-41-27/scene_6_still.jpg"
+        },
+        {
+            "id": 7,
+            "type": "image",
+            "filepath": "output/weird_history/blanket_courtship_2026-02-28_16-41-27/scene_7_still.jpg"
+        }
+    ],
+    "word_timestamps_count": 0,
+    "final_render": "output/weird_history/blanket_courtship_2026-02-28_16-41-27/final_render.mp4"
+}

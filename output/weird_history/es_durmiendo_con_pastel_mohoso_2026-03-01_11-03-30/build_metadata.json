@@ -1,0 +1,47 @@
+{
+    "title": "Durmiendo con Pastel Mohoso",
+    "language": "es",
+    "original_metadata_source": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/sleeping_with_moldy_cake_hyperrealism/build_metadata.json",
+    "timeline_source": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/weird_history/spanish/sleeping_with_moldy_cake_timeline_es.json",
+    "build_timestamp": "2026-03-01_11-03-30",
+    "audio": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/es_durmiendo_con_pastel_mohoso_2026-03-01_11-03-30/voiceover.wav",
+    "scenes": [
+        {
+            "id": 1,
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/sleeping_with_moldy_cake_hyperrealism/scene_1_still.jpg"
+        },
+        {
+            "id": 2,
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/sleeping_with_moldy_cake_hyperrealism/scene_2_still.jpg"
+        },
+        {
+            "id": 3,
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/sleeping_with_moldy_cake_hyperrealism/scene_3_still.jpg"
+        },
+        {
+            "id": 4,
+            "type": "video",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/sleeping_with_moldy_cake_hyperrealism/scene_4_video.mp4"
+        },
+        {
+            "id": 5,
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/sleeping_with_moldy_cake_hyperrealism/scene_5_still.jpg"
+        },
+        {
+            "id": 6,
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/sleeping_with_moldy_cake_hyperrealism/scene_6_still.jpg"
+        },
+        {
+            "id": 7,
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/sleeping_with_moldy_cake_hyperrealism/scene_7_still.jpg"
+        }
+    ],
+    "word_timestamps_count": 126,
+    "final_render": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/es_durmiendo_con_pastel_mohoso_2026-03-01_11-03-30/final_render_translated.mp4"
+}

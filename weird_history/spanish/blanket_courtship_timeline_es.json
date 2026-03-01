@@ -1,0 +1,57 @@
+{
+    "title": "El Cortejo Secreto de la Manta",
+    "language": "es",
+    "tts_voice_id": "727f663b-0e90-4031-90f2-558b7334425b",
+    "script": "Olvídate de deslizar en Tinder. En algunas tribus nativas americanas, si un chico quería invitarte a salir, ¡literalmente te lanzaba una manta gigante sobre la cabeza en medio de la calle! Se llamaba cortejo de manta. Si un hombre obtenía permiso de los ancianos, se acercaba a la mujer que le gustaba mientras ella estaba en el pueblo. Luego, en un enorme gesto público, ¡envolvía su gran manta tejida completamente alrededor de ambos! Esto creaba una pequeña tienda de campaña privada, totalmente a oscuras, justo en medio del pueblo lleno de gente para que pudieran susurrarse. Honestamente, en un mundo sin privacidad, es en realidad increíblemente dulce. ¿Lo mejor de todo? ¡Todos en el pueblo ignoraban por completo el bulto gigante de tela andante por respeto! Si no me crees, haz clic en el enlace de la descripción para leer la investigación real detrás de esto.",
+    "scenes": [
+        {
+            "id": 1,
+            "type": "image",
+            "duration": 6.83,
+            "prompt": "A handsome 20-year-old Native American man with long dark braided hair, sharp jawline, wearing a detailed buckskin shirt with intricate beadwork. He is standing in a dusty traditional village holding a massive, vividly colorful woven blanket. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "filename": "scene_1_still.jpg"
+        },
+        {
+            "id": 2,
+            "type": "image",
+            "duration": 6.83,
+            "prompt": "A stunningly beautiful 20-year-old Native American woman with long dark hair, wearing an elegant fringed dress with vibrant red and turquoise beads. She is walking through a bright, sunny traditional village. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "filename": "scene_2_still.jpg"
+        },
+        {
+            "id": 3,
+            "type": "image",
+            "duration": 6.83,
+            "prompt": "A handsome 20-year-old Native American man with long dark braided hair suddenly stepping in front of a beautiful Native American woman in a dusty village, raising a massive, vibrant red and blue woven blanket high into the air. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "filename": "scene_3_still.jpg"
+        },
+        {
+            "id": 4,
+            "type": "video",
+            "duration": 5.0,
+            "prompt": "A handsome 20-year-old Native American man with long dark braided hair swoops a massive, vibrant red and blue woven blanket completely over his head and the head of a beautiful Native American woman, fully engulfing them both in the heavy fabric in the middle of a village. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "filename": "scene_4_video.mp4"
+        },
+        {
+            "id": 5,
+            "type": "image",
+            "duration": 6.83,
+            "prompt": "Inside a pitch-black tent made of a woven blanket. A handsome Native American man and a beautiful Native American woman are illuminated by a tiny sliver of sunlight, whispering and smiling closely to each other in the dark. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "filename": "scene_5_still.jpg"
+        },
+        {
+            "id": 6,
+            "type": "image",
+            "duration": 6.83,
+            "prompt": "A wide shot of a traditional Native American village in the striking afternoon sun. In the center of the dirt road stands a giant, comical, walking lump made of a vibrant red and blue woven blanket. Other villagers are walking past it, completely ignoring the giant lump. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "filename": "scene_6_still.jpg"
+        },
+        {
+            "id": 7,
+            "type": "image",
+            "duration": 6.83,
+            "prompt": "A handsome 20-year-old Native American man and a beautiful Native American woman emerging from under a massive, vividly colorful woven blanket, both laughing in the bright sunlight of a traditional village. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "filename": "scene_7_still.jpg"
+        }
+    ]
+}

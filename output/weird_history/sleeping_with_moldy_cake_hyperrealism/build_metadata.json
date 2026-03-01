@@ -1,0 +1,45 @@
+{
+    "title": "Sleeping with Moldy Cake",
+    "timeline_source": "mock_source",
+    "build_timestamp": "2026-02-28_15-58",
+    "audio": "mock_audio",
+    "scenes": [
+        {
+            "id": 1,
+            "type": "image",
+            "filepath": "output/weird_history/sleeping_with_moldy_cake_hyperrealism/scene_1_still.jpg"
+        },
+        {
+            "id": 2,
+            "type": "image",
+            "filepath": "output/weird_history/sleeping_with_moldy_cake_hyperrealism/scene_2_still.jpg"
+        },
+        {
+            "id": 3,
+            "type": "image",
+            "filepath": "output/weird_history/sleeping_with_moldy_cake_hyperrealism/scene_3_still.jpg"
+        },
+        {
+            "id": 4,
+            "type": "video",
+            "filepath": "output/weird_history/sleeping_with_moldy_cake_hyperrealism/scene_4_video.mp4"
+        },
+        {
+            "id": 5,
+            "type": "image",
+            "filepath": "output/weird_history/sleeping_with_moldy_cake_hyperrealism/scene_5_still.jpg"
+        },
+        {
+            "id": 6,
+            "type": "image",
+            "filepath": "output/weird_history/sleeping_with_moldy_cake_hyperrealism/scene_6_still.jpg"
+        },
+        {
+            "id": 7,
+            "type": "image",
+            "filepath": "output/weird_history/sleeping_with_moldy_cake_hyperrealism/scene_7_still.jpg"
+        }
+    ],
+    "word_timestamps_count": 0,
+    "final_render": "output/weird_history/sleeping_with_moldy_cake_hyperrealism/final_render.mp4"
+}
