@@ -3,8 +3,7 @@ import subprocess
 import json
 import math
 from datetime import datetime
-import json
-from datetime import datetime
+import hashlib
 try:
     from config import OUTPUT_DIR
 except ImportError:
@@ -42,10 +41,20 @@ def assemble_final_video(
     inputs = []
     filter_complex = ""
     video_streams = []
+    seen_hashes = set()
 
     # Map inputs
     for i, scene in enumerate(timeline_config['scenes']):
         filepath = scene['filepath']
+        
+        # Verify file is unique cryptographically
+        if os.path.exists(filepath):
+            with open(filepath, 'rb') as f:
+                file_hash = hashlib.md5(f.read()).hexdigest()
+            if file_hash in seen_hashes:
+                raise ValueError(f"CRITICAL VERIFICATION ERROR: Duplicate visual asset detected at Scene {i+1} ({filepath}). The timeline contains identically cloned files. Please verify your manual asset downloads and renaming!")
+            seen_hashes.add(file_hash)
+            
         duration = float(scene['duration'])
         
         # Determine if it's an image or video
