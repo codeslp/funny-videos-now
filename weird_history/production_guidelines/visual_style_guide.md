@@ -15,6 +15,7 @@ To maximize audience retention, the characters generated in the stills and video
 *   **Prompting Extremes:**
     *   *The "Hot" Route:* `incredibly handsome`, `jaw-droppingly gorgeous`, `supermodel features`, `chiseled jawline`, `stunningly beautiful`.
     *   *The "Character Actor" Route:* `bizarre funny facial features`, `comically ugly character actor`, `willem dafoe vibes`, `exaggerated historical inbreeding features`, `weird bulging eyes`. 
+*   **Female Character Casting Rule:** All female characters included in image prompts MUST be explicitly described as "shapely with full lips". This is a strict visual style rule for consistency.
 
 ---
 
@@ -32,6 +33,8 @@ We must **stick with realism** for all generated assets. Do not use oil painting
 Every video prompt we send to the video generation API should follow this structure to guarantee the visual style holds:
 
 **[EXPLICIT CHARACTER DESCRIPTION]** + **[ACTION FROM RESEARCH]** + **[REALISM STYLE MODIFIER]** + **[SAFETY/MODERATION MODIFIER]**
+
+**CRITICAL RULE FOR STILL IMAGES:** DO NOT include descriptions of motion or movement (e.g., "shaking his head", "falling into a bowl", "running") in prompts intended for static image generation (Stills). Google Flow struggles to render implied motion in stills, often resulting in visual anomalies or completely failing. Motion should ONLY be described in prompts meant for Video (Flow TV).
 
 **Example for "Armpit Apple":**
 > *A 25-year-old medieval peasant man with sharp cheekbones, messy brown hair, wearing a rough-spun brown tunic. He is nervously eating an apple given to him by a young woman. Hyper-realistic portrait photography, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.*
