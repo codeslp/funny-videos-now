@@ -15,8 +15,8 @@ from generate_transcription import generate_word_timestamps
 from assemble_video import assemble_final_video
 
 def run():
-    build_dir = "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/blanket_courtship_hyperrealism"
-    timeline_path = "/Users/bfaris96/Claude Code Markdown/funny_video_generator/weird_history/pipeline/blanket_courtship_timeline.json"
+    build_dir = "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/tudor_needle_test_2026-02-28"
+    timeline_path = "/Users/bfaris96/Claude Code Markdown/funny_video_generator/weird_history/pipeline/tudor_needle_timeline.json"
     
     with open(timeline_path, "r") as f:
         timeline = json.load(f)

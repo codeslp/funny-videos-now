@@ -19,6 +19,7 @@ import subprocess
 import urllib.request
 import urllib.parse
 import ssl
+import argparse
 
 sys.path.insert(0, os.path.dirname(__file__))
 from script_generator import _load_env
@@ -473,34 +474,48 @@ def upload_to_instagram_reels(video_path, title, description):
 
 # ─── MAIN PIPELINE ───────────────────────────────────────────────
 
+import glob
+
 def publish_video_folder(folder_path):
     """Assemble and publish a single video folder to all platforms."""
     script_path = os.path.join(folder_path, "script.json")
+    
     if not os.path.exists(script_path):
-        return
+        timelines = glob.glob(os.path.join(folder_path, "*timeline.json"))
+        if timelines:
+            script_path = timelines[0]
+        else:
+            print(f"    ⚠️  Skipping publish: No script.json or timeline.json found in {folder_path}")
+            return
 
     with open(script_path) as f:
         data = json.load(f)
 
-    headline = data.get('headline', 'Untitled')
-    source = data.get('source', '')
+    headline = data.get('headline', data.get('topic', 'Untitled'))
+    source = data.get('url', data.get('source', 'https://en.wikipedia.org/wiki/Special:Random'))
+    script_text = data.get('script', '')
+    
+    # Extract hook (first sentence)
+    hook = script_text.split('.')[0] + '.' if script_text else headline
+    
     title = f"😂 {headline[:90]}"
+    
+    # Weird History Publishing Guidelines Format
     description = (
-        f"What REALLY happened? We put you in the room.\n\n"
-        f"Original story: {data.get('url', '')}\n"
-        f"Source: {source}\n\n"
-        f"#comedy #funny #news #shorts #viral"
+        f"{hook}\n\n"
+        f"Would you try this? Let us know in the comments!\n\n"
+        f"📖 Read the full historical research here: {source} \n\n"
+        f"#weirdhistory #historyfacts #history #educationalcomedy #storytime"
     )
 
-    videos_dir = os.path.join(folder_path, "videos")
-    
     # Use Remotion assembled video if available
-    remotion_path = os.path.join(videos_dir, "final_assembled.mp4")
+    remotion_path = os.path.join(folder_path, "final_assembled.mp4")
     if os.path.exists(remotion_path):
         final_path = remotion_path
     else:
+        # Fallback to ffmpeg assembled video inside videos/ dir
+        videos_dir = os.path.join(folder_path, "videos")
         final_path = os.path.join(videos_dir, "final.mp4")
-        # Assemble with ffmpeg if not already done
         if not os.path.exists(final_path):
             final_path = assemble_video(videos_dir)
             if not final_path:
@@ -548,15 +563,27 @@ def publish_video_folder(folder_path):
 
 
 def main():
-    output_dir = os.path.join(os.path.dirname(__file__), '..', 'output')
-    if not os.path.exists(output_dir):
-        print("❌ No output/ directory found. Run main.py first.")
-        return
+    parser = argparse.ArgumentParser(description="Publish videos to platforms")
+    parser.add_argument("folder", nargs="?", help="Specific folder to publish (e.g., output/weird_history/tudor_needle_test)")
+    args = parser.parse_args()
 
-    folders = sorted([
-        os.path.join(output_dir, d) for d in os.listdir(output_dir)
-        if os.path.isdir(os.path.join(output_dir, d))
-    ])
+    if args.folder:
+        folder_path = os.path.abspath(args.folder)
+        if not os.path.exists(folder_path):
+            print(f"❌ Folder not found: {folder_path}")
+            return
+        folders = [folder_path]
+    else:
+        output_dir = os.path.join(os.path.dirname(__file__), '..', 'output')
+        if not os.path.exists(output_dir):
+            print("❌ No output/ directory found. Run main.py first.")
+            return
+
+        folders = []
+        # Find all folders containing script.json recursively
+        for root, dirs, files in os.walk(output_dir):
+            if "script.json" in files:
+                folders.append(root)
 
     print("\n" + "=" * 60)
     print("  📤  MULTI-PLATFORM PUBLISHER  📤")
