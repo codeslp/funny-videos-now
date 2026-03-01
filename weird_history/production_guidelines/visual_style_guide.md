@@ -43,9 +43,12 @@ Every video prompt we send to the video generation API should follow this struct
 To optimize costs, speed up pipeline execution, and maximize audience retention, we utilize a **Hybrid Video Assembly Strategy**. This involves mixing static images (with programmed motion) and high-end AI video clips in a single timeline. 
 
 ### Why the Hybrid Strategy Works
-1. **Cost & Speed:** It limits the use of expensive/slow video generation APIs to just 1–2 "hero" moments per Short/Reel.
-2. **Dynamic Pacing:** Rapidly switching between "Ken Burns" panning images and bursty video clips resets viewer attention.
-3. **Narrative Focus:** Cheaper still images set up the context, and the expensive video generation delivers the weird, funny punchline.
+1. **Cost & Speed:** It limits the use of expensive/slow video generation APIs by relying heavily on cheap image generation for the bulk of the runtime.
+2. **Dynamic Pacing:** Rapidly switching between 2.5D depth-mapped parallax images and bursty video clips resets viewer attention.
+3. **9-Scene Narrative Arc (The Standard):** All timelines must follow the 9-scene structure:
+   - **Scenes 1-4:** 4 Stills with AI Depth Parallax (Hook & Setup)
+   - **Scene 5:** 1 Hero Video (The historical punchline/action)
+   - **Scenes 6-9:** 4 Stills with AI Depth Parallax (Explanation & Call to Action)
 
 ### Tech Stack & Tooling
 
@@ -63,5 +66,5 @@ To maintain organization, every time a new video is generated, the pipeline auto
 ### How the Styles Pair with Hybrid Assembly
 
 1. **Hyper-Realism:**
-   * *Stills:* Hyper-realistic portrait photograph with slow, dramatic digital pans or zooms. **NEVER use jitter, shake, or wobble effects.** 
+   * *Stills:* Hyper-realistic portrait photograph. The pipeline will automatically generate a 3D depth map and apply a dynamic 2.5D parallax push-in. **NEVER use jitter, shake, or wobble effects.** 
    * *Video:* The scene matching the subject comes to life natively.
