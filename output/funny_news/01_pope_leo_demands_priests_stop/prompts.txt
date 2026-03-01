@@ -1,0 +1,52 @@
+
+============================================================
+🎬  VIDEO #1
+============================================================
+
+📰 HEADLINE: Pope Leo demands priests stop using AI to write sermons over TikTok panic
+📐 ASPECT RATIO: 9:16 Vertical (Phone)
+⚡ MODE: Veo 3.1 Fast
+
+------------------------------------------------------------
+
+🎥 SCENE 1
+
+  VISUAL PROMPT FOR VEO3:
+  PRIEST MICHAEL, mid-30s, earnest and clean-shaven, in a neatly pressed black cassock, excitedly taps and scrolls through content on a gleaming smartphone held close to his face, a look of impressed concentration on his features. He's in a cluttered sacristy, shelves behind him packed with ancient liturgical books and a half-eaten bag of convenience store snacks. CARDINAL BENEDICT, mid-40s, sharp but with a faint shadow of fatigue under his eyes, in immaculate cardinal robes, stands slightly behind and to the side, peering over Michael's shoulder with a mixture of curiosity and mild apprehension. CAMERA: Medium shot, static, slightly low angle. STYLE: Soft, warm lighting, hinting at sacred but lived-in space. 9:16 vertical portrait aspect ratio
+
+  🎙️ DIALOGUE:
+  Priest Michael: (beaming) 'Check it out, Cardinal! AI-generated. 'Galatians 5:1 – Don't be a spiritual simp, stay free in Christ!' So relatable! Already trending on 'For You Page: Faith Edition!''
+Cardinal Benedict: (muttering, barely audible) 'Spiritual... simp?'
+
+  🔊 AUDIO:
+  Upbeat, slightly generic pop music beat subtly playing from the phone. A faint 'ding!' notification sound.
+
+------------------------------------------------------------
+
+🎥 SCENE 2
+
+  VISUAL PROMPT FOR VEO3:
+  POPE LEO, mid-70s, wearing traditional white papal vestments, sits stiffly at a heavy, ornate wooden desk. His face is a mask of weary exasperation as he holds a tablet displaying a video of a young priest in a brightly lit chapel performing a choppy, arm-waving 'sermon dance challenge' in front of an altar, a large 'SMASH THAT LIKE BUTTON!' graphic superimposed over the crucifix. Behind the Pope, a second, smaller tablet shows another AI-generated 'sermon' using aggressive meme overlays. CARDINAL BENEDICT, looking increasingly overwhelmed, frantically tries to minimize windows on a third tablet, his brow furrowed in quiet horror. CAMERA: Close-up, slow push-in on Pope Leo's face, then rack focus to the tablets. STYLE: High contrast, almost frantic lighting, traditional meets digital. 9:16 vertical portrait aspect ratio
+
+  🎙️ DIALOGUE:
+  Pope Leo: (voice rising with incredulity) 'And this one suggests we integrate 'Holy Spirit filter challenges' into the Benediction! The youth crave engagement, they say! Engagement?!'
+Cardinal Benedict: (softly, defeated) 'It's... it's just really good at identifying viral trends, Your Holiness.'
+
+  🔊 AUDIO:
+  Fast-paced, high-energy electronic music playing from the tablets. Distant, muffled 'clap' and 'whoosh' sound effects from the dance video. A 'boing!' sound as Cardinal Benedict struggles with his tablet.
+
+------------------------------------------------------------
+
+🎥 SCENE 3
+
+  VISUAL PROMPT FOR VEO3:
+  POPE LEO, now visibly trembling with frustration, is standing before a majestic, ancient stained-glass window in a grand papal hall, trying to dictate a stern decree into a sophisticated voice-to-text AI device. The device, sleek and futuristic, sits on a heavy velvet stand. Behind him, on a massive, wall-mounted display screen, his words 'By Papal Decree, I demand a cessation...' are being graphically auto-corrected and enhanced by the AI into a rapidly animating, neon-lit text graphic that reads: 'DROP THE MIC, NOT THE CROSS! #POPELEO #AIPREACHBAN #GETOFFMYTIKTOK'. CARDINAL BENEDICT, standing perfectly still a few feet away, has completely given up; his head is slightly bowed, eyes closed, a single tear slowly rolling down his cheek. CAMERA: Dolly-out, revealing the full absurdity of the screen behind the Pope and Benedict's utter despair. STYLE: Epic, dramatic lighting, juxtaposed with the garish screen, extreme visual irony. 9:16 vertical portrait aspect ratio
+
+  🎙️ DIALOGUE:
+  Pope Leo: (shouting, exasperated) '—I DEMAND an IMMEDIATE cessation of all AI-generated sermon content! EFFECTIVE IMMEDIATELY!'
+AI Voice: (cheery, synthesized, echoing through the grand hall) 'Okay, Boomer! Serving up some serious righteous vibes with this decree! Hashtag blessed!'
+
+  🔊 AUDIO:
+  A booming, generic 'thump-thump' beat drops as the AI graphic appears. A rapid series of 'swoosh' and 'glitch' sounds from the screen. A final, loud 'mic drop' sound effect from the AI device. Cardinal Benedict lets out a barely audible, despairing sigh.
+
+------------------------------------------------------------

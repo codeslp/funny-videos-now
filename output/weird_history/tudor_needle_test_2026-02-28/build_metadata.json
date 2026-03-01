@@ -1,0 +1,55 @@
+{
+    "title": "The Tudor Needle Test (Tudor England)",
+    "timeline_source": "mock_source",
+    "build_timestamp": "2026-02-28",
+    "audio": "mock_audio",
+    "scenes": [
+        {
+            "id": "scene_1",
+            "type": "image",
+            "filepath": "output/weird_history/tudor_needle_test_2026-02-28/Hyperrealistic_portrait_photography_of_a_beautiful_0b09acb35d.jpeg"
+        },
+        {
+            "id": "scene_2",
+            "type": "image",
+            "filepath": "output/weird_history/tudor_needle_test_2026-02-28/Hyperrealistic_portrait_photography_of_a_medieval__delpmaspu.png"
+        },
+        {
+            "id": "scene_3",
+            "type": "image",
+            "filepath": "output/weird_history/tudor_needle_test_2026-02-28/Pregnancy_test_on_wooden_table_594cd467b7.jpeg"
+        },
+        {
+            "id": "scene_4",
+            "type": "image",
+            "filepath": "output/weird_history/tudor_needle_test_2026-02-28/Woman_lifting_dress_revealing_bowl_26ae64c686.jpeg"
+        },
+        {
+            "id": "scene_5",
+            "type": "video",
+            "filepath": "output/weird_history/tudor_needle_test_2026-02-28/Hyperrealistic_video_of_a_beautiful_tudor_woman_lo_dab91a3e48.mp4"
+        },
+        {
+            "id": "scene_6",
+            "type": "image",
+            "filepath": "output/weird_history/tudor_needle_test_2026-02-28/Silver_needle_falling_into_bowl_4ee21ddd92.jpeg"
+        },
+        {
+            "id": "scene_7",
+            "type": "image",
+            "filepath": "output/weird_history/tudor_needle_test_2026-02-28/Rusted_sewing_needle_in_bowl_565bb8ba49.jpeg"
+        },
+        {
+            "id": "scene_8",
+            "type": "image",
+            "filepath": "output/weird_history/tudor_needle_test_2026-02-28/Woman_hugging_husband_joy_7d3171a668.jpeg"
+        },
+        {
+            "id": "scene_9",
+            "type": "image",
+            "filepath": "output/weird_history/tudor_needle_test_2026-02-28/Tudor_woman_pointing_camera_1cf92cc75a.jpeg"
+        }
+    ],
+    "word_timestamps_count": 0,
+    "final_render": "output/weird_history/tudor_needle_test_2026-02-28/final_assembled.mp4"
+}

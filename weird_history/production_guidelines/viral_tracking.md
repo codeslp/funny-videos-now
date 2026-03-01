@@ -52,7 +52,7 @@ They are ranked by **Virality Potential** (Tier 1 = Highest, Tier 3 = Lowest) ba
 
 | Status | Topic | Category | Virality Factor | Link | Video File |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| ⏳ Not Built | **The Tudor Needle Test (Tudor England)** | childbearing customs | Moderate Visual Absurdity. | [Link](childbearing_customs.md#2-the-tudor-needle-test-tudor-england) | - |
+| ✅ Completed | **The Tudor Needle Test (Tudor England)** | childbearing customs | Moderate Visual Absurdity. | [Link](childbearing_customs.md#2-the-tudor-needle-test-tudor-england) | `output/weird_history/tudor_needle_test_2026-02-28/final_assembled.mp4` |
 | ⏳ Not Built | **The Royal "Spectator Sport" Menagerie (Pre-Revolution France)** | childbearing customs | Moderate Visual Absurdity. | [Link](childbearing_customs.md#3-the-royal-spectator-sport-menagerie-pre-revolution-france) | - |
 | ⏳ Not Built | **Banning Above-Head Gestures (Various Global Folktales)** | childbearing customs | Moderate Visual Absurdity. | [Link](childbearing_customs.md#4-banning-above-head-gestures-various-global-folktales) | - |
 | ⏳ Not Built | **Untying Every Knot in the House (Ancient Greece & Rome)** | childbearing customs | Moderate Visual Absurdity. | [Link](childbearing_customs.md#5-untying-every-knot-in-the-house-ancient-greece-rome) | - |

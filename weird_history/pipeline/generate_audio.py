@@ -8,7 +8,7 @@ except ImportError:
 
 CARTESIA_API_URL = "https://api.cartesia.ai/tts/bytes"
 
-def generate_tts(text: str, output_filepath: str, voice_id: str = DEFAULT_VOICE_ID) -> str:
+def generate_tts(text: str, output_filepath: str, voice_id: str = DEFAULT_VOICE_ID, language: str = "en") -> str:
     """
     Generates text-to-speech audio using the Cartesia API and saves it to a WAV file.
     
@@ -16,6 +16,7 @@ def generate_tts(text: str, output_filepath: str, voice_id: str = DEFAULT_VOICE_
         text (str): The script text to convert to speech.
         output_filepath (str): The path where the output .wav file should be saved.
         voice_id (str): The Cartesia voice UUID to use.
+        language (str): Language code (e.g., "en", "es").
         
     Returns:
         str: The absolute path to the generated audio file.
@@ -29,13 +30,16 @@ def generate_tts(text: str, output_filepath: str, voice_id: str = DEFAULT_VOICE_
         "Content-Type": "application/json"
     }
 
+    model_id = "sonic-multilingual" if language != "en" else "sonic-english"
+    
     payload = {
-        "model_id": "sonic-english",
+        "model_id": model_id,
         "transcript": text,
         "voice": {
             "mode": "id",
             "id": voice_id
         },
+        "language": language,
         "output_format": {
             "container": "wav",
             "encoding": "pcm_f32le",
@@ -73,6 +77,7 @@ if __name__ == "__main__":
         
     script_text = timeline.get("script", "")
     voice_id = timeline.get("tts_voice_id", DEFAULT_VOICE_ID)
+    language = timeline.get("language", "en")
     
     output_filepath = os.path.join(output_dir, "voiceover.wav")
-    generate_tts(script_text, output_filepath, voice_id)
+    generate_tts(script_text, output_filepath, voice_id, language)

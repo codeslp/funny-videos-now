@@ -1,0 +1,23 @@
+{
+  "video_number": 6,
+  "headline": "Met Police officer 'could not walk straight' after visiting bar on duty",
+  "source": "Reddit - r/nottheonion",
+  "url": "https://www.mylondon.news/news/east-london-news/metropolitan-police-officer-could-not-33492079",
+  "comedy_score": 40,
+  "pitch": "A uniformed police officer comically struggles to maintain composure and walk a straight line after a questionable \"break\" at a bar.",
+  "generated_at": "2026-02-27 02:01:06",
+  "script": [
+    {
+      "scene_number": 1,
+      "veo3_visual_prompt": "A close-up of a grizzled, world-weary INTERNAL AFFAIRS INVESTIGATOR, mid-50s, tired eyes, dark suit, observing. His expression is a subtle mix of disbelief and resignation. In the background, out of focus, a DRUNK OFFICER in a slightly rumpled police uniform struggles to pick up a pen, swaying slightly. A CHIEF INSPECTOR, mid-40s, pristine uniform, tries to subtly steady the DRUNK OFFICER's arm. CAMERA: Static medium shot on INVESTIGATOR, subtle rack focus to background absurdity. STYLE: Harsh, institutional fluorescent lighting, cinematic, slightly desaturated colors. 9:16 vertical portrait aspect ratio",
+      "dialogue": "Internal Affairs Investigator: (low, deadpan) The report states no impairment.",
+      "audio_cues": "Distant, muffled police radio chatter. Gentle clinking of a pen hitting a table repeatedly."
+    },
+    {
+      "scene_number": 2,
+      "veo3_visual_prompt": "A medium shot, eye-level, of the DRUNK OFFICER, mid-30s, uniform now visibly disheveled, attempting to walk a straight line across a brightly lit, sterile police conference room. The DRUNK OFFICER dramatically veers left, then rights themself by grabbing a 'POLICE CODE OF CONDUCT' poster and nearly pulling it off the wall. The CHIEF INSPECTOR, standing beside the 'straight line' (a strip of hazard tape), forces a confident smile, arms crossed. The Internal Affairs Investigator is visible in the background, out of focus, slowly shaking his head. CAMERA: Tracking shot, handheld, following the DRUNK OFFICER's wobbly path. STYLE: Overly bright, clinical lighting, cinematic. 9:16 vertical portrait aspect ratio",
+      "dialogue": "Chief Inspector: (strained cheerfulness) Perfectly linear, Investigator.",
+      "audio_cues": "Loud, exaggerated 'thump' as poster is yanked. A small, involuntary hiccup from the Drunk Officer. The Investigator's almost imperceptible sigh."
+    }
+  ]
+}

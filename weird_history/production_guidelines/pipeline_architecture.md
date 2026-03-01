@@ -23,8 +23,16 @@ This document defines the complete end-to-end pipeline used for generating "Weir
 *   The script executes the following automated pipeline:
     1.  **Transcription:** Uses WhisperX to perfectly frame word-by-word timestamps locally.
     2.  **Duplicate Hash Check:** Scans all visual assets using cryptographic hashing to ensure no two files are identical (preventing upload errors).
-    3.  **2.5D Parallax Filter:** Detects `.jpg` images, uses AI to estimate a depth map (`generate_depth.py`), and applies an FFmpeg displacement filter to simulate cinematic camera movement.
+    3.  **Slow Smooth Zoom Filter:** Detects `.jpg` images and applies an FFmpeg `zoompan` upscale displacement filter to apply continuous smooth camera zoom movement in 2D space.
     4.  **Final FFmpeg Render:** Combines the visual assets, the Cartesia audio track, dynamic text captions, and writes everything to `final_render.mp4` inside the timestamped output directory.
+
+## 5. Multi-Lingual Duplication (`duplicate_video.py`)
+*   **Action:** To create a foreign language version of an existing video, use `python3 duplicate_video.py [translated_timeline.json] [original_build_metadata.json]`.
+*   **Workflow:** 
+    1.  Create a translated copy of the timeline JSON (e.g. `timeline_es.json`). 
+    2.  Update the `language` field (e.g. "es").
+    3.  Update the `tts_voice_id` to a voice that supports the target language.
+    4.  Run the duplication script. It will bypass visual rendering and reuse the original assets defined in the old build metadata, only generating the new TTS and translated captions.
 
 ## 5. Multi-Platform Publishing (`publish_video.py`)
 *   **Action:** Edit `publish_video.py` to point to the correct timestamped `build_dir` and `final_render.mp4`, providing a catchy title and description.

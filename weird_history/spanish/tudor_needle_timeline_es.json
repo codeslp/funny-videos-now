@@ -1,0 +1,72 @@
+{
+    "title": "La Prueba de la Aguja Tudor",
+    "topic": "La Prueba de la Aguja Tudor (Inglaterra Tudor)",
+    "language": "es",
+    "tts_voice_id": "727f663b-0e90-4031-90f2-558b7334425b",
+    "script": "Descubrir que estabas embarazada a principios del siglo XVI era solo un enorme juego de adivinanzas... ¡hasta la Prueba de la Aguja Tudor! Olvídate de orinar en un aburrido palo de plástico. Literalmente dejaban caer una aguja de coser de metal en un cuenco de madera lleno de orina. Si la aguja se oxidaba o se volvía de un rojo brillante unos días después, ¡felicidades, eras declarada oficialmente embarazada! Para leer la loca investigación real detrás de esta repugnante prueba histórica, ¡revisa el enlace en la descripción!",
+    "scenes": [
+        {
+            "id": "scene_1",
+            "type": "image",
+            "filepath": "output/weird_history/tudor_needle_test_2026-02-28/Hyperrealistic_portrait_photography_of_a_beautiful_0b09acb35d.jpeg",
+            "prompt": "Hyper-realistic portrait photography of a beautiful Tudor-era noblewoman looking extremely stressed and confused. She is wearing a lavish, intricately embroidered Tudor gown with a French hood. She is holding her stomach. Dimly lit rustic wooden room, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.0
+        },
+        {
+            "id": "scene_2",
+            "type": "image",
+            "filepath": "output/weird_history/tudor_needle_test_2026-02-28/Hyperrealistic_portrait_photography_of_a_medieval__delpmaspu.png",
+            "prompt": "Hyper-realistic portrait photography of a medieval doctor in a plague doctor mask staring blankly in confusion, holding a completely blank scroll. Dark stone Tudor castle background, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.0
+        },
+        {
+            "id": "scene_3",
+            "type": "image",
+            "filepath": "output/weird_history/tudor_needle_test_2026-02-28/Pregnancy_test_on_wooden_table_594cd467b7.jpeg",
+            "prompt": "Hyper-realistic close-up photography of a modern plastic pregnancy test stick lying on a rustic wooden table, but the table is surrounded by archaic Tudor era medical instruments and burning candles. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.5
+        },
+        {
+            "id": "scene_4",
+            "type": "image",
+            "filepath": "output/weird_history/tudor_needle_test_2026-02-28/Woman_lifting_dress_revealing_bowl_26ae64c686.jpeg",
+            "prompt": "Hyper-realistic portrait photography of a beautiful Tudor woman lifting up her heavy, velvet dress skirts slightly to reveal a rough, antique wooden bowl placed on the stone floor. She looks nervous. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.5
+        },
+        {
+            "id": "scene_5",
+            "type": "video",
+            "filepath": "output/weird_history/tudor_needle_test_2026-02-28/Hyperrealistic_video_of_a_beautiful_tudor_woman_lo_dab91a3e48.mp4",
+            "prompt": "A beautiful Tudor woman in a lavish, colorful velvet dress and French hood is looking nervously downwards into a wooden bowl on a table. She leans in close, sees a rusted sewing needle inside the bowl, gasps in shock, and throws her hands up in the air in massive celebration. Hyper-realistic, 8k resolution, cinematic lighting, documentary style realism, highly detailed, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_6",
+            "type": "image",
+            "filepath": "output/weird_history/tudor_needle_test_2026-02-28/Silver_needle_falling_into_bowl_4ee21ddd92.jpeg",
+            "prompt": "Hyper-realistic extreme close-up macro photography of a shiny silver metal sewing needle suspended motionless above a dark wooden bowl filled with yellow liquid. Bubbles resting on the surface. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.5
+        },
+        {
+            "id": "scene_7",
+            "type": "image",
+            "filepath": "output/weird_history/tudor_needle_test_2026-02-28/Rusted_sewing_needle_in_bowl_565bb8ba49.jpeg",
+            "prompt": "Hyper-realistic extreme close-up macro photography of a heavily rusted, dark reddish-brown metal sewing needle sitting perfectly still at the bottom of a wooden bowl. The needle is covered in thick rust. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.5
+        },
+        {
+            "id": "scene_8",
+            "type": "image",
+            "filepath": "output/weird_history/tudor_needle_test_2026-02-28/Woman_hugging_husband_joy_7d3171a668.jpeg",
+            "prompt": "Hyper-realistic portrait photography of a beautiful Tudor woman hugging her husband in extreme joy, both wearing incredibly vibrant, colorful Tudor aristocratic clothing. They are standing in a bright, sunlit stained-glass room. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.5
+        },
+        {
+            "id": "scene_9",
+            "type": "image",
+            "filepath": "output/weird_history/tudor_needle_test_2026-02-28/Tudor_woman_pointing_camera_1cf92cc75a.jpeg",
+            "prompt": "Hyper-realistic portrait photography of a beautiful, slightly smirking Tudor woman pointing her finger directly up at the camera lens as if breaking the fourth wall. She is standing in a historic library holding an ancient leather-bound book. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        }
+    ]
+}

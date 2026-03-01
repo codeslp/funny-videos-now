@@ -2,7 +2,7 @@ import os
 import json
 import subprocess
 
-def generate_word_timestamps(audio_filepath: str, output_filepath: str = None) -> list[dict]:
+def generate_word_timestamps(audio_filepath: str, output_filepath: str = None, language: str = "en") -> list[dict]:
     """
     Transcribes audio using WhisperX to get millisecond-accurate word-level timestamps.
     Returns a list of dictionaries containing 'word', 'start', and 'end' keys.
@@ -20,13 +20,15 @@ def generate_word_timestamps(audio_filepath: str, output_filepath: str = None) -
         basename = os.path.splitext(os.path.basename(audio_filepath))[0]
         output_filepath = os.path.join(output_dir, f"{basename}.json")
 
+    model = "base" if language != "en" else "base.en"
+
     cmd = [
-        "whisperx",
+        "/Users/bfaris96/Library/Python/3.9/bin/whisperx",
         audio_filepath,
-        "--model", "base.en",
+        "--model", model,
         "--output_dir", output_dir,
         "--output_format", "json",
-        "--language", "en",
+        "--language", language,
         "--compute_type", "int8", # int8 for faster execution on macs (CPU/MPS)
     ]
     

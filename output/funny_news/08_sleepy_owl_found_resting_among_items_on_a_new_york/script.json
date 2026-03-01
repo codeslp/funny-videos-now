@@ -1,0 +1,23 @@
+{
+  "video_number": 8,
+  "headline": "Sleepy owl found resting among items on a New York antique store shelf - AP News",
+  "source": "AP News Oddities",
+  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU2VLWmVKYTNnbVJRRzNTbUNzNTdzamVDYTBITC1hcDMxWFB4RWlHWm5EaHVWWVFKc3NqS2VLT3MtVEpickd5QTMtd0tPUVJZQnVSdEpPSndKbVFTWi1lZEZ1cVlGRHZ3S3RHV0VLRFBBUnBhdGxrOE1McTBySTQ0Nl9tZ0NGdWkyWkxkX0ZOMzA2RURwMmFlVGNlbFNYTUJ6bm9WNjhPYw?oc=5",
+  "comedy_score": 39,
+  "pitch": "A sleepy owl, perched perfectly still on an antique shelf, is mistaken for a decorative piece until it slowly blinks, startling a browsing customer.",
+  "generated_at": "2026-02-28 09:25:03",
+  "script": [
+    {
+      "scene_number": 1,
+      "veo3_visual_prompt": "A friendly, charismatic news anchor, mid-30s, sharp suit, sits at a sleek, modern news desk with glowing digital monitors in the blurred background. They smile warmly, almost imperceptibly amused, directly into the camera. CAMERA: Medium shot, static, slight tilt up. STYLE: Bright, professional studio lighting, clean, corporate feel. 9:16 vertical portrait aspect ratio.",
+      "dialogue": "News Anchor: (professional, barely contained amusement) An owl found napping on an antique store shelf. We got the footage.",
+      "audio_cues": "Upbeat, professional news theme music fades in, then fades slightly under dialogue. Subtle studio ambiance."
+    },
+    {
+      "scene_number": 2,
+      "veo3_visual_prompt": "An eccentric proprietor, 60s, wearing a dusty velvet jacket and thick glasses, stands proudly next to a tall, cluttered antique shelf. Perched stiffly among ornate teacups and tarnished figurines is a large, incredibly still owl, eyes half-closed. A long-suffering employee, 20s, in a wrinkled apron, slowly polishes a small, tarnished brass bell nearby, shooting exasperated glances at the owl, then a quick, deadpan look directly into the camera. CAMERA: Handheld medium shot, slight sway, focusing on the proprietor and owl, then cutting to the employee's reaction. STYLE: Warm, dusty, slightly chaotic antique store lighting. 9:16 vertical portrait aspect ratio.",
+      "dialogue": "Eccentric Proprietor: (boastful) A living curio. Very rare.\nLong-Suffering Employee: (tired murmur) It just\u2026 showed up.\nEccentric Proprietor: (proudly) Excellent condition. Minimal dust.\nLong-Suffering Employee: (to camera, deadpan) It's just a bird.\nEccentric Proprietor: (whispering conspiratorially) Only forty-five hundred.",
+      "audio_cues": "Faint, distant street noise. Gentle tinkling of wind chimes. Occasional low 'hoo' from the owl. Soft, melancholic indie music score."
+    }
+  ]
+}
