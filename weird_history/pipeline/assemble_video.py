@@ -9,6 +9,8 @@ try:
 except ImportError:
     from .config import OUTPUT_DIR
 
+from parallax import apply_parallax_to_image
+
 def assemble_final_video(
     timeline_config: dict,
     audio_path: str,
@@ -61,20 +63,18 @@ def assemble_final_video(
         ext = os.path.splitext(filepath)[1].lower()
         
         if ext in ['.png', '.jpg', '.jpeg']:
-            # Loop the static image for the given duration at 30 fps
-            inputs.extend(["-loop", "1", "-framerate", "30", "-t", str(duration), "-i", filepath])
+            # We must use true 2.5D layered parallax displacement!
+            print(f"Applying AI 2.5D depth parallax to {os.path.basename(filepath)}...")
+            parallax_video_path = apply_parallax_to_image(filepath, duration, output_dir, fps=30)
+            inputs.extend(["-i", parallax_video_path])
+            
+            # Since the parallax engine outputs a video matching the image's original dimensions, 
+            # we run it through the exact same crop/scale filter pipeline below.
         else:
             inputs.extend(["-i", filepath])
         
-        # Determine if it's an image or video
-        ext = os.path.splitext(filepath)[1].lower()
-        if ext in ['.png', '.jpg', '.jpeg']:
-            # No zoompan / jitter effect. Keep images perfectly static, scaled and cropped to 9:16.
-            # loop=1 is required for input mapping, but since we are mapping duration we use scale and setsar.
-            filter_complex += f"[{i}:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1/1[v{i}];"
-        else:
-            # It's a video, scale and format it uniformly
-            filter_complex += f"[{i}:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1/1[v{i}];"
+        # Format the visual streams uniformly regardless of their source
+        filter_complex += f"[{i}:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1/1[v{i}];"
 
         video_streams.append(f"[v{i}]")
 
