@@ -5,7 +5,7 @@ import math
 from datetime import datetime
 import hashlib
 try:
-    from config import OUTPUT_DIR
+    from config import CARTESIA_API_KEY, DEFAULT_VOICE_ID, READY_TO_PUBLISH_DIR
 except ImportError:
     from .config import OUTPUT_DIR
 
@@ -23,12 +23,11 @@ def assemble_final_video(
     """
     if output_dir is None:
         output_dir_name = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-        output_dir = os.path.join(OUTPUT_DIR, output_dir_name)
+        output_dir = os.path.join(READY_TO_PUBLISH_DIR, output_dir_name)
     else:
         output_dir_name = os.path.basename(output_dir)
         
     os.makedirs(output_dir, exist_ok=True)
-
     output_path = os.path.join(output_dir, output_filename)
 
     print(f"Beginning FFmpeg Hybrid Assembly in {output_dir_name}...")

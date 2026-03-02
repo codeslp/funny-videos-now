@@ -66,18 +66,3 @@ Most short-form video platforms (YouTube Shorts, TikTok, Instagram Reels) will s
 ### Our Safety Philosophy
 > **If you have to ask "is this okay?", it's not okay.** Default to safe. There are enough absurd, harmless, hilarious headlines every single day. We never need to touch a risky one.
 
----
-
-## The SNL Model: How Topical Comedy Gets Written Fast
-
-We draw direct inspiration from SNL's Weekend Update process:
-
-1. **Continuous monitoring:** Writers track news all week, not just once.
-2. **Speed to script:** Jokes are written the same day as the news event.
-4. **Point of view matters:** The best topical comedy has a clear "take" on the situation — not just restating what happened, but framing *why* it's absurd.
-5. **Character-driven segments:** The funniest bits are the characters reacting to the news with a strong, exaggerated perspective.
-
-### Applied to Our Pipeline
-- Our "writers room" is the LLM.
-- Our "rehearsal" is reviewing the script output before sending to Veo3.
-- Our "character segments" are the people we put "in the room where it happened."

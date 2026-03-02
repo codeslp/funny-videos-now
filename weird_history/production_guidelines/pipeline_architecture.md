@@ -10,8 +10,8 @@ This document defines the complete end-to-end pipeline used for generating "Weir
 ## 2. Voiceover & Folder Initialization (`generate_audio.py`)
 *   **The Command:** `python3 generate_audio.py [timeline.json] [output_folder_path]`
 *   **Action:** This script sends the JSON script to the Cartesia API to generate the highly expressive TTS voiceover.
-*   **Timestamped Directory Rule:** The pipeline heavily relies on timestamped output folders to prevent accidental overwrites. When creating the `output_folder_path` argument for `generate_audio.py` or any subsequent script, ALWAYS append a timestamp.
-    *   *Correct format example:* `output/weird_history/tudor_needle_2026-02-28_20-50-00/`
+*   **Timestamped Directory Rule:** The pipeline heavily relies on timestamped output folders to prevent accidental overwrites. When creating the `output_folder_path` argument for `generate_audio.py` or any subsequent script, ALWAYS append a timestamp and place it inside `in_progress`.
+    *   *Correct format example:* `output/weird_history/in_progress/tudor_needle_2026-02-28_20-50-00/`
 
 ## 3. Visual Asset Generation (Google Flow)
 1.  **Stills:** Using the Image Generation prompt from the timeline, manually generate scenes 1-4 and 6-9 in Google Flow. **CRITICAL:** Do NOT include descriptions of motion in these still prompts.

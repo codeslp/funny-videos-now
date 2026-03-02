@@ -7,7 +7,7 @@ They are ranked by **Virality Potential** (Tier 1 = Highest, Tier 3 = Lowest) ba
 
 | Status | Topic | Category | Virality Factor | Link | Video File |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| ✅ Completed | **The Blackening of the Bride (Scotland)** | love and food | High Visual Absurdity / Pattern Interrupt. | [Link](childbearing_customs.md#8-the-blackening-of-the-bride-scotland) | `output/weird_history/wealthy_cow_dung_trick/final_render.mp4` |
+| ✅ Completed | **The Blackening of the Bride (Scotland)** | love and food | High Visual Absurdity / Pattern Interrupt. | [Link](childbearing_customs.md#8-the-blackening-of-the-bride-scotland) | `output/weird_history/published/wealthy_cow_dung_trick_2026-03-01_12-19-49/final_render.mp4` |
 | ⏳ Not Built | **The Golden "Ololuge" War Cry (Ancient Greece)** | childbearing customs | High Visual Absurdity / Pattern Interrupt. | [Link](childbearing_customs.md#9-the-golden-ololuge-war-cry-ancient-greece) | - |
 | ⏳ Not Built | **The "Groaning Cheese" Wheel (Great Britain)** | childbearing customs | High Visual Absurdity / Pattern Interrupt. | [Link](childbearing_customs.md#13-the-groaning-cheese-wheel-great-britain) | - |
 | ⏳ Not Built | **"El Colacho" Baby Jumping (Spain)** | childbearing customs | High Visual Absurdity / Pattern Interrupt. | [Link](childbearing_customs.md#21-el-colacho-baby-jumping-spain) | - |
@@ -52,7 +52,7 @@ They are ranked by **Virality Potential** (Tier 1 = Highest, Tier 3 = Lowest) ba
 
 | Status | Topic | Category | Virality Factor | Link | Video File |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| ✅ Completed | **The Tudor Needle Test (Tudor England)** | childbearing customs | Moderate Visual Absurdity. | [Link](childbearing_customs.md#2-the-tudor-needle-test-tudor-england) | `output/weird_history/tudor_needle_test_2026-02-28/final_assembled.mp4` |
+| ✅ Completed | **The Tudor Needle Test (Tudor England)** | childbearing customs | Moderate Visual Absurdity. | [Link](childbearing_customs.md#2-the-tudor-needle-test-tudor-england) | `output/weird_history/published/tudor_needle_test_2026-02-28/final_assembled.mp4` |
 | ⏳ Not Built | **The Royal "Spectator Sport" Menagerie (Pre-Revolution France)** | childbearing customs | Moderate Visual Absurdity. | [Link](childbearing_customs.md#3-the-royal-spectator-sport-menagerie-pre-revolution-france) | - |
 | ⏳ Not Built | **Banning Above-Head Gestures (Various Global Folktales)** | childbearing customs | Moderate Visual Absurdity. | [Link](childbearing_customs.md#4-banning-above-head-gestures-various-global-folktales) | - |
 | ⏳ Not Built | **Untying Every Knot in the House (Ancient Greece & Rome)** | childbearing customs | Moderate Visual Absurdity. | [Link](childbearing_customs.md#5-untying-every-knot-in-the-house-ancient-greece-rome) | - |
@@ -127,7 +127,7 @@ They are ranked by **Virality Potential** (Tier 1 = Highest, Tier 3 = Lowest) ba
 | ⏳ Not Built | **The 189-Carat Scepter Diamond (Russian Empire)** | courting and wooing | Moderate Visual Absurdity. | [Link](courting_and_wooing_2.md#41-the-189-carat-scepter-diamond-russian-empire) | - |
 | ⏳ Not Built | **Groom "Hand-Gifts" (Medieval Germany)** | courting and wooing | Moderate Visual Absurdity. | [Link](courting_and_wooing_2.md#42-groom-hand-gifts-medieval-germany) | - |
 | ⏳ Not Built | **Agoge Curse Scripts (Ancient Greece)** | courting and wooing | Moderate Visual Absurdity. | [Link](courting_and_wooing_2.md#43-agoge-curse-scripts-ancient-greece) | - |
-| ✅ Completed | **The Secret Blanket Courtship (Native American Tribes)** | courting and wooing | Moderate Visual Absurdity. | [Link](courting_and_wooing_2.md#44-the-secret-blanket-courtship-native-american-tribes) | `output/weird_history/blanket_courtship_2026-02-28_16-41-27/final_render.mp4` |
+| ✅ Completed | **The Secret Blanket Courtship (Native American Tribes)** | courting and wooing | Moderate Visual Absurdity. | [Link](courting_and_wooing_2.md#44-the-secret-blanket-courtship-native-american-tribes) | `output/weird_history/published/blanket_courtship_2026-02-28_16-41-27/final_render.mp4` |
 | ⏳ Not Built | **The Flute of the Shy Hunter (Lakota Tribe)** | courting and wooing | Moderate Visual Absurdity. | [Link](courting_and_wooing_2.md#46-the-flute-of-the-shy-hunter-lakota-tribe) | - |
 | ⏳ Not Built | **Moccasin Flirting (Blackfoot Tribe)** | courting and wooing | Moderate Visual Absurdity. | [Link](courting_and_wooing_2.md#47-moccasin-flirting-blackfoot-tribe) | - |
 | ⏳ Not Built | **"Fingering the Stocking" (Medieval France/England)** | courting and wooing | Moderate Visual Absurdity. | [Link](courting_and_wooing_2.md#48-fingering-the-stocking-medieval-franceengland) | - |
@@ -140,7 +140,7 @@ They are ranked by **Virality Potential** (Tier 1 = Highest, Tier 3 = Lowest) ba
 | ⏳ Not Built | **Fake Bridal Resistance (Ancient Rome)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#6-fake-bridal-resistance-ancient-rome) | - |
 | ⏳ Not Built | **The Knot of Hercules (Ancient Rome)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#7-the-knot-of-hercules-ancient-rome) | - |
 | ⏳ Not Built | **The Cult of Mutunus Tutunus (Ancient Rome)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#8-the-cult-of-mutunus-tutunus-ancient-rome) | - |
-| ⏳ Not Built | **Parting Hair with a Spartan Spear (Ancient Rome)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#9-parting-hair-with-a-spartan-spear-ancient-rome) | - |
+| ✅ Completed | **Parting Hair with a Spartan Spear (Ancient Rome)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#9-parting-hair-with-a-spartan-spear-ancient-rome) | `output/weird_history/published/spartan_spear_2026_03_01/final_spear_video.mp4` |
 | ⏳ Not Built | **The Original "Carrying Over the Threshold" (Ancient Rome)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#10-the-original-carrying-over-the-threshold-ancient-rome) | - |
 | ⏳ Not Built | **The Fescennine Verses (Ancient Rome)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#11-the-fescennine-verses-ancient-rome) | - |
 | ⏳ Not Built | **"Fingering the Stocking" (Medieval England & France)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#12-fingering-the-stocking-medieval-england-france) | - |
@@ -153,7 +153,7 @@ They are ranked by **Virality Potential** (Tier 1 = Highest, Tier 3 = Lowest) ba
 | ⏳ Not Built | **The Exhausting "Bridal Tour" (Medieval Nobility)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#21-the-exhausting-bridal-tour-medieval-nobility) | - |
 | ⏳ Not Built | **The "Money and Babies" Bed Blessing (Greece)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#22-the-money-and-babies-bed-blessing-greece) | - |
 | ⏳ Not Built | **Cake Crumb Fertility Blessing (Ancient Rome)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#23-cake-crumb-fertility-blessing-ancient-rome) | - |
-| ✅ Completed | **Sleeping with Moldy Cake (Victorian England)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#24-sleeping-with-moldy-cake-victorian-england) | `output/weird_history/sleeping_with_moldy_cake_hyperrealism/final_render.mp4` |
+| ✅ Completed | **Sleeping with Moldy Cake (Victorian England)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#24-sleeping-with-moldy-cake-victorian-england) | `output/weird_history/published/sleeping_with_moldy_cake_hyperrealism/final_render.mp4` |
 | ⏳ Not Built | **Anti-Impotence Exorcisms (16th Century France)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs.md#25-anti-impotence-exorcisms-16th-century-france) | - |
 | ⏳ Not Built | **Spartan "Capture in the Dark" (Ancient Sparta)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs_2.md#28-spartan-capture-in-the-dark-ancient-sparta) | - |
 | ⏳ Not Built | **The Miracle Fertility Chair (Naples, Italy)** | intimacy customs | Moderate Visual Absurdity. | [Link](intimacy_customs_2.md#29-the-miracle-fertility-chair-naples-italy) | - |

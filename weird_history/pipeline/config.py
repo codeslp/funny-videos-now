@@ -15,7 +15,10 @@ TWELVELABS_API_KEY = os.getenv("TWELVELABS_API_KEY") # if needed later
 # Add flow/flow tv keys when available
 
 # Output Configuration
-OUTPUT_DIR = os.path.join(ROOT_DIR, 'output', 'weird_history')
+OUTPUT_DIR = os.path.join(ROOT_DIR, "output", "weird_history")
+IN_PROGRESS_DIR = os.path.join(OUTPUT_DIR, "in_progress")
+READY_TO_PUBLISH_DIR = os.path.join(OUTPUT_DIR, "ready_to_publish")
+PUBLISHED_DIR = os.path.join(OUTPUT_DIR, "published")
 VIDEO_RESOLUTION = (1080, 1920) # Portrait for Shorts/Reels/TikTok
 FPS = 30
 

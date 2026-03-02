@@ -32,14 +32,14 @@
         {
             "id": "scene_5",
             "type": "video",
-            "prompt": "A comically ugly older Roman woman standing behind a jaw-droppingly gorgeous bride, very carefully and slowly using the intensely sharp blade of a rusty iron spear to perfectly part the bride's hair directly down the middle. Pristine condition environment, clean and luxurious living space. Vibrant colors, hyper-saturated, cinematic lighting.",
+            "prompt": "A close up of curly dark hair sliding over a long roman spear. Pristine condition environment, clean and luxurious living space. Vibrant colors, hyper-saturated, cinematic lighting.",
             "duration": 5.0
         },
         {
             "id": "scene_6",
-            "type": "image",
-            "prompt": "Hyper-realistic portrait photography of the jaw-droppingly gorgeous Roman bride with her hair perfectly parted and braided, looking deeply traumatized but relieved to be alive. Vibrant colors, hyper-saturated, cinematic lighting, documentary style realism, highly detailed, photorealistic. No painting.",
-            "duration": 4.5
+            "type": "video",
+            "prompt": "A group of gorgeous Ancient Roman women partying and celebrating wildly in a pristine, brand new construction majestic stone room. Vibrant colors, hyper-saturated, cinematic lighting.",
+            "duration": 5.0
         },
         {
             "id": "scene_7",
@@ -50,7 +50,7 @@
         {
             "id": "scene_8",
             "type": "image",
-            "prompt": "Hyper-realistic group photography of a crowd of cheering, wine-drinking wedding guests in a sunny, lavish marble courtyard with brand new construction, gleaming marble, and vibrant unweathered paint. Vibrant colors, hyper-saturated, cinematic lighting, documentary style realism, highly detailed, photorealistic. No painting.",
+            "prompt": "Hyper-realistic group photography of a crowd of cheering, wine-drinking Ancient Roman wedding guests wearing traditional togas and tunics in a sunny, lavish marble courtyard with brand new construction, gleaming marble, and vibrant unweathered paint. Vibrant colors, hyper-saturated, cinematic lighting, documentary style realism, highly detailed, photorealistic. No painting.",
             "duration": 4.5
         },
         {
