@@ -21,7 +21,7 @@ from datetime import datetime
 def run():
     base_dir = "/Users/bfaris96/Claude Code Markdown/funny_video_generator"
     date_str = datetime.now().strftime("%Y-%m-%d")
-    build_dir = os.path.join(base_dir, f"output/weird_history/spanish/spartan_spear_{date_str}")
+    build_dir = os.path.join(base_dir, f"output/weird_history/in_progress/spanish/spartan_spear_{date_str}")
     os.makedirs(build_dir, exist_ok=True)
     
     timeline_path = os.path.join(base_dir, "weird_history/spanish/spartan_spear_timeline_es.json")
@@ -55,7 +55,7 @@ def run():
     
     for i, (src_name, dst_name) in enumerate(files_to_copy):
         if src_name == "Maidens_partying_in_plaza_7ce4a62f12.mp4":
-            src_path = os.path.join(base_dir, "output/weird_history/spartan_spear", src_name)
+            src_path = os.path.join(base_dir, "output/weird_history/published/spartan_spear_2026_03_01", src_name)
         else:
             src_path = os.path.join(downloads_dir, src_name)
         dst_path = os.path.join(build_dir, dst_name)

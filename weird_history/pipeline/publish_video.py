@@ -3,10 +3,15 @@ import sys
 import json
 import re
 from datetime import datetime
+import shutil
 
 # Add the src folder to path to import the publisher functions
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'src')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..', 'src')))
 from publisher import upload_to_youtube, upload_to_tiktok, upload_to_facebook_reels, upload_to_instagram_reels
+try:
+    from config import PUBLISHED_DIR
+except ImportError:
+    pass
 
 def update_viral_tracking_doc(topic_name: str, final_video_path: str):
     """
@@ -49,7 +54,7 @@ def update_viral_tracking_doc(topic_name: str, final_video_path: str):
         print(f"Failed to update viral tracking doc: {e}")
 
 def main():
-    build_dir = "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/wealthy_cow_dung_trick"
+    build_dir = "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/ready_to_publish/wealthy_cow_dung_trick"
     final_video_path = os.path.join(build_dir, "final_render.mp4")
     tracking_topic = "The Wealthy Cow Dung Trick (East African Tribes)"
     
@@ -111,6 +116,14 @@ def main():
     
     # Automatically log to the git tracking document
     update_viral_tracking_doc(tracking_topic, final_video_path)
+
+    # Move successfully published folder to published archive
+    try:
+        final_published_dir = os.path.join(PUBLISHED_DIR, os.path.basename(build_dir))
+        shutil.move(build_dir, final_published_dir)
+        print(f"Archived video folder to {final_published_dir}")
+    except Exception as e:
+        print(f"Error archiving folder to published directory: {e}")
 
 if __name__ == "__main__":
     main()

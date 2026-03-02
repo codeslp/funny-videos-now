@@ -18,7 +18,7 @@ from generate_audio import generate_tts
 
 def run():
     base_dir = "/Users/bfaris96/Claude Code Markdown/funny_video_generator"
-    build_dir = os.path.join(base_dir, "output/weird_history/spartan_spear")
+    build_dir = os.path.join(base_dir, "output/weird_history/in_progress/spartan_spear")
     os.makedirs(build_dir, exist_ok=True)
     
     timeline_path = os.path.join(base_dir, "weird_history/spartan_spear_timeline.json")
