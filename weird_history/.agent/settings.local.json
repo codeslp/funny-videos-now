@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "WebFetch(*)",
+      "WebSearch",
+      "Read(**)",
+      "Write(weird_history/historic_research/*)",
+      "Edit(weird_history/historic_research/*)",
+      "Write(weird_history/.agent/skills/**)",
+      "Edit(weird_history/.agent/skills/**)",
+      "Edit(weird_history/production_guidelines/viral_tracking.md)",
+      "Glob(*)",
+      "Grep(*)"
+    ],
+    "deny": [
+      "Bash(rm *)",
+      "Bash(mv *)",
+      "Bash(chmod *)",
+      "Bash(sudo *)",
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "Read(*/.env*)",
+      "Read(*/secrets/*)"
+    ],
+    "additionalDirectories": [
+      "/Users/bfaris96/Claude Code Markdown/Avoider app/.claude/prompts"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+    "title": "Matrimonios Fantasma (Minghun) (Antigua China)",
+    "language": "es",
+    "original_metadata_source": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/ready_to_publish/en_ghost_marriages_minghun_ancient_china_2026-03-02/build_metadata.json",
+    "timeline_source": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/weird_history/pipeline/ghost_marriages_timeline_es.json",
+    "build_timestamp": "2026-03-02_13-41-43",
+    "audio": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/es_matrimonios_fantasma_minghun_antigua_china_2026-03-02_13-41-43/voiceover.wav",
+    "scenes": [
+        {
+            "id": "scene_0",
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/ready_to_publish/en_ghost_marriages_minghun_ancient_china_2026-03-02/scene_scene_0_still.jpg"
+        },
+        {
+            "id": "scene_1",
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/ready_to_publish/en_ghost_marriages_minghun_ancient_china_2026-03-02/scene_scene_1_still.jpg"
+        },
+        {
+            "id": "scene_2",
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/ready_to_publish/en_ghost_marriages_minghun_ancient_china_2026-03-02/scene_scene_2_still.jpg"
+        },
+        {
+            "id": "scene_3",
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/ready_to_publish/en_ghost_marriages_minghun_ancient_china_2026-03-02/scene_scene_3_still.jpg"
+        },
+        {
+            "id": "scene_4",
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/ready_to_publish/en_ghost_marriages_minghun_ancient_china_2026-03-02/scene_scene_4_still.jpg"
+        },
+        {
+            "id": "scene_5",
+            "type": "video",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/ready_to_publish/en_ghost_marriages_minghun_ancient_china_2026-03-02/scene_scene_5_video.mp4"
+        },
+        {
+            "id": "scene_6",
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/ready_to_publish/en_ghost_marriages_minghun_ancient_china_2026-03-02/scene_scene_6_still.jpg"
+        },
+        {
+            "id": "scene_7",
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/ready_to_publish/en_ghost_marriages_minghun_ancient_china_2026-03-02/scene_scene_7_still.jpg"
+        },
+        {
+            "id": "scene_8",
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/ready_to_publish/en_ghost_marriages_minghun_ancient_china_2026-03-02/scene_scene_8_still.jpg"
+        },
+        {
+            "id": "scene_9",
+            "type": "image",
+            "filepath": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/ready_to_publish/en_ghost_marriages_minghun_ancient_china_2026-03-02/scene_scene_9_still.jpg"
+        }
+    ],
+    "word_timestamps_count": 99,
+    "final_render": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/weird_history/es_matrimonios_fantasma_minghun_antigua_china_2026-03-02_13-41-43/final_render_translated.mp4"
+}

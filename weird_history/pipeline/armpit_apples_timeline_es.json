@@ -1,0 +1,68 @@
+{
+    "title": "Armpit Apples",
+    "language": "es",
+    "script": "Imagínate ir a una discoteca, pero en lugar de darle a la persona que te gusta un ramillete, le das una rodaja de manzana tibia y empapada... de tu axila. Lo creas o no, en la Austria rural y en la Inglaterra isabelina, esta era la máxima demostración de romanticismo. Las mujeres jóvenes y solteras se ponían gruesas rodajas de manzana dulce en las axilas antes de una larga noche de sudoroso y vigoroso baile folclórico. Al final de la noche, una mujer se acercaba al hombre que más le gustaba y le ofrecía la fruta empapada de sudor. Si él se comía valientemente toda la rodaja empapada, significaba que aceptaba su 'fragancia personal' y le correspondía. Era básicamente una prueba de feromonas medieval. La próxima vez que te quejes de las aplicaciones de citas modernas, alégrate de no tener que evaluar a una posible pareja comiéndote el sudor de su axila.",
+    "tts_voice_id": "es-ES-ElviraNeural",
+    "scenes": [
+        {
+            "id": "scene_0",
+            "type": "image",
+            "prompt": "Hyper-realistic portrait photography of a jaw-droppingly gorgeous 20-year-old Elizabethan peasant woman with beautiful features, wearing a pristine historical corset and dress. Looking directly at the camera with a subtle smile. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 2.0
+        },
+        {
+            "id": "scene_1",
+            "type": "video",
+            "prompt": "A jaw-droppingly gorgeous 20-year-old Elizabethan peasant woman in a vibrant, pristine period dress, holding and thoughtfully looking at a gleaming, perfect red apple in a beautifully lit rustic wooden tavern with warm firelight. She smiles alluringly at the camera. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_2",
+            "type": "image",
+            "prompt": "Close-up of a jaw-droppingly gorgeous young woman with flushed cheeks, wearing a vibrant, pristine corset. She is subtly tucking a fresh, perfect slice of red apple into her underarm while smiling. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_3",
+            "type": "image",
+            "prompt": "A ridiculously handsome, rugged young Elizabethan man with sharp cheekbones, standing near a roaring fireplace in the tavern, watching the dancers with intense interest. He wears a pristine linen shirt. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_4",
+            "type": "image",
+            "prompt": "The gorgeous young woman, now looking endearingly sweaty with damp hair, stands confidently in the tavern wearing a vibrant form fitting dress, holding a slightly soggy, warm apple slice in her outstretched hand towards the camera. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.5
+        },
+        {
+            "id": "scene_5",
+            "type": "video",
+            "prompt": "A ruggedly handsome young man in a pristine medieval linen shirt slowly taking a bite out of a wet, soggy apple slice. He chews it thoughtfully, looking both slightly disgusted and incredibly smitten. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_6",
+            "type": "image",
+            "prompt": "The handsome young man and the gorgeous young woman standing close together, holding hands, smiling deeply at each other in the warm glow of the tavern. Pristine clothing, vibrant colors. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_7",
+            "type": "image",
+            "prompt": "A beautiful, hyper-realistic extreme close-up of a perfect, gleaming red apple sliced in half, resting on an immaculate rustic wooden table next to a pristine burning candle. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.5
+        },
+        {
+            "id": "scene_8",
+            "type": "image",
+            "prompt": "A comically weird-looking, older medieval tavern patron with an exaggerated, funny expression of complete disgust, staring at a modern smartphone showing a dating app profile. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.5
+        },
+        {
+            "id": "scene_9",
+            "type": "image",
+            "prompt": "The jaw-droppingly gorgeous 20-year-old Elizabethan peasant woman from before, but this time she is pointing her finger directly up at the camera lens with a playful wink. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        }
+    ]
+}

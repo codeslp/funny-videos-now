@@ -1,0 +1,682 @@
+[
+    {
+        "word": "Imagine",
+        "start": 0.031,
+        "end": 0.712
+    },
+    {
+        "word": "going",
+        "start": 0.752,
+        "end": 0.972
+    },
+    {
+        "word": "to",
+        "start": 1.032,
+        "end": 1.112
+    },
+    {
+        "word": "a",
+        "start": 1.192,
+        "end": 1.212
+    },
+    {
+        "word": "dance",
+        "start": 1.252,
+        "end": 1.552
+    },
+    {
+        "word": "club,",
+        "start": 1.593,
+        "end": 1.893
+    },
+    {
+        "word": "but",
+        "start": 2.253,
+        "end": 2.353
+    },
+    {
+        "word": "instead",
+        "start": 2.413,
+        "end": 2.754
+    },
+    {
+        "word": "of",
+        "start": 2.794,
+        "end": 2.834
+    },
+    {
+        "word": "handing",
+        "start": 2.894,
+        "end": 3.194
+    },
+    {
+        "word": "your",
+        "start": 3.234,
+        "end": 3.334
+    },
+    {
+        "word": "crush",
+        "start": 3.394,
+        "end": 3.655
+    },
+    {
+        "word": "a",
+        "start": 3.695,
+        "end": 3.715
+    },
+    {
+        "word": "corsage,",
+        "start": 3.755,
+        "end": 4.335
+    },
+    {
+        "word": "you",
+        "start": 4.696,
+        "end": 4.816
+    },
+    {
+        "word": "hand",
+        "start": 4.856,
+        "end": 5.056
+    },
+    {
+        "word": "them",
+        "start": 5.096,
+        "end": 5.216
+    },
+    {
+        "word": "a",
+        "start": 5.276,
+        "end": 5.296
+    },
+    {
+        "word": "warm,",
+        "start": 5.356,
+        "end": 5.697
+    },
+    {
+        "word": "soggy",
+        "start": 5.957,
+        "end": 6.317
+    },
+    {
+        "word": "slice",
+        "start": 6.357,
+        "end": 6.617
+    },
+    {
+        "word": "of",
+        "start": 6.657,
+        "end": 6.697
+    },
+    {
+        "word": "apple",
+        "start": 6.838,
+        "end": 7.078
+    },
+    {
+        "word": "from",
+        "start": 7.358,
+        "end": 7.478
+    },
+    {
+        "word": "your",
+        "start": 7.518,
+        "end": 7.658
+    },
+    {
+        "word": "armpit.",
+        "start": 7.759,
+        "end": 8.139
+    },
+    {
+        "word": "Believe",
+        "start": 9.22,
+        "end": 9.56
+    },
+    {
+        "word": "it",
+        "start": 9.6,
+        "end": 9.64
+    },
+    {
+        "word": "or",
+        "start": 9.7,
+        "end": 9.76
+    },
+    {
+        "word": "not,",
+        "start": 9.821,
+        "end": 10.061
+    },
+    {
+        "word": "in",
+        "start": 10.421,
+        "end": 10.501
+    },
+    {
+        "word": "rural",
+        "start": 10.561,
+        "end": 10.841
+    },
+    {
+        "word": "Austria",
+        "start": 11.002,
+        "end": 11.402
+    },
+    {
+        "word": "and",
+        "start": 11.502,
+        "end": 11.582
+    },
+    {
+        "word": "Elizabethan",
+        "start": 11.662,
+        "end": 12.263
+    },
+    {
+        "word": "England,",
+        "start": 12.343,
+        "end": 12.623
+    },
+    {
+        "word": "this",
+        "start": 12.984,
+        "end": 13.124
+    },
+    {
+        "word": "was",
+        "start": 13.184,
+        "end": 13.304
+    },
+    {
+        "word": "the",
+        "start": 13.344,
+        "end": 13.424
+    },
+    {
+        "word": "ultimate",
+        "start": 13.524,
+        "end": 13.864
+    },
+    {
+        "word": "romantic",
+        "start": 13.904,
+        "end": 14.345
+    },
+    {
+        "word": "flex.",
+        "start": 14.405,
+        "end": 14.765
+    },
+    {
+        "word": "Young,",
+        "start": 15.906,
+        "end": 16.147
+    },
+    {
+        "word": "single",
+        "start": 16.507,
+        "end": 16.807
+    },
+    {
+        "word": "women",
+        "start": 16.847,
+        "end": 17.128
+    },
+    {
+        "word": "would",
+        "start": 17.168,
+        "end": 17.328
+    },
+    {
+        "word": "tuck",
+        "start": 17.348,
+        "end": 17.568
+    },
+    {
+        "word": "thick",
+        "start": 17.648,
+        "end": 17.848
+    },
+    {
+        "word": "slices",
+        "start": 17.908,
+        "end": 18.329
+    },
+    {
+        "word": "of",
+        "start": 18.389,
+        "end": 18.429
+    },
+    {
+        "word": "sweet",
+        "start": 18.529,
+        "end": 18.769
+    },
+    {
+        "word": "apple",
+        "start": 18.889,
+        "end": 19.11
+    },
+    {
+        "word": "right",
+        "start": 19.19,
+        "end": 19.41
+    },
+    {
+        "word": "into",
+        "start": 19.43,
+        "end": 19.59
+    },
+    {
+        "word": "their",
+        "start": 19.63,
+        "end": 19.79
+    },
+    {
+        "word": "armpits",
+        "start": 19.89,
+        "end": 20.291
+    },
+    {
+        "word": "before",
+        "start": 20.391,
+        "end": 20.691
+    },
+    {
+        "word": "a",
+        "start": 20.751,
+        "end": 20.771
+    },
+    {
+        "word": "long",
+        "start": 20.831,
+        "end": 21.031
+    },
+    {
+        "word": "night",
+        "start": 21.091,
+        "end": 21.272
+    },
+    {
+        "word": "of",
+        "start": 21.332,
+        "end": 21.372
+    },
+    {
+        "word": "sweaty,",
+        "start": 21.452,
+        "end": 21.772
+    },
+    {
+        "word": "vigorous",
+        "start": 22.012,
+        "end": 22.393
+    },
+    {
+        "word": "folk",
+        "start": 22.453,
+        "end": 22.673
+    },
+    {
+        "word": "dancing.",
+        "start": 22.713,
+        "end": 23.153
+    },
+    {
+        "word": "At",
+        "start": 24.255,
+        "end": 24.315
+    },
+    {
+        "word": "the",
+        "start": 24.335,
+        "end": 24.455
+    },
+    {
+        "word": "end",
+        "start": 24.535,
+        "end": 24.635
+    },
+    {
+        "word": "of",
+        "start": 24.675,
+        "end": 24.715
+    },
+    {
+        "word": "the",
+        "start": 24.735,
+        "end": 24.835
+    },
+    {
+        "word": "night,",
+        "start": 24.895,
+        "end": 25.115
+    },
+    {
+        "word": "a",
+        "start": 25.476,
+        "end": 25.496
+    },
+    {
+        "word": "woman",
+        "start": 25.556,
+        "end": 25.796
+    },
+    {
+        "word": "would",
+        "start": 25.836,
+        "end": 25.956
+    },
+    {
+        "word": "approach",
+        "start": 25.996,
+        "end": 26.357
+    },
+    {
+        "word": "the",
+        "start": 26.417,
+        "end": 26.517
+    },
+    {
+        "word": "man",
+        "start": 26.557,
+        "end": 26.737
+    },
+    {
+        "word": "she",
+        "start": 26.817,
+        "end": 26.937
+    },
+    {
+        "word": "fancied",
+        "start": 27.017,
+        "end": 27.438
+    },
+    {
+        "word": "most",
+        "start": 27.518,
+        "end": 27.798
+    },
+    {
+        "word": "and",
+        "start": 27.878,
+        "end": 27.958
+    },
+    {
+        "word": "offer",
+        "start": 28.058,
+        "end": 28.298
+    },
+    {
+        "word": "him",
+        "start": 28.338,
+        "end": 28.439
+    },
+    {
+        "word": "the",
+        "start": 28.499,
+        "end": 28.599
+    },
+    {
+        "word": "sweat-soaked",
+        "start": 28.639,
+        "end": 29.119
+    },
+    {
+        "word": "fruit.",
+        "start": 29.179,
+        "end": 29.92
+    },
+    {
+        "word": "If",
+        "start": 30.44,
+        "end": 30.62
+    },
+    {
+        "word": "he",
+        "start": 30.66,
+        "end": 30.761
+    },
+    {
+        "word": "bravely",
+        "start": 30.801,
+        "end": 31.182
+    },
+    {
+        "word": "ate",
+        "start": 31.282,
+        "end": 31.402
+    },
+    {
+        "word": "the",
+        "start": 31.442,
+        "end": 31.542
+    },
+    {
+        "word": "entire",
+        "start": 31.603,
+        "end": 31.983
+    },
+    {
+        "word": "soggy",
+        "start": 32.064,
+        "end": 32.404
+    },
+    {
+        "word": "slice,",
+        "start": 32.444,
+        "end": 32.785
+    },
+    {
+        "word": "it",
+        "start": 33.286,
+        "end": 33.346
+    },
+    {
+        "word": "meant",
+        "start": 33.427,
+        "end": 33.607
+    },
+    {
+        "word": "he",
+        "start": 33.647,
+        "end": 33.707
+    },
+    {
+        "word": "accepted",
+        "start": 33.767,
+        "end": 34.208
+    },
+    {
+        "word": "her",
+        "start": 34.268,
+        "end": 34.369
+    },
+    {
+        "word": "personal",
+        "start": 34.489,
+        "end": 34.91
+    },
+    {
+        "word": "fragrance",
+        "start": 34.97,
+        "end": 35.431
+    },
+    {
+        "word": "and",
+        "start": 35.631,
+        "end": 35.692
+    },
+    {
+        "word": "returned",
+        "start": 35.752,
+        "end": 36.113
+    },
+    {
+        "word": "her",
+        "start": 36.153,
+        "end": 36.253
+    },
+    {
+        "word": "affection.",
+        "start": 36.313,
+        "end": 36.754
+    },
+    {
+        "word": "It",
+        "start": 37.856,
+        "end": 37.916
+    },
+    {
+        "word": "was",
+        "start": 37.957,
+        "end": 38.077
+    },
+    {
+        "word": "basically",
+        "start": 38.137,
+        "end": 38.598
+    },
+    {
+        "word": "a",
+        "start": 38.678,
+        "end": 38.718
+    },
+    {
+        "word": "medieval",
+        "start": 38.778,
+        "end": 39.159
+    },
+    {
+        "word": "pheromone",
+        "start": 39.219,
+        "end": 39.68
+    },
+    {
+        "word": "test.",
+        "start": 39.7,
+        "end": 40.021
+    },
+    {
+        "word": "Next",
+        "start": 41.164,
+        "end": 41.364
+    },
+    {
+        "word": "time",
+        "start": 41.424,
+        "end": 41.625
+    },
+    {
+        "word": "you",
+        "start": 41.685,
+        "end": 41.805
+    },
+    {
+        "word": "complain",
+        "start": 41.845,
+        "end": 42.246
+    },
+    {
+        "word": "about",
+        "start": 42.306,
+        "end": 42.487
+    },
+    {
+        "word": "modern",
+        "start": 42.567,
+        "end": 42.867
+    },
+    {
+        "word": "dating",
+        "start": 42.907,
+        "end": 43.188
+    },
+    {
+        "word": "apps,",
+        "start": 43.308,
+        "end": 43.87
+    },
+    {
+        "word": "just",
+        "start": 43.89,
+        "end": 44.09
+    },
+    {
+        "word": "be",
+        "start": 44.15,
+        "end": 44.25
+    },
+    {
+        "word": "glad",
+        "start": 44.291,
+        "end": 44.551
+    },
+    {
+        "word": "you",
+        "start": 44.591,
+        "end": 44.691
+    },
+    {
+        "word": "don't",
+        "start": 44.752,
+        "end": 44.912
+    },
+    {
+        "word": "have",
+        "start": 44.952,
+        "end": 45.132
+    },
+    {
+        "word": "to",
+        "start": 45.172,
+        "end": 45.233
+    },
+    {
+        "word": "evaluate",
+        "start": 45.313,
+        "end": 45.854
+    },
+    {
+        "word": "a",
+        "start": 45.894,
+        "end": 45.934
+    },
+    {
+        "word": "potential",
+        "start": 45.994,
+        "end": 46.395
+    },
+    {
+        "word": "partner",
+        "start": 46.455,
+        "end": 46.796
+    },
+    {
+        "word": "by",
+        "start": 46.836,
+        "end": 46.997
+    },
+    {
+        "word": "eating",
+        "start": 47.037,
+        "end": 47.357
+    },
+    {
+        "word": "their",
+        "start": 47.397,
+        "end": 47.558
+    },
+    {
+        "word": "armpit",
+        "start": 47.678,
+        "end": 48.059
+    },
+    {
+        "word": "sweat.",
+        "start": 48.099,
+        "end": 48.6
+    }
+]

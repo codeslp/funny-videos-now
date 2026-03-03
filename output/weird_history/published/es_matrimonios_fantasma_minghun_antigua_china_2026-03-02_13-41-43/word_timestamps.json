@@ -1,0 +1,497 @@
+[
+    {
+        "word": "Imagina",
+        "start": 0.031,
+        "end": 0.695
+    },
+    {
+        "word": "estar",
+        "start": 0.736,
+        "end": 0.957
+    },
+    {
+        "word": "soltero",
+        "start": 0.997,
+        "end": 1.38
+    },
+    {
+        "word": "toda",
+        "start": 1.48,
+        "end": 1.641
+    },
+    {
+        "word": "tu",
+        "start": 1.722,
+        "end": 1.822
+    },
+    {
+        "word": "vida",
+        "start": 1.843,
+        "end": 2.064
+    },
+    {
+        "word": "y",
+        "start": 2.084,
+        "end": 2.104
+    },
+    {
+        "word": "luego",
+        "start": 2.145,
+        "end": 2.648
+    },
+    {
+        "word": "tu",
+        "start": 2.728,
+        "end": 2.869
+    },
+    {
+        "word": "familia",
+        "start": 2.889,
+        "end": 3.231
+    },
+    {
+        "word": "te",
+        "start": 3.332,
+        "end": 3.413
+    },
+    {
+        "word": "obliga",
+        "start": 3.473,
+        "end": 3.775
+    },
+    {
+        "word": "a",
+        "start": 3.795,
+        "end": 3.815
+    },
+    {
+        "word": "casarte",
+        "start": 3.956,
+        "end": 4.339
+    },
+    {
+        "word": "despu\u00e9s",
+        "start": 4.399,
+        "end": 4.701
+    },
+    {
+        "word": "de",
+        "start": 4.761,
+        "end": 4.822
+    },
+    {
+        "word": "morir.",
+        "start": 4.882,
+        "end": 5.687
+    },
+    {
+        "word": "En",
+        "start": 6.005,
+        "end": 6.345
+    },
+    {
+        "word": "la",
+        "start": 6.365,
+        "end": 6.405
+    },
+    {
+        "word": "antigua",
+        "start": 6.425,
+        "end": 6.746
+    },
+    {
+        "word": "China,",
+        "start": 6.846,
+        "end": 7.106
+    },
+    {
+        "word": "morir",
+        "start": 7.506,
+        "end": 7.747
+    },
+    {
+        "word": "soltero",
+        "start": 7.787,
+        "end": 8.187
+    },
+    {
+        "word": "significaba",
+        "start": 8.247,
+        "end": 8.788
+    },
+    {
+        "word": "enfrentar",
+        "start": 8.828,
+        "end": 9.268
+    },
+    {
+        "word": "una",
+        "start": 9.308,
+        "end": 9.448
+    },
+    {
+        "word": "eternidad",
+        "start": 9.508,
+        "end": 9.949
+    },
+    {
+        "word": "de",
+        "start": 10.009,
+        "end": 10.089
+    },
+    {
+        "word": "soledad.",
+        "start": 10.149,
+        "end": 10.509
+    },
+    {
+        "word": "Para",
+        "start": 11.47,
+        "end": 11.59
+    },
+    {
+        "word": "solucionar",
+        "start": 11.69,
+        "end": 12.191
+    },
+    {
+        "word": "esto,",
+        "start": 12.231,
+        "end": 12.551
+    },
+    {
+        "word": "las",
+        "start": 12.932,
+        "end": 13.032
+    },
+    {
+        "word": "familias",
+        "start": 13.112,
+        "end": 13.452
+    },
+    {
+        "word": "organizaban",
+        "start": 13.492,
+        "end": 14.153
+    },
+    {
+        "word": "matrimonios",
+        "start": 14.193,
+        "end": 14.834
+    },
+    {
+        "word": "fantasma.",
+        "start": 14.874,
+        "end": 15.414
+    },
+    {
+        "word": "Literalmente",
+        "start": 16.495,
+        "end": 17.096
+    },
+    {
+        "word": "encontraban",
+        "start": 17.136,
+        "end": 17.716
+    },
+    {
+        "word": "a",
+        "start": 17.756,
+        "end": 17.776
+    },
+    {
+        "word": "dos",
+        "start": 17.856,
+        "end": 17.957
+    },
+    {
+        "word": "personas",
+        "start": 18.057,
+        "end": 18.397
+    },
+    {
+        "word": "muertas",
+        "start": 18.437,
+        "end": 18.797
+    },
+    {
+        "word": "y",
+        "start": 18.817,
+        "end": 18.837
+    },
+    {
+        "word": "solteras,",
+        "start": 18.857,
+        "end": 19.418
+    },
+    {
+        "word": "vest\u00edan",
+        "start": 19.838,
+        "end": 20.219
+    },
+    {
+        "word": "efiges",
+        "start": 20.279,
+        "end": 20.639
+    },
+    {
+        "word": "de",
+        "start": 20.679,
+        "end": 20.739
+    },
+    {
+        "word": "papel",
+        "start": 20.819,
+        "end": 21.06
+    },
+    {
+        "word": "de",
+        "start": 21.1,
+        "end": 21.18
+    },
+    {
+        "word": "ellos",
+        "start": 21.26,
+        "end": 21.46
+    },
+    {
+        "word": "con",
+        "start": 21.56,
+        "end": 21.66
+    },
+    {
+        "word": "ropas",
+        "start": 21.76,
+        "end": 21.96
+    },
+    {
+        "word": "de",
+        "start": 22.02,
+        "end": 22.06
+    },
+    {
+        "word": "boda",
+        "start": 22.141,
+        "end": 22.321
+    },
+    {
+        "word": "rojas",
+        "start": 22.401,
+        "end": 22.641
+    },
+    {
+        "word": "tradicionales",
+        "start": 22.741,
+        "end": 23.302
+    },
+    {
+        "word": "incre\u00edblemente",
+        "start": 23.362,
+        "end": 24.183
+    },
+    {
+        "word": "vibrantes",
+        "start": 24.283,
+        "end": 24.743
+    },
+    {
+        "word": "y",
+        "start": 24.763,
+        "end": 24.783
+    },
+    {
+        "word": "realizaban",
+        "start": 25.284,
+        "end": 25.784
+    },
+    {
+        "word": "una",
+        "start": 25.884,
+        "end": 25.984
+    },
+    {
+        "word": "ceremonia",
+        "start": 26.064,
+        "end": 26.505
+    },
+    {
+        "word": "masiva",
+        "start": 26.605,
+        "end": 26.905
+    },
+    {
+        "word": "y",
+        "start": 26.945,
+        "end": 27.005
+    },
+    {
+        "word": "hermosa",
+        "start": 27.065,
+        "end": 27.426
+    },
+    {
+        "word": "antes",
+        "start": 27.466,
+        "end": 27.746
+    },
+    {
+        "word": "de",
+        "start": 27.786,
+        "end": 27.846
+    },
+    {
+        "word": "enterrarlos",
+        "start": 27.906,
+        "end": 28.447
+    },
+    {
+        "word": "uno",
+        "start": 28.487,
+        "end": 28.687
+    },
+    {
+        "word": "al",
+        "start": 28.747,
+        "end": 28.827
+    },
+    {
+        "word": "lado",
+        "start": 28.887,
+        "end": 29.067
+    },
+    {
+        "word": "del",
+        "start": 29.107,
+        "end": 29.227
+    },
+    {
+        "word": "otro.",
+        "start": 29.287,
+        "end": 29.508
+    },
+    {
+        "word": "Porque",
+        "start": 30.509,
+        "end": 30.769
+    },
+    {
+        "word": "el",
+        "start": 30.829,
+        "end": 30.909
+    },
+    {
+        "word": "amor",
+        "start": 30.949,
+        "end": 31.129
+    },
+    {
+        "word": "verdadero",
+        "start": 31.209,
+        "end": 31.61
+    },
+    {
+        "word": "nunca",
+        "start": 31.65,
+        "end": 31.93
+    },
+    {
+        "word": "muere",
+        "start": 32.01,
+        "end": 32.23
+    },
+    {
+        "word": "solo",
+        "start": 32.27,
+        "end": 32.551
+    },
+    {
+        "word": "espera",
+        "start": 32.591,
+        "end": 32.951
+    },
+    {
+        "word": "a",
+        "start": 32.991,
+        "end": 33.011
+    },
+    {
+        "word": "que",
+        "start": 33.071,
+        "end": 33.151
+    },
+    {
+        "word": "tus",
+        "start": 33.231,
+        "end": 33.371
+    },
+    {
+        "word": "parientes",
+        "start": 33.391,
+        "end": 33.852
+    },
+    {
+        "word": "te",
+        "start": 33.872,
+        "end": 33.972
+    },
+    {
+        "word": "emparejen.",
+        "start": 34.012,
+        "end": 35.033
+    },
+    {
+        "word": "Revisa",
+        "start": 35.013,
+        "end": 35.923
+    },
+    {
+        "word": "el",
+        "start": 35.943,
+        "end": 36.044
+    },
+    {
+        "word": "enlace",
+        "start": 36.105,
+        "end": 36.428
+    },
+    {
+        "word": "de",
+        "start": 36.489,
+        "end": 36.549
+    },
+    {
+        "word": "Width",
+        "start": 36.65,
+        "end": 36.832
+    },
+    {
+        "word": "History",
+        "start": 36.893,
+        "end": 37.338
+    },
+    {
+        "word": "en",
+        "start": 37.418,
+        "end": 37.459
+    },
+    {
+        "word": "la",
+        "start": 37.52,
+        "end": 37.56
+    },
+    {
+        "word": "descripci\u00f3n",
+        "start": 37.621,
+        "end": 38.166
+    },
+    {
+        "word": "para",
+        "start": 38.267,
+        "end": 38.409
+    },
+    {
+        "word": "m\u00e1s.",
+        "start": 38.47,
+        "end": 38.813
+    }
+]

@@ -1,0 +1,68 @@
+{
+    "title": "Matrimonios Fantasma (Minghun) (Antigua China)",
+    "script": "¡Imagina estar soltero toda tu vida... y luego tu familia te obliga a casarte DESPUÉS de morir! En la antigua China, morir soltero significaba enfrentar una eternidad de soledad. Para solucionar esto, las familias organizaban 'Matrimonios Fantasma'. ¡Literalmente encontraban a dos personas muertas y solteras, vestían efigies de papel de ellos con ropas de boda rojas tradicionales increíblemente vibrantes, y realizaban una ceremonia masiva y hermosa antes de enterrarlos uno al lado del otro! Porque el amor verdadero nunca muere... solo espera a que tus parientes te emparejen. ¡Revisa el enlace de Weird History en la descripción para más!",
+    "language": "es",
+    "tts_voice_id": "es-ES-ElviraNeural",
+    "scenes": [
+        {
+            "id": "scene_0",
+            "type": "image",
+            "prompt": "Hyper-realistic portrait photography of a jaw-droppingly gorgeous ancient Chinese woman with beautiful features, wearing pristine historical red silk robes. Looking directly at the camera. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 2.0
+        },
+        {
+            "id": "scene_1",
+            "type": "image",
+            "prompt": "Hyper-realistic portrait photography of a lonely, incredibly handsome ancient Chinese young man sitting alone in a pristine, vibrant traditional courtyard. He looks wealthy but sad. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.0
+        },
+        {
+            "id": "scene_2",
+            "type": "image",
+            "prompt": "Hyper-realistic portrait photography of grieving but determined ancient Chinese parents in vibrant, colorful silk robes standing inside an incredibly beautiful, pristine temple. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.0
+        },
+        {
+            "id": "scene_3",
+            "type": "image",
+            "prompt": "Hyper-realistic close-up photography of beautiful, intricate traditional Chinese paper effigies shaped like incredibly attractive humans, dressed in brand new, bright red silk wedding garments. Pristine condition. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.0
+        },
+        {
+            "id": "scene_4",
+            "type": "image",
+            "prompt": "Hyper-realistic portrait photography of an elaborate ancient Chinese wedding procession with musicians playing instruments, carrying the vibrant red paper effigies. Bright, hyper-saturated colors. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.0
+        },
+        {
+            "id": "scene_5",
+            "type": "video",
+            "prompt": "Hyper-realistic video of a somber but beautiful ancient Chinese ceremony where two vibrant red paper effigies in gorgeous wedding attire are gently placed side-by-side into a pristine stone burial vault by grieving family members. 8k resolution, cinematic lighting, documentary style realism, highly detailed, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_6",
+            "type": "image",
+            "prompt": "Hyper-realistic wide landscape photography of a stunning, pristine ancient Chinese graveyard with beautiful gleaming stone monuments and vibrant red lanterns glowing warmly at dusk. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.0
+        },
+        {
+            "id": "scene_7",
+            "type": "image",
+            "prompt": "Hyper-realistic portrait photography of a beautiful, gorgeously dressed ancient Chinese couple standing together happily in a glowing, ethereal, pristine heavenly realm. Hyper-saturated vibrant colors. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.0
+        },
+        {
+            "id": "scene_8",
+            "type": "image",
+            "prompt": "Hyper-realistic portrait photography of an ancient Chinese matchmaker woman with a comical, bizarre facial expression (exaggerated Willem Dafoe vibes) holding an abacus and looking incredibly pleased with herself. Pristine red silk robes. 8k resolution, cinematic lighting, documentary style realism, highly detailed, photorealistic. No painting.",
+            "duration": 4.0
+        },
+        {
+            "id": "scene_9",
+            "type": "image",
+            "prompt": "Hyper-realistic portrait photography of the bizarre matchmaker woman pointing her finger directly up at the camera lens as if breaking the fourth wall. She is standing in a luxurious, pristine ancient Chinese palace holding a red marriage scroll. 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        }
+    ]
+}
