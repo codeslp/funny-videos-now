@@ -60,8 +60,8 @@ To optimize costs, speed up pipeline execution, and maximize audience retention,
 
 ### Tech Stack & Tooling
 
-*   **Video Generation (The "Hero" Clips):** Flow TV (MANUAL VIA BROWSER: https://labs.google/fx/tools/flow)
-*   **Image Generation (The Context Setting):** Flow (Stills) (MANUAL VIA BROWSER: https://labs.google/fx/tools/flow)
+*   **Video Generation (The "Hero" Clips):** Flow TV (MANUAL VIA BROWSER: https://labs.google/fx/tools/flow). **CRITICAL: Always select x1 in the generation count selector** — do NOT use x2, x3, or x4. We only need one video per scene.
+*   **Image Generation (The Context Setting):** Flow (Stills) (MANUAL VIA BROWSER: https://labs.google/fx/tools/flow). **CRITICAL: Always select x1 in the generation count selector.**
 *   **Asset Management (CRITICAL VERIFICATION RULE):** All manually generated assets downloaded from Google Flow *MUST* be immediately renamed in the Downloads folder to match their sequential order in the timeline (e.g., `scene_1_still.jpg`, `scene_2_still.jpg`, `scene_3_video.mp4`, etc.) before being moved to the `output` directory. This strict 1-to-1 mapping prevents duplicate images from being accidentally used or swapped during the automated FFmpeg assembly.
 *   **Voiceover (TTS):** **Cartesia API** (Excellent speed, highly expressive emotion control, and perfectly suited for pacing comedic voiceovers).
 *   **Transcription / Captioning:** **WhisperX** (An open-source library built on top of OpenAI's Whisper model. It forces precise millisecond-accurate word-level alignment, allowing us to generate punchy, perfectly-timed TikTok captions locally without paying API fees).

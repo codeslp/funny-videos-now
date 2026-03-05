@@ -14,6 +14,7 @@ This document defines the complete end-to-end pipeline used for generating "Weir
     *   *Correct format example:* `output/weird_history/in_progress/tudor_needle_2026-02-28_20-50-00/`
 
 ## 3. Visual Asset Generation (Google Flow)
+**CRITICAL: Always select x1 in the Google Flow generation count selector.** Do NOT use x2, x3, or x4 — we only need one asset per scene.
 1.  **Stills:** Using the Image Generation prompt from the timeline, manually generate scenes 1-4 and 6-9 in Google Flow. **CRITICAL:** Do NOT include descriptions of motion in these still prompts.
 2.  **Video:** Using the Video Generation prompt, generate scene 5 (The Hero Video) in Google Flow TV.
 3.  **Renaming Constraint:** As the assets are downloaded, they MUST be renamed exactly to `scene_1_still.jpg`, `scene_2_still.jpg`, `scene_5_video.mp4`, etc., and moved strictly into the current project's timestamped directory.

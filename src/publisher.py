@@ -173,7 +173,7 @@ def upload_to_youtube(video_path, title, description):
             result = json.loads(resp.read().decode())
             video_id = result.get('id', 'unknown')
             print(f"    ✅ YouTube: Uploaded! https://youtube.com/shorts/{video_id}")
-            return True
+            return video_id
     except Exception as e:
         print(f"    ❌ YouTube: Upload failed: {e}")
         return False

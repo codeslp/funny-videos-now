@@ -1,0 +1,70 @@
+{
+    "title": "The Royal \"Spectator Sport\" Menagerie (Pre-Revolution France)",
+    "video_style": "Hyper-Realism",
+    "tts_voice_id": "1f575487-6f3d-40e0-862a-814f55b5fb15",
+    "language": "en",
+    "series": "weird_history",
+    "script": "Imagine giving birth... while two hundred strange men watch you from inches away. In pre-revolution France, queens had absolutely zero privacy in the delivery room! Because the royal bloodline had to be undeniably proven, the law required a massive crowd to witness a royal birth to ensure no 'fake' babies were smuggled in. When Marie Antoinette gave birth in 1778, her bedroom was instantly flooded by over two hundred courtiers, lords, and politicians. There were so many fancy aristocrats crammed around her bed, craning their necks to watch, that the room ran out of oxygen and she actually passed out from the heat! Would you survive a royal birth? Let us know in the comments!",
+    "scenes": [
+        {
+            "id": "scene_0",
+            "type": "image",
+            "prompt": "Hyper-realistic portrait photography of a jaw-droppingly gorgeous 23-year-old French queen with flawless porcelain skin, powdered platinum hair in an ornate updo, wearing a pristine white silk regal nightgown, sitting up in a lavish gilded palace bed. She stares directly at the camera with a nervous, wide-eyed expression. Vibrant colors, hyper-saturated, 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 2.0
+        },
+        {
+            "id": "scene_1",
+            "type": "video",
+            "prompt": "A jaw-droppingly gorgeous 23-year-old French queen with flawless porcelain skin, powdered platinum hair, wearing a pristine white silk regal nightgown, sitting up in a massive gilded palace bed. She nervously fans herself with an ornate feathered fan, looking around the pristine candle-lit room with wide, anxious eyes. Vibrant colors, hyper-saturated, warm golden candlelight, 8k resolution, cinematic lighting, dramatic shadows, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.0
+        },
+        {
+            "id": "scene_2",
+            "type": "image",
+            "prompt": "Hyper-realistic medium shot of two incredibly handsome, comical French aristocrat men in pristine brightly colored velvet coats and massive powdered wigs, holding an ornate golden magnifying glass as if aggressively inspecting a document. They are standing in a gleaming marble palace hallway. Vibrant colors, hyper-saturated, 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 3.5
+        },
+        {
+            "id": "scene_3",
+            "type": "image",
+            "prompt": "Hyper-realistic close-up of a jaw-droppingly gorgeous 23-year-old aristocratic pregnant woman in a pristine pastel pink silk gown, holding her hands protectively over her stomach. A strange, comical French lord with a massive powdered wig peers suspiciously at her from the background. Pristine palace setting. Vibrant colors, hyper-saturated, 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 3.5
+        },
+        {
+            "id": "scene_4",
+            "type": "image",
+            "prompt": "Hyper-realistic wide shot of a pristine, heavily gilded French royal bedroom with a massive canopy bed. A jaw-droppingly gorgeous queen in a white silk nightgown sits in the bed, looking terrified as the large wooden double doors burst open. Vibrant colors, hyper-saturated, warm golden lighting, 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 3.5
+        },
+        {
+            "id": "scene_5",
+            "type": "video",
+            "prompt": "A massive, chaotic crowd of over fifty comically over-eager French aristocrat men and politicians in pristine brightly colored velvet coats, white lace cravats, and towering powdered wigs aggressively shoving their way into a lavish royal bedroom. They are all craning their necks, standing on their tiptoes, and elbowing each other to get a better view. Vibrant colors, hyper-saturated, bright warm golden lighting, 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.5
+        },
+        {
+            "id": "scene_6",
+            "type": "image",
+            "prompt": "Hyper-realistic medium shot of a terrified, jaw-droppingly gorgeous 23-year-old French queen in a pristine white silk nightgown on a lavish bed, completely surrounded by a wall of incredibly handsome, staring men in powdered wigs and bright silk coats. The men are literally inches away from her face, looking fascinated. Vibrant colors, hyper-saturated, 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 3.0
+        },
+        {
+            "id": "scene_7",
+            "type": "image",
+            "prompt": "Hyper-realistic close-up of a comical French lord with exaggerated features, a powdered wig slightly askew, wiping sweat from his forehead with a lace handkerchief in a tightly packed, stiflingly hot room filled with other aristocrats. Vibrant colors, hyper-saturated, warm candlelight glow, 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 3.0
+        },
+        {
+            "id": "scene_8",
+            "type": "image",
+            "prompt": "Hyper-realistic medium shot of the jaw-droppingly gorgeous French queen in a white silk nightgown swooning and dramatically fainting backward onto her plush silk pillows, overwhelmed by the heat and massive crowd of aristocrats crammed around her bed. Vibrant colors, hyper-saturated, 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 3.0
+        },
+        {
+            "id": "scene_9",
+            "type": "image",
+            "prompt": "Hyper-realistic wide shot of the chaotic palace bedroom where doctors in pristine 18th-century coats are aggressively waving large feathered fans to blow fresh air onto the fainted gorgeous queen, while pushing back the massive crowd of overly-curious powdered-wig aristocrats. Gleaming marble floors and crystal chandeliers. Vibrant colors, hyper-saturated, 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 3.0
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "title": "The Sobriety Economy — Gen Z Killed Alcohol and Replaced It with Something Weirder",
+    "script": "Around twenty forty-two, a quiet trend reached its tipping point. Gen Z, the generation that had spent its formative years watching millennials romanticize wine, simply decided to stop drinking. Not out of moral conviction. They just thought it was boring. Within a decade, alcohol consumption in industrialized nations had dropped by sixty-three percent. Bars closed by the thousands. The bourbon industry collapsed. France declared a national emergency when wine exports fell below timber. And into that enormous gap stepped something nobody had quite predicted. A company in Copenhagen called Synth began selling micro-dose psychedelic drinks. Legal, regulated, and designed not to make you hallucinate but to make you pathologically empathetic. One drink of their flagship product, called Open, made you feel everyone else's emotions within a thirty-metre radius. Bars were replaced by Empathy Lounges. You walked in, drank your Open, and spent three hours genuinely caring about the bartender's divorce. The experience was, by all accounts, extremely pleasant and completely unproductive. Critics called it emotional voyeurism. Proponents called it the future of human connection. Synth's quarterly revenue hit four point two billion dollars. The cultural fallout was immediate and strange. People became too nice. A phenomenon called aggressive empathy emerged where strangers on public transit would burst into tears because they could feel the commuter next to them missing their ex. Workplace productivity dropped nineteen percent because managers could not bring themselves to give negative feedback while under the influence. The most unexpected consequence was the support group. Socials Anonymous, or SA, formed in thirty-seven cities worldwide for people who could not stop being too emotionally available. Their meetings began with the introduction, 'Hello, my name is blank, and I care too much.' The irony of a sobriety movement creating its own twelve-step programme was not lost on anyone.",
+    "tts_voice_id": "dAlhI9qAHVIjXuVppzhW",
+    "tts_fallback_voice": "en-GB-ThomasNeural",
+    "language": "en",
+    "entry_number": 40,
+    "series": "future_history",
+    "aspect_ratio": "16:9",
+    "resolution": "1920x1080",
+    "storytelling": {
+        "cold_open_candidate": "France declared a national emergency when wine exports fell below timber.",
+        "open_loops": [
+            {
+                "opens_at": "scene_0",
+                "text": "what replaced alcohol if an entire generation stopped drinking",
+                "closes_at": "scene_4"
+            },
+            {
+                "opens_at": "scene_4",
+                "text": "pathologically empathetic — what does that actually look like",
+                "closes_at": "scene_7"
+            },
+            {
+                "opens_at": "scene_6",
+                "text": "aggressive empathy on public transit — and the sobriety movement needing its own support group",
+                "closes_at": "scene_9"
+            }
+        ],
+        "punchline_scene": "scene_8",
+        "specificity_check": [
+            "63 percent drop in consumption",
+            "4.2 billion quarterly revenue",
+            "19 percent productivity drop",
+            "37 cities",
+            "30-metre radius"
+        ],
+        "pattern_interrupts": [
+            {
+                "scene": "scene_1",
+                "type": "video",
+                "note": "Hero video — the last dive bar closing"
+            },
+            {
+                "scene": "scene_4",
+                "type": "video",
+                "note": "Escalation hero — the Empathy Lounge in full swing"
+            },
+            {
+                "scene": "scene_7",
+                "type": "tonal_shift",
+                "note": "From whimsical cultural shift to genuine human absurdity — too much empathy"
+            },
+            {
+                "scene": "scene_8",
+                "type": "video",
+                "note": "Visual punchline — SA meeting, Hello my name is blank and I care too much"
+            }
+        ],
+        "but_therefore_transitions": [
+            "Gen Z simply decided to stop drinking — NOT out of moral conviction BUT because they thought it was boring",
+            "One drink made you feel everyone's emotions within thirty metres THEREFORE people became too nice",
+            "The sobriety movement created freedom from addiction BUT ironically created its own twelve-step programme"
+        ]
+    },
+    "scenes": [
+        {
+            "id": "scene_0",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of an empty liquor store with bare shelves, circa 2042. The store has a CLOSING AFTER 47 YEARS sign in the window. A few dusty bottles of bourbon remain on the bottom shelf next to price tags slashed with red marker. The fluorescent lights are harsh, one tube flickering. The linoleum floor is scuffed and faded with old footpath patterns. A small holographic checkout counter displays ERROR NO INVENTORY. Through the grimy window, a near-future city street is visible with electric vehicles and digital signage. Late afternoon light cuts through dusty air. The mundane decay of an industry. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.0
+        },
+        {
+            "id": "scene_1",
+            "type": "video",
+            "prompt": "The exterior of a classic corner dive bar at night, circa 2042. A bartender, a man with bizarre funny facial features, a bulbous nose and deeply lined face, stands outside locking the front door for the last time. He pulls down a worn metal shutter over the entrance. Above, a flickering neon sign reading LAST CALL buzzes and then goes dark permanently. He pauses, looks up at the dead sign, nods to himself with quiet resignation, then walks away down a near-future city sidewalk with cracked pavement and a single delivery drone hovering overhead. Streetlights cast pools of warm light. The mood is quiet and final. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_2",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a news infographic displayed on a large public screen in a near-future city square, circa 2042. The infographic shows GLOBAL ALCOHOL CONSUMPTION DOWN 63 PERCENT SINCE 2025 with a steeply declining bar chart. Below, a secondary headline reads FRANCE DECLARES NATIONAL EMERGENCY WINE EXPORTS FALL BELOW TIMBER. The public screen has a cracked corner and a small ADVERTISEMENT SPACE AVAILABLE sticker. Pedestrians in slightly futuristic casual clothing walk past without looking. The city square has patched concrete, a weathered bench, and a bike-share station with faded paint. Overcast daylight. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_3",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a sleek product display in a near-future pharmacy window, circa 2042. The display shows a minimalist bottle labeled OPEN by SYNTH COPENHAGEN with clean Scandinavian design in pale blue and white. Text on the display reads MICRO-DOSE EMPATHY 30M RADIUS DURATION 3H LEGAL REGULATED SAFE. The pharmacy window is clean but has a small crack in one corner. Other products visible include smart vitamins, mood patches, and a sleep optimization mist. A gorgeous young woman with natural makeup walks past the window, her reflection caught in the glass. Warm interior pharmacy lighting contrasts with cool overcast exterior light. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_4",
+            "type": "video",
+            "prompt": "Inside a dimly lit Empathy Lounge, a converted bar space with soft ambient lighting and comfortable seating pods, circa 2042. A ruggedly handsome man in his early 30s sits across from a bartender with comically ugly exaggerated features behind a minimal counter. The man holds a small pale blue glass of Open. After taking a sip, his expression shifts from casual to deeply moved. He reaches across the counter and gently places his hand on the bartender's arm with overwhelming concern. The bartender looks mildly uncomfortable but resigned to this happening constantly. Other patrons around the lounge are engaged in similarly intense emotional conversations. The space has warm indirect lighting, slightly worn velvet seats, and plants that need watering. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_5",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a near-future office break room, circa 2042. A manager, a jaw-droppingly gorgeous woman in business casual clothing, sits across from an employee at a small table. She holds a performance review document but her eyes are welling up with tears. The employee looks confused. On the table between them, empty pale blue Open drink bottles. A holographic schedule board on the wall behind them shows PRODUCTIVITY DOWN 19 PERCENT Q3. The break room has a slightly outdated coffee machine with lime scale, motivational posters that are peeling, and a dying plant on the windowsill. Harsh fluorescent lighting. The contrast between corporate obligation and overwhelming empathy. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_6",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a near-future subway car, circa 2042. Three strangers sit in a row on slightly worn plastic seats. The middle person, a ruggedly handsome man in his 20s, is openly weeping while looking at the commuter next to him, a tired woman staring at her phone. The woman is not crying, she just looks tired and sad. The man is crying because he can feel her sadness. The third person on the other side is trying to pretend this is not happening but is visibly getting teary-eyed too. The subway car has holographic route displays but also graffiti scratches on the windows, scuffed floors, and grab rails with worn paint. Fluorescent interior lighting. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_7",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a smartphone screen showing the Synth company annual report, circa 2043. A bold headline reads SYNTH QUARTERLY REVENUE 4.2 BILLION DOLLARS with a sharply climbing revenue graph. Below, a section labeled CULTURAL IMPACT shows pull quotes including 87 EMPATHY LOUNGES WORLDWIDE and AGGRESSIVE EMPATHY NOW A RECOGNIZED CONDITION. The phone is held by a hand with neat manicure. The background is a blurred coffee shop with near-future elements like holographic menu boards. Warm indoor lighting with screen glow on the fingers. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_8",
+            "type": "video",
+            "prompt": "A circle of twelve people sit on folding chairs in a plain community centre room, circa 2043. A banner on the wall reads SOCIALS ANONYMOUS proudly in clean sans-serif text. One person, a jaw-droppingly gorgeous woman in her 30s with red-rimmed eyes, stands up from her chair. She faces the group with raw vulnerability. She gestures toward herself, introducing herself to the group. Her expression is earnest and slightly overwhelmed. The other attendees nod with deep understanding, several dabbing their eyes. The room is stark municipal with fluorescent lights, a folding table with a coffee thermos, styrofoam cups, and a printed flyer reading HELLO MY NAME IS AND I CARE TOO MUCH. Scuffed linoleum floor. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_9",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a split-screen comparison display on a tablet, circa 2043. Left side shows a faded photograph labeled 2019 of young people drinking at a crowded noisy bar with beer bottles and shot glasses. Right side shows a photograph labeled 2043 of young people sitting cross-legged in a calm Empathy Lounge with pale blue drinks, holding hands and looking deeply into each other's eyes with intense sincerity. Both scenes show excess but of completely different kinds. The tablet sits on a coffee table with a cold cup of herbal tea and a half-read philosophical self-help book. Warm domestic lighting. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_10",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of the exterior of a former dive bar that has been converted into a Socials Anonymous meeting hall, circa 2043. The old bar sign has been painted over but the ghost outline of LAST CALL is still faintly visible underneath new signage reading SA MEETING TONIGHT 7PM. Through the window, the same folding chairs and fluorescent lights are visible with people sitting in a circle. A poster in the window reads IT IS OKAY TO FEEL LESS. On the sidewalk outside, a gorgeous young woman in slightly futuristic casual clothing reads the poster while sipping a pale blue Open drink, apparently unaware of the irony. Dusk lighting, near-future urban street, cracked pavement, delivery drone overhead. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.0
+        }
+    ]
+}

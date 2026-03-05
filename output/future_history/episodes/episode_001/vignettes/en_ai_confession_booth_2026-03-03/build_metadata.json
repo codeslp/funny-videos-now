@@ -1,0 +1,67 @@
+{
+    "title": "The AI Confession Booth",
+    "timeline_source": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/weird_history/future_history/ai_confession_booth_timeline_en.json",
+    "build_timestamp": "2026-03-03_11-22-20",
+    "audio": "output/future_history/in_progress/en_ai_confession_booth_2026-03-03/voiceover.wav",
+    "outro_voice": null,
+    "music": "output/future_history/in_progress/en_ai_confession_booth_2026-03-03/background_music.mp3",
+    "intro_clip": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/intro_outro/future_history_intro.mp4",
+    "scenes": [
+        {
+            "id": "scene_0",
+            "type": "image",
+            "filepath": "output/future_history/in_progress/en_ai_confession_booth_2026-03-03/scene_0_still.jpg"
+        },
+        {
+            "id": "scene_1",
+            "type": "video",
+            "filepath": "output/future_history/in_progress/en_ai_confession_booth_2026-03-03/scene_1_video.mp4"
+        },
+        {
+            "id": "scene_2",
+            "type": "image",
+            "filepath": "output/future_history/in_progress/en_ai_confession_booth_2026-03-03/scene_2_still.jpg"
+        },
+        {
+            "id": "scene_3",
+            "type": "image",
+            "filepath": "output/future_history/in_progress/en_ai_confession_booth_2026-03-03/scene_3_still.jpg"
+        },
+        {
+            "id": "scene_4",
+            "type": "video",
+            "filepath": "output/future_history/in_progress/en_ai_confession_booth_2026-03-03/scene_4_video.mp4"
+        },
+        {
+            "id": "scene_5",
+            "type": "image",
+            "filepath": "output/future_history/in_progress/en_ai_confession_booth_2026-03-03/scene_5_still.jpg"
+        },
+        {
+            "id": "scene_6",
+            "type": "image",
+            "filepath": "output/future_history/in_progress/en_ai_confession_booth_2026-03-03/scene_6_still.jpg"
+        },
+        {
+            "id": "scene_7",
+            "type": "image",
+            "filepath": "output/future_history/in_progress/en_ai_confession_booth_2026-03-03/scene_7_still.jpg"
+        },
+        {
+            "id": "scene_8",
+            "type": "video",
+            "filepath": "output/future_history/in_progress/en_ai_confession_booth_2026-03-03/scene_8_video.mp4"
+        },
+        {
+            "id": "scene_9",
+            "type": "image",
+            "filepath": "output/future_history/in_progress/en_ai_confession_booth_2026-03-03/scene_9_still.jpg"
+        },
+        {
+            "id": "scene_10",
+            "type": "image",
+            "filepath": "output/future_history/in_progress/en_ai_confession_booth_2026-03-03/scene_10_still.jpg"
+        }
+    ],
+    "final_render": "output/future_history/in_progress/en_ai_confession_booth_2026-03-03/final_render.mp4"
+}

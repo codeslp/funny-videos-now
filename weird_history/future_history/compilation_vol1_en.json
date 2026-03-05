@@ -1,0 +1,31 @@
+{
+    "compilation_title": "Future History Vol. 1",
+    "series": "future_history",
+    "language": "en",
+    "aspect_ratio": "16:9",
+    "resolution": "1920x1080",
+    "cold_open": {
+        "line": "In 2050, a man in Ohio mailed his own kidney back to his insurance company using standard postage. We'll get to that. But first, we need to talk about the loyalty program that made it possible.",
+        "source_entry": 0,
+        "source_scene_id": "scene_8",
+        "type": "narration_over_still"
+    },
+    "entries": [
+        {
+            "file": "organ_loyalty_timeline_en.json",
+            "absurdity_rank": 1,
+            "position_rationale": "Grounded — believable premise (insurance + organ tech). Establishes tone.",
+            "transition_hook": null
+        }
+    ],
+    "outro_tease": "The return policy was discontinued in 2050. But by then, HealthFutura had already moved on to their next idea: a subscription service for memories. But that's a different story.",
+    "outro_type": "narration_over_still",
+    "escalation_verified": true,
+    "storytelling_checklist": {
+        "cold_open_uses_most_absurd_moment": true,
+        "entries_ordered_by_escalating_absurdity": true,
+        "all_transitions_use_but_or_therefore": true,
+        "outro_teases_future_content": true,
+        "no_more_than_3_stills_in_a_row": true
+    }
+}

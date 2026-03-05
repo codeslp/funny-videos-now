@@ -1,0 +1,49 @@
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/01_organ_loyalty_s0.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/02_ai_confession_booth_s0.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/03_pet_awakening_s0.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/04_organ_loyalty_s2.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/05_ai_confession_booth_s2.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/06_pet_awakening_s2.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/07_organ_loyalty_s3.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/08_ai_confession_booth_s3.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/09_pet_awakening_s3.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/10_organ_loyalty_s5.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/11_ai_confession_booth_s5.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/12_pet_awakening_s5.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/13_organ_loyalty_s6.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/14_ai_confession_booth_s6.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/15_pet_awakening_s6.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/16_organ_loyalty_s7.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/17_ai_confession_booth_s7.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/18_pet_awakening_s7.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/19_organ_loyalty_s9.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/20_ai_confession_booth_s9.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/21_pet_awakening_s9.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/22_organ_loyalty_s10.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/23_ai_confession_booth_s10.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/24_pet_awakening_s10.jpg'
+duration 0.31
+file '/Users/bfaris96/Claude Code Markdown/funny_video_generator/output/future_history/episodes/episode_001/slideshow_images/24_pet_awakening_s10.jpg'

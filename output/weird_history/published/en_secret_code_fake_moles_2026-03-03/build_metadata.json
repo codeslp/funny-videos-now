@@ -1,0 +1,62 @@
+{
+    "title": "The Secret Code of Fake Moles (17th Century France)",
+    "timeline_source": "/Users/bfaris96/Claude Code Markdown/funny_video_generator/weird_history/pipeline/secret_code_fake_moles_timeline.json",
+    "build_timestamp": "2026-03-04_19-57-36",
+    "audio": "output/weird_history/ready_to_publish/en_secret_code_fake_moles_2026-03-03/voiceover.wav",
+    "outro_voice": null,
+    "music": null,
+    "intro_clip": null,
+    "scenes": [
+        {
+            "id": "scene_0",
+            "type": "image",
+            "filepath": "output/weird_history/ready_to_publish/en_secret_code_fake_moles_2026-03-03/scene_0_still.jpg"
+        },
+        {
+            "id": "scene_1",
+            "type": "video",
+            "filepath": "output/weird_history/ready_to_publish/en_secret_code_fake_moles_2026-03-03/scene_1_video.mp4"
+        },
+        {
+            "id": "scene_2",
+            "type": "image",
+            "filepath": "output/weird_history/ready_to_publish/en_secret_code_fake_moles_2026-03-03/scene_2_still.jpg"
+        },
+        {
+            "id": "scene_3",
+            "type": "image",
+            "filepath": "output/weird_history/ready_to_publish/en_secret_code_fake_moles_2026-03-03/scene_3_still.jpg"
+        },
+        {
+            "id": "scene_4",
+            "type": "image",
+            "filepath": "output/weird_history/ready_to_publish/en_secret_code_fake_moles_2026-03-03/scene_4_still.jpg"
+        },
+        {
+            "id": "scene_5",
+            "type": "video",
+            "filepath": "output/weird_history/ready_to_publish/en_secret_code_fake_moles_2026-03-03/scene_5_video.mp4"
+        },
+        {
+            "id": "scene_6",
+            "type": "image",
+            "filepath": "output/weird_history/ready_to_publish/en_secret_code_fake_moles_2026-03-03/scene_6_still.jpg"
+        },
+        {
+            "id": "scene_7",
+            "type": "image",
+            "filepath": "output/weird_history/ready_to_publish/en_secret_code_fake_moles_2026-03-03/scene_7_still.jpg"
+        },
+        {
+            "id": "scene_8",
+            "type": "image",
+            "filepath": "output/weird_history/ready_to_publish/en_secret_code_fake_moles_2026-03-03/scene_8_still.jpg"
+        },
+        {
+            "id": "scene_9",
+            "type": "image",
+            "filepath": "output/weird_history/ready_to_publish/en_secret_code_fake_moles_2026-03-03/scene_9_still.jpg"
+        }
+    ],
+    "final_render": "output/weird_history/ready_to_publish/en_secret_code_fake_moles_2026-03-03/final_render.mp4"
+}

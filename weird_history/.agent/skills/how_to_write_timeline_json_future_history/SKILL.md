@@ -57,11 +57,22 @@ OUTRO — reusable template (subscribe/comment CTA)
 - **No Minors:** Do NOT use words referencing minors such as `teenagers`, `teens`, `preteens`, `school kids`, or `school dances`.
 - **Violence/Gore:** NEVER prompt for blood. Use visual metaphors if needed.
 - **Motion in Stills (CRITICAL):** Do NOT include descriptions of motion or movement in `image` prompts. Motion is ONLY allowed in `video` prompts.
+- **Spelling out Numbers and Dates (CRITICAL):** All dates and numbers must be spelled out in the `script` with words, not numbers (e.g., "twenty fifty" instead of "2050", "three million" instead of "3,000,000"). The TTS voice will mispronounce numerical digits.
 
 ## 5. Near-Future Visual Style (DIFFERS FROM WEIRD HISTORY)
 
+> [!IMPORTANT]
+> **Before writing ANY scene prompts**, you MUST read the full visual style guide at:
+> `weird_history/production_guidelines/future_history_visual_style_guide.md`
+> This guide defines the "Lived-In Future" aesthetic, prompt keyword system, setting-specific guidelines, and the contrast principle. All prompts must follow it.
+>
+> **Before writing ANY narration script or structuring entries**, you MUST read the applied storytelling skill at:
+> `weird_history/.agent/skills/applied_storytelling_future_history/SKILL.md`
+> This skill defines mandatory storytelling rules at three stages: script writing, entry structuring, and compilation assembly. It references the full guide at `weird_history/production_guidelines/future_history_storytelling_guide.md`.
+
 Instead of historical hyper-realism, Future History renders **near-future** scenes in **landscape 16:9 (1920x1080)**:
 - **Aspect ratio: Landscape 16:9** — Future History is long-form YouTube, not Shorts
+- **Aesthetic: "Lived-In Future"** — futuristic but worn, well-used, slightly dingy around the edges. NOT pristine, NOT sterile, NOT generic sci-fi.
 - Settings look like 2040s-2050s: recognizable modern cities with subtle futuristic elements
 - NOT full sci-fi — no spaceships, laser guns, or alien worlds (unless the entry specifically requires it)
 - Think: clean architecture, holographic UIs, slightly more advanced clothing, recognizable technology evolved 20 years
@@ -115,5 +126,69 @@ The narration should:
 - Include **occasional snark** about truly negative aspects — deadpan observations, not outrage
 - Sound like a **well-read buddy with opinions** — informed, wry, never condescending
 - **Never exaggerate** — the facts are absurd enough; let them land
-- Use **specific numbers, names, dates, and places** — specificity = believability
+- Use **specific numbers, names, dates, and places** — specificity = believability (remember to spell them out!)
 - End with an **ironic observation** — the "Why It's Absurd" thesis delivered conversationally
+
+### Pacing and Stills
+- **More Stills:** We need more stills in the JSON timelines to keep the viewer visually engaged.
+- **Match Timing:** The pacing of the images should better match the voiceover script. Align the transitions and descriptions of the images precisely so that what the VO is describing closely matches the image on screen in real-time.
+
+## 8. Storytelling Metadata (MANDATORY)
+
+Every entry JSON **must** include a `storytelling` block after the `resolution` field. This is not optional — it forces the writer to think structurally about retention.
+
+```json
+"storytelling": {
+    "cold_open_candidate": "Single most absurd sentence — under 20 words",
+    "open_loops": [
+        {"opens_at": "scene_X", "text": "what the viewer is now waiting to find out", "closes_at": "scene_Y"}
+    ],
+    "punchline_scene": "scene_8",
+    "specificity_check": ["17 people", "299 dollars", "90-day"],
+    "pattern_interrupts": [
+        {"scene": "scene_1", "type": "video", "note": "why this breaks the rhythm"}
+    ],
+    "but_therefore_transitions": [
+        "Description of transition using BUT or THEREFORE (label which)"
+    ]
+}
+```
+
+### Rules:
+- **`open_loops`**: Minimum 2 per entry. At least 1 must span from scene 0-2 to scene 6+.
+- **`cold_open_candidate`**: Must be a single punchy sentence, under 20 words.
+- **`punchline_scene`**: Must reference a `video` type scene (never a still).
+- **`specificity_check`**: Minimum 3 specific numbers, dates, or amounts. No vague claims.
+- **`pattern_interrupts`**: Must have at least 3, spaced so no more than 3 stills appear in a row.
+- **`but_therefore_transitions`**: Minimum 2. If you catch yourself writing "and then," rewrite it.
+
+## 9. Compilation Assembly
+
+When assembling multiple entries into a compilation video, create a `compilation_*.json` wrapper:
+
+```json
+{
+    "compilation_title": "Future History Vol. X",
+    "cold_open": {
+        "line": "Best cold_open_candidate from any entry",
+        "source_entry": 0,
+        "source_scene_id": "scene_8"
+    },
+    "entries": [
+        {
+            "file": "entry_timeline_en.json",
+            "absurdity_rank": 1,
+            "transition_hook": "Teases the WEIRDEST detail of the next entry — not its topic"
+        }
+    ],
+    "outro_tease": "Teases future content — never summarizes",
+    "escalation_verified": true
+}
+```
+
+### Rules:
+- **Escalation:** `absurdity_rank` 1 = most grounded (first), highest = most absurd (last).
+- **Transition hooks:** Must describe the *weirdest specific detail*, not the general topic.
+- **Cold open:** Uses the single best `cold_open_candidate` from any entry. The line should make a viewer think "wait, what?"
+- **Outro tease:** NEVER summarizes. Always opens a loop for future content.
+

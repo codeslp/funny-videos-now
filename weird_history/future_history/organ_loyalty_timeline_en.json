@@ -1,78 +1,138 @@
 {
     "title": "The Organ Loyalty Programs of Private Healthcare",
     "script": "Right. So by 2048, there were three ways to get a new kidney. You could grow one in a lab. Perfect match, zero rejection risk, roughly the cost of a small house. You could get a pig kidney, edited with CRISPR to be compatible with human biology. Cheap, effective, and came with a lingering social stigma that never quite went away. Or you could wait for a traditional donor organ, which by this point was about as rare as finding a vinyl record shop. An American insurance company called HealthFutura looked at this landscape and thought: loyalty program. For two hundred and ninety-nine dollars a month, subscribers could pre-register for bioprinted replacement organs and earn what HealthFutura cheerfully called Organ Points. Gold tier members received priority access to kidneys. Platinum members could request custom-grown hearts with cosmetic modifications. And yes, people genuinely ordered heart-shaped hearts. The company's free tier offered pig organs. With a ninety-day return policy. For organs. The marketing slogan was 'Because You Deserve Human Parts,' which is one of those sentences that sounds perfectly fine until you think about it for more than about four seconds. What actually happened, predictably, was the creation of a two-tier system that mirrored every other two-tier system in American life. Wealthy subscribers received bespoke organs grown from their own stem cells. Biologically perfect, socially prestigious. Everyone else got pig organs that functioned identically but carried an invisible mark. 'Are you bio or pig?' became a whispered question at dinner parties. It functioned identically to asking someone their salary, but somehow felt more invasive. The return policy, incidentally, was quietly discontinued in 2050 after seventeen people attempted to return functioning pig kidneys for a bioprinted upgrade. One man mailed his back.",
-    "tts_voice_id": "3d5ce2fb-e56c-42f0-9ed9-4662484063b4",
+    "tts_voice_id": "dAlhI9qAHVIjXuVppzhW",
     "tts_fallback_voice": "en-GB-ThomasNeural",
     "language": "en",
     "entry_number": 13,
     "series": "future_history",
     "aspect_ratio": "16:9",
     "resolution": "1920x1080",
+    "storytelling": {
+        "cold_open_candidate": "One man mailed his back.",
+        "open_loops": [
+            {
+                "opens_at": "scene_0",
+                "text": "three ways to get a kidney",
+                "closes_at": "scene_3"
+            },
+            {
+                "opens_at": "scene_4",
+                "text": "heart-shaped hearts — cosmetic modifications",
+                "closes_at": "scene_5"
+            },
+            {
+                "opens_at": "scene_5",
+                "text": "pig organs with a return policy",
+                "closes_at": "scene_7"
+            },
+            {
+                "opens_at": "cold_open",
+                "text": "man mailed his kidney back",
+                "closes_at": "scene_8"
+            }
+        ],
+        "punchline_scene": "scene_8",
+        "specificity_check": [
+            "17 people",
+            "299 dollars per month",
+            "90-day return policy",
+            "2050",
+            "2048"
+        ],
+        "pattern_interrupts": [
+            {
+                "scene": "scene_1",
+                "type": "video",
+                "note": "Hero video breaks opening stills"
+            },
+            {
+                "scene": "scene_4",
+                "type": "video",
+                "note": "Escalation hero — wait WHAT moment"
+            },
+            {
+                "scene": "scene_6",
+                "type": "tonal_shift",
+                "note": "Dinner party social fallout"
+            },
+            {
+                "scene": "scene_8",
+                "type": "video",
+                "note": "Visual punchline — mailed kidney"
+            }
+        ],
+        "but_therefore_transitions": [
+            "HealthFutura looked at this landscape and thought: loyalty program (THEREFORE)",
+            "everyone else got pig organs that functioned identically BUT carried an invisible mark",
+            "the return policy was quietly discontinued (THEREFORE — consequence of absurd premise)"
+        ]
+    },
     "scenes": [
         {
             "id": "scene_0",
             "type": "image",
-            "prompt": "Hyper-realistic photograph of a sleek, futuristic hospital lobby circa 2048. Clean white walls with subtle holographic blue accents. A large digital display reads HEALTHFUTURA - YOUR ORGAN YOUR WAY in elegant corporate sans-serif font. A waiting area with nervous-looking patients in modern minimalist clothing. Wide landscape composition. Vibrant colors, hyper-saturated, 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "prompt": "Hyper-realistic photograph of a hospital lobby circa 2048. The space has holographic blue displays showing patient queues but the chairs are slightly worn, the floor has visible foot traffic patterns, and a hand sanitizer station has a smudged touchscreen. A faded corporate sign reads HEALTHFUTURA YOUR ORGAN YOUR WAY. Nervous patients in modern casual clothing sit waiting, one scrolling a phone with a cracked screen. Mixed fluorescent and natural lighting, slightly cluttered reception desk. Lived-in environment, realistic wear and tear. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
             "duration": 4.0
         },
         {
             "id": "scene_1",
             "type": "video",
-            "prompt": "A hyper-realistic futuristic medical laboratory circa 2048. A translucent bioprinting chamber glows soft blue, slowly assembling a human kidney layer by layer from living tissue. A lab technician in a pristine white coat watches the process with calm professionalism. The chamber rotates gently, revealing the growing organ. Wide landscape composition. Vibrant colors, cinematic lighting, 8k resolution, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "prompt": "A hyper-realistic medical laboratory circa 2048. A translucent bioprinting chamber glows soft blue, slowly assembling a human kidney layer by layer from living tissue. A tired-looking lab technician in a slightly wrinkled white coat watches the process while drinking coffee from a stained mug. The lab has advanced equipment but also cluttered desks, sticky notes on monitors, and a motivational poster peeling at one corner. The chamber rotates gently revealing the growing organ. Warm fluorescent lighting mixed with blue glow. Lived-in lab environment with realistic clutter. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
             "duration": 5.0
         },
         {
             "id": "scene_2",
             "type": "image",
-            "prompt": "Hyper-realistic photograph of three organ options displayed side by side on a futuristic medical comparison screen, circa 2048. Left panel shows a glowing bioprinted kidney labeled BIOPRINTED $89,000. Center panel shows a pig kidney labeled PIG STANDARD $2,400. Right panel shows a traditional donor kidney labeled DONOR WAITLIST 11 YEARS. Clean medical typography, cool blue lighting, sterile hospital environment. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "prompt": "Hyper-realistic photograph of a slightly outdated holographic medical comparison screen in a hospital consultation room, circa 2048. Three organ options displayed side by side. Left panel shows a glowing bioprinted kidney with text BIOPRINTED 89000 dollars. Center panel shows a pig kidney labeled PIG STANDARD 2400 dollars. Right panel shows a donor kidney labeled DONOR WAITLIST 11 YEARS. The screen has a dead pixel in one corner. The room behind it has scuffed walls and a water-stained ceiling tile. Cool fluorescent lighting, clinical but lived-in. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
             "duration": 5.0
         },
         {
             "id": "scene_3",
             "type": "image",
-            "prompt": "Hyper-realistic close-up of a smartphone screen showing a sleek health insurance app, circa 2048. The app displays HEALTHFUTURA ORGAN LOYALTY PROGRAM with Organ Points 4280, Tier GOLD, and a progress bar showing Next Reward Priority Kidney Access at 5000 pts. Clean UI design with gold accents. A persons thumb rests on the screen. Warm interior lighting, shallow depth of field. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "prompt": "Hyper-realistic close-up of a smartphone with a slightly cracked screen protector showing a health insurance app, circa 2048. The app displays HEALTHFUTURA ORGAN LOYALTY PROGRAM with Organ Points 4280, Tier GOLD, and a progress bar. Clean UI design with gold accents. The phone rests on a kitchen counter next to an unwashed coffee mug and scattered mail. Warm domestic lighting, shallow depth of field, lived-in home environment. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
             "duration": 5.0
         },
         {
             "id": "scene_4",
             "type": "video",
-            "prompt": "A ruggedly handsome man in his 40s, wearing an expensive tailored suit, sits in a luxury medical consultation room circa 2048. A doctor shows him a holographic display of a custom heart with a slightly heart-shaped silhouette. The man nods approvingly, pointing at the shape. The doctor raises an eyebrow but maintains professional composure. Warm lighting, rich wood and chrome furnishings. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "prompt": "A ruggedly handsome man in his 40s wearing a slightly wrinkled expensive tailored suit sits in a medical consultation room circa 2048. The room has a holographic display but also a motivational poster peeling at one corner, a hand sanitizer dispenser with a smudged screen, and generic corporate carpet with visible wear. A doctor shows him a holographic heart display with a slightly heart-shaped silhouette. He points at it approvingly. The doctor raises an eyebrow but maintains composure. Warm overhead fluorescent mixed with blue holo-glow. Realistic wear and tear on furniture. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
             "duration": 5.0
         },
         {
             "id": "scene_5",
             "type": "image",
-            "prompt": "Hyper-realistic photograph of a large roadside billboard in a prosperous American suburb, circa 2048. The billboard reads BECAUSE YOU DESERVE HUMAN PARTS in bold white text on a clean blue gradient, with a corporate healthcare logo. Below in smaller text it reads Pig Standard plans starting at just 12 dollars per month. A jaw-droppingly gorgeous young woman walking past glances up at it with a troubled expression. Golden hour lighting, lush green neighborhood. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "prompt": "Hyper-realistic photograph of a large roadside billboard in a slightly run-down American suburb, circa 2048. The billboard reads BECAUSE YOU DESERVE HUMAN PARTS in bold white text on a faded blue gradient with a corporate healthcare logo. Below in smaller text it reads Pig Standard plans starting at just 12 dollars per month. The billboard has minor weather damage on one edge. A jaw-droppingly gorgeous young woman walking past on a cracked sidewalk glances up with a troubled expression. Late afternoon light, slightly overcast. Electric vehicles with road dirt parked nearby. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
             "duration": 5.0
         },
         {
             "id": "scene_6",
             "type": "image",
-            "prompt": "Hyper-realistic photograph of a tense dinner party scene, circa 2048. Six well-dressed adults sit around a beautifully set dining table with warm candlelight. One jaw-droppingly gorgeous woman leans toward another and whispers conspiratorially. The other womans expression shifts to discomfort. Other guests pretend not to notice. The mood is electric with unspoken social tension. Rich, warm lighting, shallow depth of field on the whispering pair. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "prompt": "Hyper-realistic photograph of a tense dinner party scene in a nice but lived-in apartment, circa 2048. Six well-dressed adults sit around a dining table with warm candlelight and slightly mismatched wine glasses. One jaw-droppingly gorgeous woman leans toward another and whispers conspiratorially. The other woman looks uncomfortable. Other guests pretend not to notice. The apartment has nice furniture but also visible signs of real life, a bookshelf slightly askew, a smart device charging on the counter. Rich warm lighting, shallow depth of field on the whispering pair. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
             "duration": 5.0
         },
         {
             "id": "scene_7",
             "type": "image",
-            "prompt": "Hyper-realistic photograph of a sterile medical returns counter at a futuristic hospital, circa 2048. A bewildered receptionist in hospital scrubs stares at a small medical cooler placed on the counter by a determined-looking middle-aged man. Behind them, a sign reads ORGAN EXCHANGES 90 DAY POLICY. The receptionists expression is somewhere between horror and bureaucratic resignation. Cool fluorescent lighting, clinical environment. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "prompt": "Hyper-realistic photograph of a medical returns counter at a hospital, circa 2048. A bewildered receptionist in slightly rumpled hospital scrubs stares at a small medical cooler placed on a worn counter by a determined-looking middle-aged man. Behind them a printed sign taped to the wall reads ORGAN EXCHANGES 90 DAY POLICY with a coffee ring stain on the bottom corner. Fluorescent lighting, scuffed linoleum floor, a pen jar with mismatched pens. The receptionists expression is somewhere between horror and bureaucratic resignation. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
             "duration": 5.0
         },
         {
             "id": "scene_8",
             "type": "video",
-            "prompt": "A middle-aged man in casual clothing stands at a blue postal mailbox on a suburban street, circa 2048. He carefully places a small, padded medical shipping box labeled FRAGILE BIOLOGICAL MATERIAL RETURN TO SENDER into the mailbox slot. He dusts off his hands with quiet satisfaction and walks away. Afternoon sunlight, ordinary suburban neighborhood. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "prompt": "A middle-aged man in casual slightly wrinkled clothing stands at a weathered blue postal mailbox on a suburban street, circa 2048. He carefully places a small padded medical shipping box labeled FRAGILE BIOLOGICAL MATERIAL into the mailbox slot. He dusts off his hands with quiet satisfaction and walks away casually. The suburban street looks like today but with electric vehicles and a delivery drone with faded paint hovering in the background. Afternoon sunlight, patched sidewalk, slightly overgrown lawn next door. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
             "duration": 5.0
         },
         {
             "id": "scene_9",
             "type": "image",
-            "prompt": "Hyper-realistic photograph of a futuristic corporate press release displayed on a tablet screen, circa 2050. The headline reads HEALTHFUTURA DISCONTINUES 90-DAY ORGAN RETURN POLICY Effective Immediately. Below in smaller text it reads Following 17 attempted returns and one mailed kidney the company has revised its customer satisfaction guarantee. A coffee cup sits next to the tablet on a clean desk. Warm office lighting. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "prompt": "Hyper-realistic photograph of a tablet screen displaying a corporate press release, circa 2050. The headline reads HEALTHFUTURA DISCONTINUES 90 DAY ORGAN RETURN POLICY Effective Immediately. Below in smaller text it reads Following 17 attempted returns and one mailed kidney the company has revised its customer satisfaction guarantee. The tablet sits on a messy desk next to a half-finished coffee, scattered papers, a pen with a chewed cap, and a fidget toy. Warm office lighting from a desk lamp. Lived-in workspace. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
             "duration": 5.0
         },
         {
             "id": "scene_10",
             "type": "image",
-            "prompt": "Hyper-realistic photograph of two identical human kidneys sitting side by side on a pristine medical tray, circa 2048. One has a tiny golden label reading BIOPRINTED PLATINUM and the other has a plain white label reading PIG STANDARD. They look absolutely identical. A doctors gloved hand hovers between them. The visual irony is palpable. Clean medical lighting, shallow depth of field. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "prompt": "Hyper-realistic photograph of two identical human kidneys sitting side by side on a slightly scratched medical tray under clinical lighting, circa 2048. One has a tiny golden label reading BIOPRINTED PLATINUM and the other has a plain white label reading PIG STANDARD. They look absolutely identical. A doctors slightly tired gloved hand hovers between them. The medical tray sits on a counter with a coffee stain ring and a clipboard with messy handwriting. Shallow depth of field. The visual irony is palpable. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
             "duration": 4.0
         }
     ]

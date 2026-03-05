@@ -19,7 +19,7 @@ Read the target timeline JSON file (e.g., `ghost_marriages_timeline.json`) to ex
 Use the `browser_subagent` tool with detailed instructions to perform the following steps for **each scene**:
 1. **Navigate** to Google Flow: `https://labs.google/fx/tools/flow`.
 2. **Select Mode:** Choose the appropriate generation tab ("Image" for still scenes, "Video" for video scenes).
-3. **Configure Settings:** Ensure dimensions match the target resolution (1080x1920 portrait) or the required format.
+3. **Configure Settings:** ALWAYS ensure dimensions match the target resolution (1080x1920 portrait) or the required format. Portrait mode is OBLIGATORY for all videos and images in Weird History.
 4. **Prompt Input:** Paste the exact prompt from the timeline JSON.
 5. **Generate & Wait:** Trigger generation and hold until completion.
 6. **Download:** Click to download the output from Flow.

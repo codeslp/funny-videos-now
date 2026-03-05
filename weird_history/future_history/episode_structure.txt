@@ -1,0 +1,44 @@
+Intro:
+
+A rapid fire slide show of images from past episodes and this coming episode.
+Serene soaring string music with a gentle pulsing electronic beat
+playing in the background.
+VO: A serene voice says words of encouragement for a person struggling in the year 2076.
+Those words are phrased like "You can stay sane in an insane time. I will show you
+_____ strategies to <insert a positive futuristic outcome here>. Because a new world is
+coming" (always end with that because then we tack on the intro part that we already 
+have that starts with "SOONER THAN YOU THINK").
+
+Interstitial card 1:
+After the intro, before the first clip:
+SOUND EFFECT on appearance: A single bass thump with a little electronic flavor to it.
+The oppressive music asset plays in the background.
+On the thump, a Card with black and white text with a bizarre short quote from the
+upcoming clip shows. Then after 5 seconds, the thump happens again, and the card disappears
+
+And the first clip starts.
+After the first clip ends.
+
+Interstitial card 2:
+Same as above: Thump sound effect, card with absurd quote from the upcoming clip,
+oppressive music in the background for 5 seconds while showing the card, then thump again.
+
+The second clip starts
+The second clip ends
+
+Interstitial card 3:
+Same as above: Thump sound effect, card with absurd quote from the upcoming clip,
+oppressive music in the background for 5 seconds while showing the card, then thump again.
+
+The third clip starts
+The third clip ends.
+
+OUTTRO:
+
+The serene music from the intro plays again. A video of a beautiful green field with wildflowers
+with a big blue sky with cumulous clouds slowly drifting. In the last few second, a figure far off
+on a distant green hill can be seen coming into view, walking up the far side of the hill toward us. 
+He is so far off we can barely see him. It is a man with brown skin and long hair and a beard
+in a white t-shirt and jeans.
+VO: the serene voice again : "This world, with you in it, was made beautiful. 
+There will be justice. All will be made right. Sooner than you think."

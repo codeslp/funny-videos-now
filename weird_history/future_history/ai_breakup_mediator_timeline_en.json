@@ -1,0 +1,133 @@
+{
+    "title": "The AI Breakup Mediator — When Your Ex Hired an Algorithm",
+    "script": "By twenty forty-one, breaking up had become genuinely complicated. Couples shared AI companions, joint smart-home ecosystems, merged social media identities, intertwined biometric profiles, and emotionally bonded pet-translation accounts. Separating two digital lives was harder than divorcing two legal ones. So a legal-tech startup called SplitAI launched the first AI Breakup Mediator. An algorithm that analyzed the entire digital relationship. Messages, shared photos, financial entanglements, emotional dependency data from mood implants. And it produced a mathematically optimal separation agreement in forty-eight hours. The AI was unnervingly good. It knew who was more emotionally attached from biometric data. It knew who had been checked out longer from declining message warmth scores. And it knew who was lying about wanting to stay friends, from micro-expression analysis during the mediation video call. Eighty-seven percent of users reported that SplitAI's assessment was, quote, painfully accurate. But then there was the thirteen percent who rejected the findings. A woman in London went viral after screaming at her SplitAI readout. The algorithm said she stopped loving him in February. She insisted it was March. The AI had timestamped the end of love more precisely than the human who had felt it. The final readout divided assets sixty-one to thirty-nine. The sixty-one percent recipient had loved more. Which raises a question nobody had previously thought to ask. Can you put a percentage on devotion. SplitAI thought so. And honestly, the numbers were hard to argue with.",
+    "tts_voice_id": "dAlhI9qAHVIjXuVppzhW",
+    "tts_fallback_voice": "en-GB-ThomasNeural",
+    "language": "en",
+    "entry_number": 35,
+    "series": "future_history",
+    "aspect_ratio": "16:9",
+    "resolution": "1920x1080",
+    "storytelling": {
+        "cold_open_candidate": "The algorithm told her the exact date she stopped loving him.",
+        "open_loops": [
+            {
+                "opens_at": "scene_0",
+                "text": "how can an algorithm mediate a breakup",
+                "closes_at": "scene_4"
+            },
+            {
+                "opens_at": "scene_2",
+                "text": "what does painfully accurate mean for breakup data",
+                "closes_at": "scene_6"
+            },
+            {
+                "opens_at": "scene_5",
+                "text": "the thirteen percent who rejected the findings",
+                "closes_at": "scene_8"
+            }
+        ],
+        "punchline_scene": "scene_8",
+        "specificity_check": [
+            "87 percent painfully accurate",
+            "48 hours",
+            "61/39 asset split",
+            "2041",
+            "February vs March"
+        ],
+        "pattern_interrupts": [
+            {
+                "scene": "scene_1",
+                "type": "video",
+                "note": "Hero video breaks opening stills — couple facing separate screens"
+            },
+            {
+                "scene": "scene_4",
+                "type": "video",
+                "note": "Escalation hero — the relationship warmth graph declining"
+            },
+            {
+                "scene": "scene_6",
+                "type": "tonal_shift",
+                "note": "From data analysis to human emotional fallout"
+            },
+            {
+                "scene": "scene_8",
+                "type": "video",
+                "note": "Visual punchline — woman arguing with algorithm about when love ended"
+            }
+        ],
+        "but_therefore_transitions": [
+            "SplitAI was unnervingly good — 87 percent said painfully accurate BUT the 13 percent who rejected the findings",
+            "the algorithm timestamped the end of love more precisely than the human THEREFORE can you put a percentage on devotion"
+        ]
+    },
+    "scenes": [
+        {
+            "id": "scene_0",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a modern apartment living room circa 2041 split down the middle with an invisible line. On the left side, a jaw-droppingly gorgeous woman in her early 30s sits on a slightly worn grey couch surrounded by personal items, throw pillows, a houseplant that needs watering. On the right side, the couch cushion is conspicuously empty with an indent where someone used to sit. A smart home display on the wall shows a notification SPLITAI MEDIATION SESSION SCHEDULED. The apartment has warm but slightly harsh mixed lighting, mismatched furniture from different decades, a cracked smart device screen on the coffee table. Lived-in environment, realistic wear and tear. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.0
+        },
+        {
+            "id": "scene_1",
+            "type": "video",
+            "prompt": "A couple in their 30s sit in separate rooms of the same apartment, each facing a glowing screen circa 2041. The woman, jaw-droppingly gorgeous with tired eyes and messy hair, sits on a couch with a laptop showing a calm AI avatar. In the next room visible through an open doorway, a ruggedly handsome man sits at a desk facing his own screen showing the same AI avatar. Both screens display charts and graphs of their relationship data. The apartment is lived-in with personal clutter, mismatched furniture, coffee mugs on surfaces. Warm evening lighting from mixed sources. Neither person speaks. The mood is tense and quiet. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_2",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a holographic display floating above a slightly scratched glass coffee table in a lived-in apartment, circa 2041. The display shows a SPLITAI RELATIONSHIP ANALYSIS dashboard with categories: SHARED ACCOUNTS 47, JOINT AI COMPANIONS 3, MERGED BIOMETRIC PROFILES ACTIVE, PET TRANSLATION BOND MUTUAL. The interface is clean corporate design with SplitAI branding in teal. Below the hologram, the coffee table has coffee rings, scattered mail, a phone with a cracked screen protector. Warm domestic lighting from a floor lamp with a slightly tilted shade. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_3",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a laptop screen showing a SplitAI mediation video call interface, circa 2041. The screen is divided: on the left a small webcam view of a jaw-droppingly gorgeous woman looking nervous, on the right a ruggedly handsome man looking away. In the center, a calm AI avatar with a neutral expression displays text MICRO-EXPRESSION ANALYSIS ACTIVE and small indicators flagging subtle facial movements on both participants. The laptop sits on a kitchen table next to an unwashed cereal bowl and scattered crumbs. Warm kitchen lighting, slightly cluttered background with dishes in the sink. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_4",
+            "type": "video",
+            "prompt": "A close-up of a holographic chart floating above a slightly worn desk surface, circa 2041. The chart is labeled RELATIONSHIP WARMTH INDEX and shows a declining line graph spanning twelve months. The line starts warm red at the left labeled JANUARY and steadily drops through orange, yellow, to cold blue. A glowing marker appears at a sharp drop point labeled LOVE ENDED FEBRUARY 14 2041. A woman's hand reaches toward the marker, her finger trembling slightly. The desk surface has scratches, a pen with a chewed cap, and a tissue box. Cool blue light from the hologram mixes with warm overhead lighting. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_5",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a SplitAI results screen on a tablet, circa 2041. The screen displays EMOTIONAL ATTACHMENT ANALYSIS. Two progress bars show Partner A at 73 percent labeled STILL ATTACHED in amber and Partner B at 31 percent labeled CHECKED OUT in cool grey. Below them text reads DECEPTION PROBABILITY Partner B claims desire to remain friends PROBABILITY OF SINCERITY 12 PERCENT. The tablet rests on a bedside table next to a glass of water with lipstick on the rim, a bottle of sleeping pills, and a framed photo face-down. Subdued bedroom lighting from a single lamp. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_6",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a jaw-droppingly gorgeous woman in her 30s sitting alone on a park bench in a near-future city park, circa 2041. She stares at her phone which shows a SplitAI notification MEDIATION COMPLETE FINAL AGREEMENT READY. Her expression is a mixture of relief and devastation. The park has subtle futuristic elements like a delivery drone with faded paint hovering in the distance and digital signage on a lamp post. But the bench is weathered wood, leaves are scattered on the patched path, and a coffee cup sits beside her. Late afternoon golden hour light. Shallow depth of field on her face. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_7",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a social media feed on a phone screen showing a viral post, circa 2041. The post shows a screenshot of a SplitAI readout with a bright red circle drawn around LOVE ENDED FEBRUARY 14 and angry text overlay reading IT WAS MARCH NOT FEBRUARY. The post has 2.4 million likes and comments like SplitAI just ended this woman twice and the algorithm has zero chill. The phone is held by a hand with chipped nail polish. The background is blurred but shows a dimly lit bedroom with clothes on a chair. Cool screen glow on the hand. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_8",
+            "type": "video",
+            "prompt": "A jaw-droppingly gorgeous woman in her early 30s with messy hair and red-rimmed eyes points furiously at a floating holographic screen in her lived-in apartment, circa 2041. The holographic screen displays a calm AI avatar and a graph with a marker reading FEBRUARY 14. She gestures angrily at the screen, pointing at the date, shaking her head. The AI avatar remains perfectly composed and unmoved. The apartment is cluttered with moving boxes, half-packed belongings, and tissues on the coffee table. Warm but slightly harsh overhead lighting. Her expression is rage mixed with grief. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_9",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a final SplitAI readout on a holographic display floating in a dimly lit room, circa 2041. The readout shows OPTIMAL ASSET DIVISION 61 to 39 with small text below THE 61 PERCENT RECIPIENT LOVED MORE. Below that a timeline labeled RELATIONSHIP DURATION 4 YEARS 7 MONTHS 12 DAYS with key events marked including PEAK AFFECTION, FIRST DOUBT, and EMOTIONAL DIVERGENCE. The display casts blue light on a bare desk that has been cleared of all personal items except a single framed photo still face down. Moody atmospheric lighting. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_10",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of two apartment doors side by side in a slightly worn hallway of a near-future apartment building, circa 2041. One door has a welcome mat and a small potted plant that needs watering. The other door has a brand new nameplate and a fresh deadbolt lock. Between them on the scuffed hallway floor sits a single cardboard box labeled with a SplitAI shipping label EMOTIONAL ASSETS TRANSFER and a corporate teal logo. The hallway has fluorescent lighting with one tube slightly flickering, generic carpet with stains, and a fire extinguisher mounted on the wall. The mundane bureaucracy of heartbreak. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.0
+        }
+    ]
+}

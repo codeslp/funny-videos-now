@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 """
-Full pipeline runner for Weird History video generation.
-Usage: python run_pipeline.py <timeline_json_path>
+Full pipeline runner for Weird History / Future History video generation.
+Usage: python run_pipeline.py <timeline_json_path> [--build-dir <path>]
+
+If --build-dir is provided, the pipeline uses that directory (with pre-staged
+assets) instead of creating a new timestamped one. Any existing scene files
+in the build directory are reused (not regenerated).
 """
+import argparse
 import json
 import os
 import sys
@@ -14,13 +19,21 @@ from config import OUTPUT_DIR
 from generate_audio import generate_tts
 from generate_images import generate_still
 from generate_video import generate_video_clip
-from generate_transcription import generate_word_timestamps
+from generate_music import generate_music
 from assemble_video import assemble_final_video
 
 from datetime import datetime
 
+# Voice IDs
+NARRATION_VOICE = "dAlhI9qAHVIjXuVppzhW"   # Default feminine narrator
+DEEP_VOICE = "qNkzaJoHLLdpvgh5tISm"         # Deep male for intro/outro
 
-def run(timeline_path: str):
+# Pre-built intro clip (built once via build_intro.py)
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+PREBUILT_INTRO = os.path.join(PROJECT_ROOT, 'output', 'future_history', 'intro_outro', 'future_history_intro.mp4')
+
+
+def run(timeline_path: str, build_dir: str = None):
     """Run the full pipeline from a timeline JSON file."""
 
     with open(timeline_path, "r") as f:
@@ -28,23 +41,44 @@ def run(timeline_path: str):
 
     title = timeline["title"]
     script = timeline["script"]
-    voice_id = timeline.get("tts_voice_id", "a0e99841-438c-4a64-b6a9-ae8f1d56cc33")
+    voice_id = timeline.get("tts_voice_id", NARRATION_VOICE)
+    fallback_voice = timeline.get("tts_fallback_voice", "en-GB-ThomasNeural")
+    language = timeline.get("language", "en")
+    series = timeline.get("series", "weird_history")
+    music_prompt = timeline.get("music_prompt", None)
+    series_name = timeline.get("series_display_name", "Future History")
 
-    # Create a timestamped output directory for this build
+    # Outro voice text
+    outro_text = timeline.get("outro_text", f"{series_name}.")
+
+    # Determine output directory
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    build_dir = os.path.join(OUTPUT_DIR, timestamp)
-    os.makedirs(build_dir, exist_ok=True)
+    if build_dir:
+        os.makedirs(build_dir, exist_ok=True)
+    else:
+        series_output_dir = os.path.join(os.path.dirname(OUTPUT_DIR), series)
+        build_dir = os.path.join(series_output_dir, timestamp)
+        os.makedirs(build_dir, exist_ok=True)
 
     print(f"\n{'='*60}")
-    print(f"  WEIRD HISTORY PIPELINE: {title}")
+    print(f"  {series.upper().replace('_', ' ')} PIPELINE: {title}")
     print(f"  Output: {build_dir}")
     print(f"{'='*60}\n")
 
     # ── Step 1: Generate TTS Audio ──────────────────────────────
-    print("\n[STEP 1/5] Generating TTS Audio via Cartesia...")
+    print("\n[STEP 1/5] Generating TTS Audio...")
+
+    # Main narration voiceover
     audio_path = os.path.join(build_dir, "voiceover.wav")
-    generate_tts(script, audio_path, voice_id)
-    print(f"  Audio saved: {audio_path}\n")
+    if os.path.exists(audio_path):
+        print(f"  Voiceover already exists, skipping.")
+    else:
+        generate_tts(script, audio_path, voice_id, language=language, fallback_voice=fallback_voice)
+    print(f"  Narration: {audio_path}")
+
+    # Outro disabled — will be built later
+    outro_audio_path = None
+    print()
 
     # ── Step 2: Generate Scene Assets ───────────────────────────
     print("[STEP 2/5] Generating Scene Assets (Images + Video)...")
@@ -54,35 +88,59 @@ def run(timeline_path: str):
         prompt = scene["prompt"]
 
         if scene_type == "image":
-            filepath = os.path.join(build_dir, f"scene_{scene_id}_still.jpg")
-            print(f"  Scene {scene_id}: Generating still image...")
-            generate_still(prompt, filepath)
+            filepath = os.path.join(build_dir, f"{scene_id}_still.jpg")
+            if os.path.exists(filepath):
+                print(f"  Scene {scene_id}: Still image already exists, skipping.")
+            else:
+                print(f"  Scene {scene_id}: Generating still image...")
+                generate_still(prompt, filepath)
         elif scene_type == "video":
-            filepath = os.path.join(build_dir, f"scene_{scene_id}_video.mp4")
-            print(f"  Scene {scene_id}: Generating video clip (this may take a while)...")
-            generate_video_clip(prompt, filepath)
+            filepath = os.path.join(build_dir, f"{scene_id}_video.mp4")
+            if os.path.exists(filepath):
+                print(f"  Scene {scene_id}: Video already exists, skipping.")
+            else:
+                print(f"  Scene {scene_id}: Generating video clip (this may take a while)...")
+                generate_video_clip(prompt, filepath)
 
-        # Update the scene filepath for assembly
         scene["filepath"] = filepath
-        print(f"  Scene {scene_id}: Done -> {filepath}")
-
+        print(f"  Scene {scene_id}: -> {filepath}")
     print()
 
-    # ── Step 3: Generate Transcription ──────────────────────────
-    print("[STEP 3/5] Generating word-level timestamps via WhisperX...")
-    try:
-        timestamps_path = os.path.join(build_dir, "word_timestamps.json")
-        word_timestamps = generate_word_timestamps(audio_path, timestamps_path)
-        print(f"  Timestamps saved: {timestamps_path}\n")
-    except Exception as e:
-        print(f"  WARNING: WhisperX failed ({e}). Continuing without captions.")
-        word_timestamps = []
-        print()
+    # ── Step 3: Generate Underscore Music ───────────────────────
+    print("[STEP 3/5] Generating underscore music via ElevenLabs...")
+    if series == "weird_history":
+        print("  Skipping underscore music for weird_history.")
+        music_path = None
+    else:
+        music_path = os.path.join(build_dir, "background_music.mp3")
+        if os.path.exists(music_path):
+            print(f"  Underscore already exists, skipping.")
+        else:
+            try:
+                generate_music(prompt=music_prompt, output_filepath=music_path)
+            except Exception as e:
+                print(f"  WARNING: Underscore generation failed ({e}). Continuing without.")
+                music_path = None
+    print()
 
     # ── Step 4: Assemble Final Video ────────────────────────────
-    print("[STEP 4/5] Assembling final video via FFmpeg...")
+    # Check for pre-built intro
+    intro_path = PREBUILT_INTRO if os.path.exists(PREBUILT_INTRO) else None
+    if intro_path:
+        print(f"[STEP 4/5] Assembling final video (with pre-built intro)...")
+    else:
+        print(f"[STEP 4/5] Assembling final video (no intro — run build_intro.py first)...")
+
+    # Outro disabled — no theme needed for now
+    theme_path = None
+
     final_path = assemble_final_video(
-        timeline, audio_path, word_timestamps, "final_render.mp4", output_dir=build_dir
+        timeline, audio_path, [], "final_render.mp4",
+        output_dir=build_dir,
+        music_path=music_path,
+        theme_path=theme_path,
+        intro_clip_path=intro_path,
+        outro_audio_path=outro_audio_path,
     )
     print(f"  Final video: {final_path}\n")
 
@@ -93,11 +151,13 @@ def run(timeline_path: str):
         "timeline_source": os.path.abspath(timeline_path),
         "build_timestamp": timestamp,
         "audio": audio_path,
+        "outro_voice": outro_audio_path,
+        "music": music_path,
+        "intro_clip": intro_path,
         "scenes": [
             {"id": s["id"], "type": s["type"], "filepath": s["filepath"]}
             for s in timeline["scenes"]
         ],
-        "word_timestamps_count": len(word_timestamps),
         "final_render": final_path,
     }
     meta_path = os.path.join(build_dir, "build_metadata.json")
@@ -114,8 +174,9 @@ def run(timeline_path: str):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python run_pipeline.py <timeline_json_path>")
-        sys.exit(1)
+    parser = argparse.ArgumentParser(description="Video generation pipeline")
+    parser.add_argument("timeline", help="Path to the timeline JSON file")
+    parser.add_argument("--build-dir", help="Path to a pre-staged build directory with assets")
+    args = parser.parse_args()
 
-    run(sys.argv[1])
+    run(args.timeline, build_dir=args.build_dir)

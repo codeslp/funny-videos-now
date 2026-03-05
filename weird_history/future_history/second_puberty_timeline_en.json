@@ -1,0 +1,134 @@
+{
+    "title": "The Second Puberty Clinics of Dubai",
+    "script": "In twenty forty-seven, a clinic in Dubai called ReGenesis began offering what it marketed as a full biological reset. For two point three million dollars, clients over the age of ninety could undergo a procedure that reversed cellular aging, rebuilt bone density, reset hormone production, and effectively forced the body through puberty a second time. The entire process took fourteen months. And the side effects were exactly what you would expect from puberty. Voice cracking. Acne. Mood swings. Emotional outbursts over nothing. Sudden inexplicable attraction to people you would never have considered. Except this time it was happening to retired billionaires with hip replacements. The clinic operated out of a converted luxury hotel in the Dubai Marina. Clients checked in as centenarians and emerged as strangers. Their faces restructured by new cartilage growth. Their voices shifted by reformed vocal cords. Their personalities altered by the catastrophic hormone reset. Families did not always recognise them. In twenty forty-eight, a peer-reviewed study in the Lancet confirmed that forty-one percent of post-procedure clients were identified as a different person by their own spouses. A support group called Puberty Orphans formed in Zurich for adult family members who had effectively lost a parent to the procedure. They reported that the person who came back was biologically related but emotionally unrecognisable. Same DNA. Different laugh. The most controversial case involved a hundred-and-three-year-old shipping magnate who emerged from the clinic looking roughly thirty-five. His family did not recognise him. He did not recognise their claim to his estate. A two-year legal battle followed over whether a person who had been biologically reset was the same legal entity. The court ruled yes. But the man's daughter told reporters she was not sure she agreed.",
+    "tts_voice_id": "dAlhI9qAHVIjXuVppzhW",
+    "tts_fallback_voice": "en-GB-ThomasNeural",
+    "language": "en",
+    "entry_number": 7,
+    "series": "future_history",
+    "aspect_ratio": "16:9",
+    "resolution": "1920x1080",
+    "storytelling": {
+        "cold_open_candidate": "Same DNA. Different laugh.",
+        "open_loops": [
+            {
+                "opens_at": "scene_0",
+                "text": "what does going through puberty again at 100 actually look like",
+                "closes_at": "scene_4"
+            },
+            {
+                "opens_at": "scene_3",
+                "text": "families did not always recognise them — what happened",
+                "closes_at": "scene_6"
+            },
+            {
+                "opens_at": "scene_6",
+                "text": "the shipping magnate who emerged looking 35 — what happened to his estate",
+                "closes_at": "scene_9"
+            }
+        ],
+        "punchline_scene": "scene_8",
+        "specificity_check": [
+            "2.3 million dollars",
+            "14 months",
+            "41 percent identified as different person",
+            "103-year-old shipping magnate",
+            "2047"
+        ],
+        "pattern_interrupts": [
+            {
+                "scene": "scene_1",
+                "type": "video",
+                "note": "Hero video — elderly billionaire arriving at the gleaming clinic"
+            },
+            {
+                "scene": "scene_4",
+                "type": "video",
+                "note": "Escalation hero — the transformation in progress, absurd side effects"
+            },
+            {
+                "scene": "scene_7",
+                "type": "tonal_shift",
+                "note": "From absurdist comedy to genuine family grief — Puberty Orphans"
+            },
+            {
+                "scene": "scene_8",
+                "type": "video",
+                "note": "Visual punchline — rejuvenated magnate vs his bewildered elderly daughter"
+            }
+        ],
+        "but_therefore_transitions": [
+            "The procedure reversed aging BUT the side effects were exactly what you would expect from puberty",
+            "Clients checked in as centenarians and emerged as strangers THEREFORE families did not always recognise them",
+            "The court ruled he was the same legal entity BUT his daughter told reporters she was not sure she agreed"
+        ]
+    },
+    "scenes": [
+        {
+            "id": "scene_0",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of the exterior of an ultra-luxurious medical clinic in Dubai Marina, circa 2047. A converted high-rise hotel with sleek glass and brushed steel, a discreet gold sign reads REGENESIS BIOLOGICAL RENEWAL CENTRE. A line of armored luxury electric vehicles with lightly tinted windows wait at the entrance. Uniformed staff in slightly wrinkled white lab coats stand near a biometric entrance scanner. The glass facade reflects the Dubai skyline with subtle futuristic elements like holographic billboards in the distance. Hot golden sunlight, slight heat haze off the pavement. The building looks expensive but the sidewalk has patched concrete. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.0
+        },
+        {
+            "id": "scene_1",
+            "type": "video",
+            "prompt": "An extremely elderly man, over 100 years old, frail and hunched in a motorized wheelchair, is slowly wheeled through the gleaming lobby of the ReGenesis clinic in Dubai, circa 2047. He wears an immaculate tailored suit that hangs loose on his shrunken frame. His face has deep wrinkles, paper-thin skin, wispy white hair, but sharp intelligent eyes. Attendants in white coats walk beside him. The lobby has polished marble floors with subtle scuff marks, holographic displays showing youthful bodies, and a reception desk with a slightly outdated touch panel. Warm golden light from floor-to-ceiling windows. The man looks around with quiet determination. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_2",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a holographic brochure floating above a waiting room coffee table in a luxury medical clinic, circa 2047. The brochure shows the ReGenesis pricing tier: PLATINUM RESET 2.3 MILLION DOLLARS with listed features including CELLULAR AGE REVERSAL, BONE DENSITY REBUILD, HORMONE PRODUCTION RESET, FULL BIOLOGICAL RESTART. Below in smaller text ESTIMATED DURATION 14 MONTHS. Side text reads WARNING PUBERTY SYMPTOMS WILL RECUR. The waiting room has expensive but slightly worn leather chairs, a smart magazine rack with cracked glass, and a water cooler with mineral stains. Cool clinical lighting mixed with warm Dubai sunlight. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_3",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a private recovery suite in a luxury clinic, circa 2047. An elderly man who is mid-transformation sits on the edge of a hospital bed looking bewildered at his own hands, which show patches of younger smoother skin amid wrinkled aging skin. His face is a bizarre patchwork of old and new. He has acne forming on one cheek alongside deep wrinkles. His hair is growing in darker at the roots but still white at the tips. He wears a hospital gown that is slightly too small. Medical monitors show hormone levels spiking erratically. The suite is luxurious but lived in with get-well flowers wilting on the nightstand. Soft clinical lighting. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_4",
+            "type": "video",
+            "prompt": "A formerly elderly billionaire, now looking roughly 50 but with bizarre transitional features like patchy youthful skin on an aged frame, sits in a plush recovery room throwing a tantrum, circa 2047. He points angrily at a plate of hospital food, his voice clearly cracking mid-gesture. A nurse with comically ugly exaggerated features stands by with patient resignation and crossed arms. The recovery room is luxury hotel meets hospital with holographic health monitors, but also scattered tissues, a knocked-over water glass, and crumpled blankets. The man's emotions are visibly out of control like a moody teenager but in a billionaire's body. Warm overhead lighting. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_5",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a tablet screen displaying a peer-reviewed study from The Lancet, circa 2048. The headline reads FORTY ONE PERCENT OF POST-PROCEDURE REGENESIS CLIENTS IDENTIFIED AS DIFFERENT PERSON BY SPOUSE. The article shows a bar chart comparing recognition rates before and after the procedure. A highlighted quote reads Same DNA same fingerprints but the person I married is not present in this body. The tablet sits on a cluttered desk in a university office with stacked papers, a cold cup of tea, and a desk lamp with a bent shade. Warm academic lighting. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_6",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a support group meeting in a community centre in Zurich, circa 2048. Eight middle-aged and elderly adults sit in a circle of folding chairs. A banner on the wall behind them reads PUBERTY ORPHANS ZURICH CHAPTER in clean sans-serif text. One woman in her 60s dabs her eyes with a tissue. Another man stares at the floor with hollow exhaustion. The room is plain with fluorescent lighting, scuffed linoleum, a table with a coffee thermos and styrofoam cups, and a small whiteboard with MEETING AGENDA written in dry-erase marker. The mood is genuine grief in a mundane setting. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_7",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a jaw-droppingly gorgeous woman in her late 60s sitting across a kitchen table from a man who appears to be roughly 35 years old, circa 2048. The woman is the man's daughter but she now looks decades older than her own biological father. She stares at him with a mixture of grief and confusion. He looks uncomfortable, picking at a coffee cup. Between them on the slightly worn kitchen table are legal documents with ESTATE CLAIM DISPUTE headers. The kitchen is domestic and lived-in with fridge magnets, a drying rack, a cat sleeping on a chair. Warm natural window light. The generational reversal is visible and surreal. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_8",
+            "type": "video",
+            "prompt": "A man who appears to be roughly 35 years old, ruggedly handsome with a strong jaw and full dark hair, stands in a courtroom circa 2048. He is actually a hundred-and-three-year-old shipping magnate who underwent the ReGenesis procedure. He stands confidently in a tailored suit. Across the courtroom, his elderly daughter, a jaw-droppingly gorgeous woman in her late 60s with silver hair, stares at him from the gallery with visible distress, not recognizing this young stranger as her father. A holographic screen displays DNA MATCH CONFIRMED 99.97 PERCENT next to two photos showing his before and after. A judge examines the evidence. The courtroom is modern but worn with scuffed wood and flickering overhead lights. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_9",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of a news article on a tablet screen, circa 2049. The headline reads COURT RULES BIOLOGICALLY RESET MAGNATE IS SAME LEGAL PERSON with subheading DAUGHTER TELLS REPORTERS I AM NOT SURE I AGREE. A photo in the article shows an elderly woman with red eyes outside a courthouse. The tablet sits on a slightly messy desk with a newspaper, reading glasses, and a half-eaten croissant. The article includes a sidebar with LEGAL PRECEDENT WHAT MAKES A PERSON THE SAME PERSON. Warm morning light from a window. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 5.0
+        },
+        {
+            "id": "scene_10",
+            "type": "image",
+            "prompt": "Hyper-realistic photograph of the ReGenesis clinic lobby in Dubai, circa 2047. On the left side of the frame, a frail centenarian in a wheelchair is being wheeled in by attendants, wearing an expensive suit that hangs loose. On the right side, a completely different-looking man in his mid-30s, handsome and athletic, walks out confidently in the same style of tailored suit but perfectly fitted. Between them on the polished lobby floor is a subtle gold line marking ENTRY and EXIT. The lobby shows signs of high traffic with slightly scuffed marble, wilting flowers at the reception desk, and a holographic display with one dead pixel. Warm golden Dubai sunlight through tall windows. The visual irony of same person, completely unrecognisable. Wide landscape composition. 8k resolution, cinematic lighting, documentary style realism, highly detailed, shot on 35mm lens, photorealistic. No painting.",
+            "duration": 4.0
+        }
+    ]
+}
