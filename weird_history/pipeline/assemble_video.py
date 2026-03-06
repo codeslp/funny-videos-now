@@ -77,6 +77,9 @@ def assemble_final_video(
     # Dynamic scene timing: probe hero videos, distribute remaining time to stills
     total_video_dur = 0.0
     image_count = 0
+    pre_timed_image_count = 0
+    pre_timed_image_dur = 0.0
+    
     for scene in timeline_config['scenes']:
         ext = os.path.splitext(scene['filepath'])[1].lower()
         if ext in ['.mp4', '.mov', '.webm']:
@@ -84,14 +87,18 @@ def assemble_final_video(
             scene['_actual_duration'] = actual_dur
             total_video_dur += actual_dur
         else:
-            image_count += 1
+            if '_actual_duration' in scene:
+                pre_timed_image_count += 1
+                pre_timed_image_dur += scene['_actual_duration']
+            else:
+                image_count += 1
 
-    remaining_time = max(vo_duration - total_video_dur, image_count * 2.0)
-    still_duration = remaining_time / max(image_count, 1)
+    remaining_time = max(0, vo_duration - total_video_dur - pre_timed_image_dur)
+    still_duration = remaining_time / max(image_count, 1) if image_count > 0 else 0
 
-    print(f"  Dynamic timing: {len(timeline_config['scenes']) - image_count} videos "
-          f"({total_video_dur:.1f}s) + {image_count} stills ({still_duration:.1f}s each) "
-          f"= {vo_duration:.1f}s target")
+    print(f"  Dynamic timing: {len(timeline_config['scenes']) - image_count - pre_timed_image_count} videos "
+          f"({total_video_dur:.1f}s) + {pre_timed_image_count} pre-timed stills ({pre_timed_image_dur:.1f}s) + "
+          f"{image_count} auto-stills ({still_duration:.1f}s each) = {vo_duration:.1f}s target")
 
     for i, scene in enumerate(timeline_config['scenes']):
         filepath = os.path.abspath(scene['filepath'])
@@ -105,8 +112,9 @@ def assemble_final_video(
         inputs.extend(["-i", filepath])
 
         if ext in ['.png', '.jpg', '.jpeg']:
-            frames = int(still_duration * 30)
-            print(f"  Zoompan: {os.path.basename(filepath)} ({still_duration:.1f}s)")
+            actual_dur = scene.get('_actual_duration', still_duration)
+            frames = int(actual_dur * 30)
+            print(f"  Zoompan: {os.path.basename(filepath)} ({actual_dur:.1f}s)")
             filter_complex += (
                 f"[{i}:v]scale={target_w}:{target_h}:force_original_aspect_ratio=increase,"
                 f"crop={target_w}:{target_h},setsar=1/1,"

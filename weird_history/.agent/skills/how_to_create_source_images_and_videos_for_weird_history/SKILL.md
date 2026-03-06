@@ -22,6 +22,7 @@ Use the `browser_subagent` tool with detailed instructions to perform the follow
 3. **Configure Settings:** ALWAYS ensure dimensions match the target resolution (1080x1920 portrait) or the required format. Portrait mode is OBLIGATORY for all videos and images in Weird History.
 4. **Prompt Input:** Paste the exact prompt from the timeline JSON.
 5. **Generate & Wait:** Trigger generation and hold until completion.
+   *Troubleshooting Tip:* If you get a "Prompt must be provided" Error dialog box when you try to enter the prompt, refresh the page and restart the process.
 6. **Download:** Click to download the output from Flow.
 7. **Organize & Rename (CRITICAL VERIFICATION RULE):** 
    All manually generated assets downloaded from Google Flow **MUST** be immediately renamed in the Downloads folder to match their sequential order *before* being moved to the `in_progress` directory. This strict 1-to-1 mapping prevents duplicate images from being accidentally used or swapped during the automated FFmpeg assembly.

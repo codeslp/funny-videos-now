@@ -80,6 +80,12 @@ def run(timeline_path: str, build_dir: str = None):
     outro_audio_path = None
     print()
 
+    word_timestamps_path = os.path.join(build_dir, "word_timestamps.json")
+    if not os.path.exists(word_timestamps_path) and os.path.exists(audio_path):
+        print("  Generating WhisperX word timestamps...")
+        from generate_transcription import generate_word_timestamps
+        generate_word_timestamps(audio_path, word_timestamps_path, language=language)
+
     # ── Step 2: Generate Scene Assets ───────────────────────────
     print("[STEP 2/5] Generating Scene Assets (Images + Video)...")
     for scene in timeline["scenes"]:
@@ -104,7 +110,60 @@ def run(timeline_path: str, build_dir: str = None):
 
         scene["filepath"] = filepath
         print(f"  Scene {scene_id}: -> {filepath}")
-    print()
+
+    # Apply sentence-based timings
+    if "sentences" in timeline and os.path.exists(word_timestamps_path):
+        import re
+        with open(word_timestamps_path, "r") as wf:
+            word_ts = json.load(wf)
+            
+        # Reconstruct sentence timings from words
+        sentence_timings = []
+        words = word_ts.get('words', [])
+        
+        current_sentence_idx = 0
+        current_sentence_words = []
+        
+        # A simple heuristic: try to map chunks of words to the sentences in the timeline
+        sentence_text_list = timeline["sentences"]
+        
+        scene_idx = 0
+        word_idx = 0
+        
+        for i, scene in enumerate(timeline["scenes"]):
+            if scene_idx >= len(sentence_text_list):
+                break
+                
+            sentence_target = sentence_text_list[scene_idx].strip()
+            # Clean target for matching (remove punctuation)
+            clean_target = re.sub(r'[^\w\s]', '', sentence_target.lower()).split()
+            
+            # Find the start and end word in the word_timestamps
+            if word_idx < len(words):
+                start_time = words[word_idx].get('start', 0)
+                
+                # Advance word_idx by the number of words in the target sentence
+                words_matched = 0
+                while word_idx < len(words) and words_matched < len(clean_target):
+                    word_obj = words[word_idx]
+                    word_clean = re.sub(r'[^\w\s]', '', word_obj.get('word', '').lower())
+                    if word_clean:
+                        words_matched += 1
+                    word_idx += 1
+                
+                # The end time is the end of the last matched word
+                if word_idx > 0 and 'end' in words[word_idx - 1]:
+                    end_time = words[word_idx - 1]['end']
+                else:
+                    end_time = start_time + 3.0 # Fallback
+                
+                duration = end_time - start_time
+                # Store it in the scene dict for assembly
+                scene["_actual_duration"] = duration
+                print(f"  Mapped Scene {scene['id']} to audio [{start_time:.2f}s - {end_time:.2f}s] (dur: {duration:.2f}s) -> '{sentence_target[:30]}...'")
+            scene_idx += 1
+            
+        print()
 
     # ── Step 3: Generate Underscore Music ───────────────────────
     print("[STEP 3/5] Generating underscore music via ElevenLabs...")

@@ -265,6 +265,8 @@ mv "$PROJECT/output/weird_history/in_progress/en_<topic>_<date>" \
 
 ## Phase 8: Publish to All Platforms
 
+**CRITICAL:** Make sure you put CAPTIONS ON! Use the platform's native auto-caption generation sticker (TikTok/Reels), or if you are running custom assemblies, ensure captions are explicitly enabled.
+
 ### 8.1 Prepare the Description
 
 Every video description MUST contain these elements in this exact order:

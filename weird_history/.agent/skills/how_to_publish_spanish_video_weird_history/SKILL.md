@@ -9,6 +9,8 @@ Once you have a fully assembled Spanish video (`final_render.mp4`) sitting in a 
 
 ## 1. Preparing the Publishing Command
 
+**CRITICAL:** Make sure you put CAPTIONS ON! Use the platform's native auto-caption generation sticker (TikTok/Reels), or if you are running custom assemblies, ensure captions are explicitly enabled.
+
 The orchestrator script for this phase is `weird_history/pipeline/publish_video.py`. This script handles uploading the video to YouTube Shorts, TikTok, Facebook Reels, and Instagram Reels simultaneously.
 
 It accepts five arguments:
